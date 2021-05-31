@@ -1,0 +1,6 @@
+evc01=[lambda p,q:p or not p, 
+        lambda p,q:p and not p,
+      lambda p,q: not(p or q),
+      lambda p,q: not p and not q,
+      lambda p,q: not(p and q),
+      lambda p,q: not p or not q]

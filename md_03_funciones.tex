@@ -1,0 +1,446 @@
+\section{Inducci\'on Matem\'atica}
+
+\subsection{Introducci\'on}
+
+
+	Una propiedad esencial de los naturales $\N=\set{1,2,3,...}$  es la siguiente
+	
+	
+	\begin{ax}[Principio de Inducci\'on Matem\'atica, versi\'on I]
+		Sea $P$ una proposici\'on definida en $\N,$ es decir, $P(n)$ toma valores de cierto o falso para cada $n\in \N.$
+		
+		Supongamos que
+		\begin{enumerate}
+			\item $P(1)$ es cierto;
+			\item $\forall k \in \N: P(k) \onlyif P(k+1).$
+		\end{enumerate}
+		
+		Entonces $P$ es {cierto} para todo entero positivo $n\in \N.$
+	\end{ax}
+	
+
+
+[t]
+	\begin{exmp}
+		Sea $P(n):1+3+5+...+(2n-1)=n^2.$ Demostrar que $P(n)$ es cierta para toda $n \in \N.$ 
+	\end{exmp}
+
+
+
+	\begin{ax}[Principio de Inducci\'on Matem\'atica, versi\'on II]
+		Sea $P$ una proposici\'on definida en $\N$ tal que :
+		\begin{enumerate}
+			\item $P(1)$ es cierta;
+			\item $P(k)$ es cierta siempre que $P(j)$ para toda $1\leq j < k.$
+		\end{enumerate}
+		Entonces $P(n)$ es cierta para toda $n\in \N.$
+	\end{ax}
+	
+
+
+
+	\begin{rem}
+		Algunas veces, uno desea demostrar que una proposici\'on es cierta para alg\'un conjunto de enteros
+		$$
+		\set{a,a+1, a+2,...}
+		$$
+		donde $a$ es un entero positivo, posiblemente cero. Esto puede hacerse simplemente reemplazando $1$ por $a$ en cualquier versi\'on del Principio de Inducci\'on Matem\'atica. 
+	\end{rem}
+	
+
+
+\subsection{Notaci\'on ``Sigma''}
+
+
+	La letra griega $\Sigma$ denota adici\'on repetida:
+	
+	$$
+	\sum_{i=a}^{b} f(i)=f(a)+f(a+1)+...+f(b),
+	$$ siempre que $a\leq b.$
+
+
+
+	\begin{exmp}
+		\label{ayr:exmp23.1}
+		\begin{enumerate}
+			\item $\sum_{j=1}^{5} j = 1+2+3+4+5 =15$
+			\item $\sum_{i=0}^{3} \left( 2i+1 \right)=
+			1+3+5+7$
+			\item $\sum_{i=2}^{10} i^{2}=2^{2}+3^{2}+...+10^{2}$
+			\item $\sum_{j=1}^{4}\cos(j\pi)=
+			\cos\pi+ \cos 2\pi + \cos 3\pi +\cos 4\pi.$
+		\end{enumerate}
+		
+	\end{exmp}
+	
+
+
+
+	{Linealidad}
+	\begin{prop}
+		\label{suma:linealidad}
+		\begin{align}
+			\sum_{i=a}^{b} cf(i)&=c \sum_{i=a}^{b} f(i)\\
+			\sum_{i=a}^{b} f(i)+g(i)&= \sum_{i=a}^{b} f(i)
+			+\sum_{i=a}^{b} g(i)
+		\end{align}
+		
+	\end{prop}
+	
+
+
+
+	{Propiedades}
+	\begin{align}
+		\sum_{k=a}^{b}f(k)&=\sum_{j=a}^{b}f(j)\\
+		\sum_{j=a}^{a}f(j)&=f(a) \\
+		\sum_{j=a}^{c}f(j)&=\sum_{j=a}^{b}f(j)+\sum_{j=b}^{c}f(j) \\
+		\sum_{j=a}^{b+1}f(j)&=\sum_{j=a}^{b}f(j)+f(b)
+	\end{align}
+	
+
+
+
+	\begin{exmp}
+		Si $f(n)=(2n-1),$ entonces
+		$$
+		\sum_{i=1}^{n}f(j)=1+3+...+\left( 2n-1 \right)
+		$$ es la suma hasta el $n-$\'esimo natural impar.  Observe que 
+		\begin{enumerate}
+			\item $\sum_{j=1}^{1}f(j)=2(1)-1=1.$
+			\item $\sum_{i=1}^{n+1}f(j)=\left( \sum_{i=1}^{n}f(j) \right)+\left( 2n+1 \right)$
+		\end{enumerate}
+		
+	\end{exmp}
+	
+
+
+
+	\begin{exmp}
+		Si $f(n)=2^{n-1},$ entonces
+		$$
+		\sum_{i=1}^{n}f(j)=1+2+...+2^{n-1}
+		$$ es la suma de las primeras $n$ potencias de 2 (incluyendo $1=2^{0}$).  Observe que 
+		\begin{enumerate}
+			\item $\sum_{i=1}^{n+1}f(j)=1+2+...+2^{n}$
+			\item $\sum_{j=1}^{1}f(j)=2^{1-1}=1.$
+			\item $\sum_{i=1}^{n+1}f(j)=\left( \sum_{i=1}^{n}f(j) \right)+2^{n}.$
+		\end{enumerate}
+		
+	\end{exmp}
+	
+
+
+\subsection{Ejemplos Resueltos}
+
+[t]
+	\begin{exmp}
+		Demostrar que $$P(n): 1+2+3+...+n=\frac{1}{2}n\left( n+1 \right)$$
+		es cierto para todo $n \in \N.$
+	\end{exmp}
+	
+
+
+[t]
+	\begin{exmp}
+		Demostrar que $$P(n): 1+2+2^{2}+...+2^{n}=2^{n+1}-1$$
+		es cierto para todo $n \in \N.$
+	\end{exmp}
+	
+
+
+\subsection{Funciones definidas de manera recursiva}
+
+
+	Decimos que una funci\'on est\'a \emph{definida recursivamente} si la definici\'on de la funci\'on se refiere a s\'i misma.
+
+
+
+	Para que la funci\'on est\'e bien definida, debe tener las siguientes dos propiedades:
+	\begin{enumerate}
+		\item Deben existir ciertos argumentos, llamados \emph{valores base,} para los cuales la funci\'on no se refiera a s\'i misma.
+		\item Cada vez que la funci\'on se refiera a s\'i misma, el argumento de la funci\'on debe est\'ar m\'as cercano a un valor base.
+	\end{enumerate}
+	
+
+
+\subsection{La funci\'on factorial}
+
+
+	El producto de enteros positivos de $1$ hasta $n$ (inclu\'ido) es llamado \emph{$n$ factorial, $n!$}
+	
+	Es decir, 
+	$$
+	n!=n(n-1)\cdots 3\cdot 2 \cdot 1.$$
+	
+
+
+
+	Por razones combinatorias, es conveniente definir \emph{$0!=1,$} y de esta manera la funci\'on factorial quedar\'a definida para todos los enteros no negativos.
+
+
+[t]
+	\begin{rem}
+		\begin{enumerate}
+			\item $1!=1\cdot0!$
+			\item $2!=2\cdot1!$
+			\item $3!=3\cdot2!$
+			\item $4!=4\cdot3!$
+		\end{enumerate}
+		
+	\end{rem}
+	
+
+
+
+	Es f\'acil observar que para $n \in \N:$
+	$$
+	n!=n\cdot (n-1)!
+	$$
+
+
+
+	\begin{defn}[Funci\'on factorial]
+		$$n!=
+		\begin{cases}
+			1 & n=0 \\
+			n\cdot(n-1)! & n>0
+		\end{cases}
+		$$
+	\end{defn}
+	
+
+
+
+	\begin{rem}
+		\begin{enumerate}
+			\item El valor de $n!$ factorial esta dado explicitamente para $n=0,$ de manera que $0$ es el valor base. 
+			\item El valor de $n!, n>0$ est\'a dado en t\'erminos de $n-1,$ que es m\'as cercano al valor base $0.$    
+		\end{enumerate}
+		
+		Por tanto, $n!$ es una funci\'on recursiva bien definida.
+	\end{rem}
+	
+
+
+[fragile]
+	{Implentaci\'on iterativa del \emph{factorial} en \texttt{Python}}
+	\begin{verbatim}
+		def factorial(n):
+		result = 1
+		for i in range(1, n+1):
+		result *= i
+		return result
+	\end{verbatim} 
+
+
+[fragile]
+	{Implentaci\'on recursiva del \emph{factorial} en \texttt{Python}}
+	\begin{verbatim}
+		def factorial(n):
+		z=1
+		if n>1:
+		z=n*factorial(n-1)
+		return z
+	\end{verbatim}
+	Para m\'as implementaciones, visite \href{https://rosettacode.org/wiki/Factorial}{rosettacode.org/wiki/Factorial}
+
+
+
+\subsection{Suceci\'on de Fibonacci}
+
+
+	La celebre sucesi\'on de Fibonacci (usualmente denotada por $F_{0}, F_{1}, F_{2},...$) es como sigue:
+	$$
+	0,0,1,2,3,5,8,13,21,34,55,...
+	$$
+	
+	Es decir, $F_{0}=0$  $F_{1}=1$ y cada t\'ermino sucesor es la suma de los dos precedentes.
+
+
+
+	Por ejemplo, los siguientes dos t\'erminos de la sucesi\'on son
+	$$34+55=89 \texttt{ y }55+89=144.$$
+
+
+
+	\begin{defn}[Sucesi\'on de Fibonacci]
+		$$
+		F_{n}=
+		\begin{cases}
+			n & n=0,1 \\
+			F_{n}=F_{n-2}+F_{n-1} & n>1
+		\end{cases}
+		$$
+	\end{defn}
+
+
+
+	Este ejemplo es una funci\'on recursiva bien definida, ya que la funci\'on hace referencia a s\'i misma, cuando se usan $ F_{n-2}$ y $F_{n-1},$ y
+	\begin{enumerate}
+		\item los valores base son $0$ y $1;$
+		\item los valores de $F_{n}$ est\'an definidos en t\'erminos de valores m\'as peque\~nos $n-2$ y $n-1$ que son m\'as cercanos a los valores base.
+	\end{enumerate}
+	
+
+
+[fragile]
+	{Implentaci\'on iterativa de \emph{Fibonacci} en \texttt{Python}}
+	\begin{verbatim}
+		def fibIter(n):
+		if n < 2:
+		return n
+		fibPrev = 1
+		fib = 1
+		for num in xrange(2, n):
+		fibPrev, fib = fib, fib + fibPrev
+		return fib
+	\end{verbatim} 
+
+
+[fragile]
+	{Implentaci\'on recursiva de \emph{Fibonacci} en \texttt{Python}}
+	\begin{verbatim}
+		def fibRec(n):
+		if n < 2:
+		return n
+		else:
+		return fibRec(n-1) + fibRec(n-2)
+	\end{verbatim}
+	Para m\'as implementaciones, visite \href{http://rosettacode.org/wiki/Fibonacci\_sequence}{rosettacode.org/wiki/Fibonacci\_sequence}
+
+
+\subsection{La funci\'on de Ackermann}
+
+
+	\begin{defn}[Funci\'on (fallida) de Ackermann]
+		$$
+		A(m,n)=
+		\begin{cases}
+			n+1 & m=0\\
+			A(m-1,n) & m\neq0, n=0 \\
+			A(m-1, A(m,n-1)) & m\neq 0, n\neq 0
+		\end{cases}
+		$$
+	\end{defn}
+	
+
+
+
+	\begin{defn}[Funci\'on de Ackermann]
+		$$
+		A(m,n)=
+		\begin{cases}
+			n+1 & m=0\\
+			A(m-1,1) & m\neq0, n=0 \\
+			A(m-1, A(m,n-1)) & m\neq 0, n\neq 0
+		\end{cases}
+		$$
+	\end{defn}
+	
+
+
+[fragile]
+	{Implentaci\'on recursiva de \emph{Ackermann} en \texttt{Python}}
+	\begin{verbatim}
+		def ack2(M, N):
+		if M == 0:
+		return N + 1
+		elif N == 0:
+		return ack2(M - 1, 1)
+		else:
+		return ack2(M - 1, ack2(M, N - 1))
+	\end{verbatim}
+	Para m\'as implementaciones, visite \href{http://rosettacode.org/wiki/Ackermann\_function}{rosettacode.org/wiki/Ackermann\_function}
+
+
+\subsection{Ejemplos Resueltos}
+
+
+	\begin{exmp}
+		Sean $a,b$ enteros positivos, y definamos la siguiente funci\'on de manera recursiva:
+		$$
+		Q(a,b)=
+		\begin{cases}
+			0 & a<b \\
+			Q(a-b,b)+1 & b \leq a
+		\end{cases}
+		$$
+		\begin{enumerate}
+			\item Encuentre (i) $Q(2,5);$ (ii) $Q(12,5)$
+			\item ?`Qu\'e es lo que hace esta funci\'on? Encuentre $Q(5861,7)$
+		\end{enumerate}
+	\end{exmp}
+
+
+
+	\begin{exmp}
+		Use la definici\'on de la funci\'on de Ackermann para calcular $A(1,3).$
+	\end{exmp}
+
+
+\subsection{Ejemplos}
+
+
+	\begin{exmp}
+		Demuestre por inducción que 
+		$\displaystyle 2+4+6+...+2n=n(n+1)$
+	\end{exmp}
+
+
+
+	\begin{exmp}
+		Demuestre por inducción que 
+		$\displaystyle 1+4+7+...+\left( 3n-2 \right)=\dfrac{n\left( 3n-1 \right)}{2}$
+	\end{exmp}
+
+
+
+	\begin{exmp}
+		Demuestre por inducción que 
+		$\displaystyle 1^{2}+2^{2}+...+n^{2}=\dfrac{n(n+1)(2n+1)}{6}$
+	\end{exmp}
+
+
+
+	\begin{exmp}
+		Demuestre por inducción que 
+		$\displaystyle \dfrac{1}{1\cdot 3}+\dfrac{1}{3\cdot 5}+...+\dfrac{1}{\left( 2n-1 \right)\cdot \left( 2n+1 \right)}=\dfrac{n}{2n+1}$
+	\end{exmp}
+
+
+
+	\begin{exmp}
+		Demuestre por inducción que 		
+		$\displaystyle \dfrac{1}{1\cdot 5}+ \dfrac{1}{5 \cdot 9}+...+\dfrac{1}{(4n-3)\cdot (4n+1)}=\dfrac{n}{4n+1}$
+	\end{exmp}
+
+
+
+	\begin{exmp}
+		Demuestre por inducción que 		
+		$7^{n}-2^{n}$ es divisible entre $5$
+	\end{exmp}
+
+
+
+	\begin{exmp}
+		Demuestre por inducción que 		
+		$n^{3}-4n+6$ es divisible entre $3$
+	\end{exmp}
+
+
+
+	\begin{exmp}
+		La funci\'on de Ackermann est\'a definida de manera recursiva de las siguiente manera:
+		$$
+		A(m,n)=
+		\begin{cases}
+			n+1 & m=0\\
+			A(m-1,1) & m\neq0, n=0 \\
+			A(m-1, A(m,n-1)) & m\neq 0, n\neq 0
+		\end{cases}
+		$$
+		Encuentre $A(1,1)$.		
+	\end{exmp}
+	

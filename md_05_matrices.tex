@@ -1,0 +1,335 @@
+\section{Matrices}
+
+
+Las matrices son arreglos rectangulares de n\'umero que nos ayudan a codificar informaci\'on. Por ejemplo:
+$$
+\begin{pmatrix}
+	a_{1,1} & a_{1,2} \\
+	a_{2,1} & a_{2,2}
+\end{pmatrix}
+$$
+puede ser \'util para codificar los coeficientes del sistema de ecuaciones:
+$$
+\begin{cases}
+	a_{1,1}x+a_{1,2}y=b_{1}\\
+	a_{2,1}x+a_{2,2}y=b_{2}
+\end{cases}
+$$
+
+
+
+En general, una matriz tiene la forma 
+\begin{equation}
+	\label{A}
+	\tag{A}
+	\begin{pmatrix}
+		a_{1,1} & a_{1,2} & \cdots & a_{1,n} \\
+		\vdots & & & \vdots\\
+		a_{m,1} & a_{m,2} & \cdots & a_{m,n} 
+	\end{pmatrix}
+\end{equation} 
+
+Los sub\'indices de cada elemento $a_{i,j}$ denotan la posici\'on del mismo: $i$ es el n\'umero del \emph{rengl\'on} (contando de arriba a abajo), mientras que $j$ es el n\'umero de la columna (contanto de izquierda a derecha).
+
+
+
+Podemos extraer renglones y columnas de la matrix \eqref{A}: El $i-$es\'imo rengl\'on es
+$$
+R_{i}=
+\begin{pmatrix}
+	a_{i,1} & \cdots & a_{i,n}
+\end{pmatrix}
+$$ 
+mientras que la $j-$\'esima columna ser\'a
+$$
+C_{j}=
+\begin{pmatrix}
+	a_{j,1} \\
+	\vdots \\
+	a_{j,m}
+\end{pmatrix}
+$$
+
+
+
+Diremos que la matriz \eqref{A} tiene dimensi\'on $m\times n.$ 
+
+Si existe un conjunto de n\'umeros $F,$ tal que todos los elementos $a_{i,j}$ de la matriz pertenecen a dicho conjunto, diremos que la matriz tiene coeficientes en $F.$ 
+
+
+
+\begin{rem}
+	Para que las operaciones entre matrices est\'en bien definidas, es necesario que la suma, resta y multiplicaci\'on entre entre elementos de $F$ tambi\'en este bien definida. Por esto generalmente $F$ se elige como $\R$ o $\Z.$ 
+\end{rem}
+
+
+
+La colecci\'on de todas las matrices de dimensi\'on $m\times n$ con coeficientes en $F$ se denotar\'a por $$M_{m,n}(F).$$
+
+
+
+\begin{defn}
+	Las matrices de dimensi\'on $m\times 1$ se conocen como \emph{vectores columna,} mientras que las de dimensi\'on $1\times n$ se conocen como \emph{vectores rengl\'on.}
+	
+	
+	La colecci\'on $M_{m,1}(F)$ de todos los vectores columna con coeficientes  comunmente se denota por $F^{m}.$  Mientras que la colecci\'on $M_{1,n}(F)$ de todos los vectores columna con coeficientes  comunmente se denota por $F^{n\ast}.$
+	
+\end{defn}
+
+
+\subsection{Operaciones elementales}
+
+
+Por brevedad, la matriz \eqref{A} se denota por $A=[a_{i,j}].$ 
+
+En el caso de los vectores renglones y columnas, podemos omitir el sub\'indice fijo
+$$R=[R_{1,j}]=[R_{j}], \; C=[C_{i,1}]=[C_{i}].$$
+
+
+
+Si $B=[b_{i,j}]$ es otra matriz de dimensi\'on $m\times n,$ la suma se define como $$A+B=[a_{i.j}+b_{i,j}].$$ 
+
+De manera similar, la resta se define como $$A-B=[a_{i,j}-b_{i,j}].$$
+
+
+
+\begin{exmp}
+	$$
+	\begin{pmatrix}
+		1 & -1 & 0 \\
+		2 & 3 & -4
+	\end{pmatrix}
+	+
+	\begin{pmatrix}
+		7 & 0 & -1 \\
+		2 & -1 & 5
+	\end{pmatrix} =
+	$$ 
+	$$
+	\begin{pmatrix}
+		1 & -1 & 0 \\
+		2 & 3 & -4
+	\end{pmatrix}
+	-
+	\begin{pmatrix}
+		7 & 0 & -1 \\
+		2 & -1 & 5
+	\end{pmatrix} =
+	$$
+\end{exmp}
+
+
+
+
+Observe que para que la \emph{suma y resta} tenga sentido, ambas matrices deben tener exactamente las \emph{mismas dimensiones}. 
+
+Despu\'es de ver la facilidad para definir la suma y resta, uno se ve tentado a definir la multiplicaci\'on de la misma forma. Pero tal definici\'on es poco \'util en las aplicaciones. 
+
+Por esta raz\'on, desarrollaremos el concepto de multiplicaci\'on, a fin de poder aplicar esta operaci\'on en la resoluci\'on de Ejemplos.
+
+
+\subsection{Multiplicaci\'on}
+
+\begin{defn}
+	Sean $R=[R_{j}]$ un vector rengl\'on y $C=[C_{i}]$ un vector columna, ambos de longitud $n.$
+	
+	El \emph{producto rengl\'on-columna} se define como
+	\begin{equation}
+		\label{RC}
+		\tag{RC}
+		RC=
+		\begin{pmatrix}
+			R_{1}& \cdots & R_{n}
+		\end{pmatrix}
+		\begin{pmatrix}
+			C_{1} \\ \vdots \\ C_{n}
+		\end{pmatrix}
+		=
+		\sum_{i=1}^{n} R_{j}C_{i}.
+	\end{equation}
+	
+\end{defn}
+
+
+
+
+\begin{exmp}
+	Considere
+	$$
+	R=
+	\begin{pmatrix}
+		1 & 0 & -1
+	\end{pmatrix}, \;
+	C=
+	\begin{pmatrix}
+		2\\ 1 \\ -2
+	\end{pmatrix}.
+	$$
+	
+	Calcule $RC.$
+	
+\end{exmp}
+
+
+
+
+\begin{exmp}
+	Reescriba la siguiente ecuaci\'on, utilizando el \emph{producto rengl\'on-columna}:
+	$$2x-3y+z=0.$$
+\end{exmp}
+
+
+
+
+\begin{defn}
+	Sea $A=[a_{i,j}]\in M_{m\times n}$ y $B=[b_{j,k}]\in M_{n\times l}.$ Definimos su producto como
+	\begin{equation}
+		\label{AB}
+		\tag{AB}
+		AB=
+		\begin{pmatrix}
+			R_{i}C_{k}
+		\end{pmatrix}
+	\end{equation}
+	donde $R_{i}$ es el $i-$\'esimo rengl\'on de $A$ y $C_{k}$ es la $k-$\'esima columna de $B.$
+\end{defn}
+
+
+
+
+\begin{rem}
+	\begin{itemize}
+		\item Para que esta multiplicaci\'on tenga sentido, los renglones de $A$ y las columnas de $B$ deber\'an tener la misma longitud $n.$
+		
+		\item La matriz resultante tendr\'a dimensi\'on $m \times l.$  
+		\item A menos que $m=l,$ el producto $BA$ podr\'ia no estar definido. 
+		\item Aun cuando $BA$ estuviera bien definido, el producto de matrices no es \emph{conmutativo,} es decir, generalmente tendremos que $$AB \neq BA.$$
+	\end{itemize}
+\end{rem}
+
+
+
+
+\begin{exmp}
+	Encuentre el producto $AB$ de las siguientes matrices
+	$$A= \left(\begin{array}{r}
+		0
+	\end{array}\right) $$
+	$$B= \left(\begin{array}{rr}
+		0 & -1
+	\end{array}\right) $$
+	Solución:
+	$$AB= \left(\begin{array}{rr}
+		0 & 0
+	\end{array}\right) $$
+\end{exmp}
+
+
+
+\begin{exmp}
+	Encuentre el producto $AB$ de las siguientes matrices
+	$$A= \left(\begin{array}{rr}
+		0 & -1 \\
+		-1 & 0 \\
+		0 & 0
+	\end{array}\right) $$
+	$$B= \left(\begin{array}{rrr}
+		0 & -1 & 0 \\
+		0 & 0 & 0
+	\end{array}\right) $$
+	Solución:
+	$$AB= \left(\begin{array}{rrr}
+		0 & 0 & 0 \\
+		0 & 1 & 0 \\
+		0 & 0 & 0
+	\end{array}\right) $$
+\end{exmp}
+
+
+
+\begin{exmp}
+	Encuentre el producto $AB$ de las siguientes matrices
+	$$A= \left(\begin{array}{r}
+		-1 \\
+		-1 \\
+		0
+	\end{array}\right) $$
+	$$B= \left(\begin{array}{rrr}
+		-1 & 0 & 0
+	\end{array}\right) $$
+	Solución:
+	$$AB= \left(\begin{array}{rrr}
+		1 & 0 & 0 \\
+		1 & 0 & 0 \\
+		0 & 0 & 0
+	\end{array}\right) $$
+\end{exmp}
+
+
+
+\begin{exmp}
+	Encuentre el producto $AB$ de las siguientes matrices
+	$$A= \left(\begin{array}{r}
+		6 \\
+		-9 \\
+		-10
+	\end{array}\right) $$
+	$$B= \left(\begin{array}{r}
+		-5
+	\end{array}\right) $$
+	Solución:
+	$$AB= \left(\begin{array}{r}
+		-30 \\
+		45 \\
+		50
+	\end{array}\right) $$
+\end{exmp}
+
+
+
+\begin{exmp}
+	Encuentre el producto $AB$ de las siguientes matrices
+	$$A= \left(\begin{array}{r}
+		2
+	\end{array}\right) $$
+	$$B= \left(\begin{array}{rrr}
+		-1 & 1 & -3
+	\end{array}\right) $$
+	Solución:
+	$$AB= \left(\begin{array}{rrr}
+		-2 & 2 & -6
+	\end{array}\right) $$
+\end{exmp}
+
+
+
+\begin{exmp}
+	Encuentre el producto $AB$ de las siguientes matrices
+	$$A= \left(\begin{array}{rr}
+		-1 & -3 \\
+		-7 & -1
+	\end{array}\right) $$
+	$$B= \left(\begin{array}{r}
+		-7 \\
+		-4
+	\end{array}\right) $$
+	Solución:
+	$$AB= \left(\begin{array}{r}
+		19 \\
+		53
+	\end{array}\right) $$
+\end{exmp}
+
+
+
+\begin{exmp}
+	Rescriba el siguiente sistema de ecuaci\'on en forma matricial y encuentre su soluci\'on:
+	$$
+	\begin{cases}
+		-x-3y=19\\
+		-7x-y=53
+	\end{cases}
+	$$
+\end{exmp}
+
+

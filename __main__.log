@@ -1,0 +1,1603 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.5.25)  31 MAY 2021 16:55
+entering extended mode
+**./__main__.tex
+(__main__.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-05-11>
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsbook.cls
+Document Class: amsbook 2020/05/29 v2.20.6
+\linespacing=\dimen138
+\normalparindent=\dimen139
+\normaltopskip=\skip47
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip48
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks15
+\ex@=\dimen140
+))
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen141
+)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count179
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count180
+\leftroot@=\count181
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count182
+\DOTSCASE@=\count183
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box47
+\strutbox@=\box48
+\big@size=\dimen142
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count184
+\c@MaxMatrixCols=\count185
+\dotsspace@=\muskip16
+\c@parentequation=\count186
+\dspbrk@lvl=\count187
+\tag@help=\toks16
+\row@=\count188
+\column@=\count189
+\maxfields@=\count190
+\andhelp@=\toks17
+\eqnshift@=\dimen143
+\alignsep@=\dimen144
+\tagshift@=\dimen145
+\tagwidth@=\dimen146
+\totwidth@=\dimen147
+\lineht@=\dimen148
+\@envbody=\toks18
+\multlinegap=\skip49
+\multlinetaggap=\skip50
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 376
+.
+
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+\copyins=\insert199
+\abstractbox=\box49
+\listisep=\skip51
+\c@part=\count191
+\c@chapter=\count192
+\c@section=\count193
+\c@subsection=\count194
+\c@subsubsection=\count195
+\c@paragraph=\count196
+\c@subparagraph=\count197
+\c@figure=\count198
+\c@table=\count266
+\abovecaptionskip=\skip52
+\belowcaptionskip=\skip53
+\captionindent=\dimen149
+\thm@style=\toks20
+\thm@bodyfont=\toks21
+\thm@headfont=\toks22
+\thm@notefont=\toks23
+\thm@headpunct=\toks24
+\thm@preskip=\skip54
+\thm@postskip=\skip55
+\thm@headsep=\skip56
+\dth@everypar=\toks25
+) (_paquetes.tex
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks26
+)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen150
+\Gin@req@width=\dimen151
+) (C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2020/08/01 v1.3d Input encoding file
+\inpenc@prehook=\toks27
+\inpenc@posthook=\toks28
+)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2021/05/16 3.59 The Babel package
+
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.def
+File: babel.def 2021/05/16 3.59 Babel common definitions
+\babel@savecnt=\count267
+\U@D=\dimen152
+\l@unhyphenated=\language79
+
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read2
+)
+\bbl@dirlevel=\count268
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/babel-spanish\spanish.l
+df
+Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
+\es@quottoks=\toks29
+\es@quotdepth=\count269
+Package babel Info: Making " an active character on input line 561.
+)) (C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\mathrsfs.sty
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup6
+)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/yfonts\yfonts.sty
+Package: yfonts 2019/04/04 v1.4 (WaS&NP)
+Now handling font encoding LY ...
+... no UTF-8 mapping file for font encoding LY
+Now handling font encoding LYG ...
+... no UTF-8 mapping file for font encoding LYG
+LaTeX Info: Composite with undeclared \" in encoding LYG on input line 58.
+)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\enumerate.s
+ty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks30
+)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mathtools.sty
+Package: mathtools 2021/04/12 v1.27 mathematical typesetting tools
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count270
+\calc@Bcount=\count271
+\calc@Adimen=\dimen153
+\calc@Bdimen=\dimen154
+\calc@Askip=\skip57
+\calc@Bskip=\skip58
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count272
+\calc@Cskip=\skip59
+)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
+\g_MT_multlinerow_int=\count273
+\l_MT_multwidth_dim=\dimen155
+\origjot=\skip60
+\l_MT_shortvdotswithinadjustabove_dim=\dimen156
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen157
+\l_MT_above_intertext_sep=\dimen158
+\l_MT_below_intertext_sep=\dimen159
+\l_MT_above_shortintertext_sep=\dimen160
+\l_MT_below_shortintertext_sep=\dimen161
+\xmathstrut@box=\box50
+\xmathstrut@dim=\dimen162
+) (C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/lm\lmodern.sty
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/fancyvrb\fancyvrb.sty
+Package: fancyvrb 2021/01/20 v3.7 verbatim text (tvz,hv)
+\FV@CodeLineNo=\count274
+\FV@InFile=\read3
+\FV@TabBox=\box51
+\c@FancyVerbLine=\count275
+\FV@StepNumber=\count276
+\FV@OutFile=\write3
+)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\multicol.st
+y
+Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
+\c@tracingmulticols=\count277
+\mult@box=\box52
+\multicol@leftmargin=\dimen163
+\c@unbalance=\count278
+\c@collectmore=\count279
+\doublecol@number=\count280
+\multicoltolerance=\count281
+\multicolpretolerance=\count282
+\full@width=\dimen164
+\page@free=\dimen165
+\premulticols=\dimen166
+\postmulticols=\dimen167
+\multicolsep=\skip61
+\multicolbaselineskip=\skip62
+\partial@page=\box53
+\last@line=\box54
+\maxbalancingoverflow=\dimen168
+\mult@rightbox=\box55
+\mult@grightbox=\box56
+\mult@gfirstbox=\box57
+\mult@firstbox=\box58
+\@tempa=\box59
+\@tempa=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\c@minrows=\count283
+\c@columnbadness=\count284
+\c@finalcolumnbadness=\count285
+\last@try=\dimen169
+\multicolovershoot=\dimen170
+\multicolundershoot=\dimen171
+\mult@nat@firstbox=\box96
+\colbreak@box=\box97
+\mc@col@check@num=\count286
+) (C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
+\wrapoverhang=\dimen172
+\WF@size=\dimen173
+\c@WF@wrappedlines=\count287
+\WF@box=\box98
+\WF@everypar=\toks31
+Package: wrapfig 2003/01/31  v 3.6
+) (C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/floatflt\floatflt.sty
+Package: floatflt 1997/07/16 v. 1.31
+\c@OptionTest=\count288
+\figbox=\box99
+\tabbox=\box100
+\pagebox=\box101
+\ffigcount=\count289
+\ftabcount=\count290
+\fftest=\count291
+\hangcount=\count292
+\nosuccesstryfig=\count293
+\nosuccesstrytab=\count294
+\figgutter=\dimen174
+\tabgutter=\dimen175
+\htdone=\dimen176
+\pageht=\dimen177
+\startpageht=\dimen178
+\tabbredd=\dimen179
+\floatfltwidth=\dimen180
+\fltitemwidth=\dimen181
+\outputpretest=\toks32
+)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/filecontents\fileconten
+ts.sty
+Package: filecontents 2019/09/20 v1.5 Create an external file from within a LaT
+eX document
+
+
+Package filecontents Warning: This package is obsolete. Disabling it and
+(filecontents)                passing control to the filecontents environment
+(filecontents)                defined by the LaTeX kernel.
+
+) (C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2021-02-27 v7.00k Hypertext links for LaTeX
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.s
+ty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
+keys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
+ty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro
+.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+)
+\@linkdim=\dimen182
+\Hy@linkcounter=\count295
+\Hy@pagecounter=\count296
+ (C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2021-02-27 v7.00k Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref-langp
+atches.def
+File: hyperref-langpatches.def 2021-02-27 v7.00k Hyperref: patches for babel la
+nguages
+)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count297
+ (C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2021-02-27 v7.00k Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4192.
+Package hyperref Info: Link nesting OFF on input line 4197.
+Package hyperref Info: Hyper index ON on input line 4200.
+Package hyperref Info: Plain pages OFF on input line 4207.
+Package hyperref Info: Backreferencing OFF on input line 4212.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4445.
+\c@Hy@tempcnt=\count298
+
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4804.
+\XeTeXLinkMargin=\dimen183
+
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
+.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count299
+\Field@Width=\dimen184
+\Fld@charsize=\dimen185
+Package hyperref Info: Hyper figures OFF on input line 6075.
+Package hyperref Info: Link nesting OFF on input line 6080.
+Package hyperref Info: Hyper index ON on input line 6083.
+Package hyperref Info: backreferencing OFF on input line 6090.
+Package hyperref Info: Link coloring OFF on input line 6095.
+Package hyperref Info: Link coloring with OCG OFF on input line 6100.
+Package hyperref Info: PDF/A mode OFF on input line 6105.
+LaTeX Info: Redefining \ref on input line 6145.
+LaTeX Info: Redefining \pageref on input line 6149.
+
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
+ge
+with kernel methods
+)
+\Hy@abspage=\count300
+\c@Item=\count301
+\c@Hfootnote=\count302
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2021-02-27 v7.00k Hyperref driver for pdfTeX
+
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
+e
+with kernel methods
+)
+\Fld@listcount=\count303
+\c@bookmark@seq@number=\count304
+
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
+echeck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
+ounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip63
+)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/natbib\bibentry.sty
+Package: bibentry 2007/10/30 1.5 (PWD)
+)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen186
+\lightrulewidth=\dimen187
+\cmidrulewidth=\dimen188
+\belowrulesep=\dimen189
+\belowbottomsep=\dimen190
+\aboverulesep=\dimen191
+\abovetopsep=\dimen192
+\cmidrulesep=\dimen193
+\cmidrulekern=\dimen194
+\defaultaddspace=\dimen195
+\@cmidla=\count305
+\@cmidlb=\count306
+\@aboverulesep=\dimen196
+\@belowrulesep=\dimen197
+\@thisruleclass=\count307
+\@lastruleclass=\count308
+\@thisrulewidth=\dimen198
+)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.
+sty
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.st
+y
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-common.tex
+\pgfutil@everybye=\toks33
+\pgfutil@tempdima=\dimen256
+\pgfutil@tempdimb=\dimen257
+
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-common-lists.tex))
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-latex.def
+\pgfutil@abb=\box102
+)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.
+code.tex
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
+))
+Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.
+sty
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.
+sty
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s.code.tex
+Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+.code.tex
+\pgfkeys@pathtoks=\toks34
+\pgfkeys@temptoks=\toks35
+
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+filtered.code.tex
+\pgfkeys@tmptoks=\toks36
+))
+\pgf@x=\dimen258
+\pgf@y=\dimen259
+\pgf@xa=\dimen260
+\pgf@ya=\dimen261
+\pgf@xb=\dimen262
+\pgf@yb=\dimen263
+\pgf@xc=\dimen264
+\pgf@yc=\dimen265
+\pgf@xd=\dimen266
+\pgf@yd=\dimen267
+\w@pgf@writea=\write4
+\r@pgf@reada=\read4
+\c@pgf@counta=\count309
+\c@pgf@countb=\count310
+\c@pgf@countc=\count311
+\c@pgf@countd=\count312
+\t@pgf@toka=\toks37
+\t@pgf@tokb=\toks38
+\t@pgf@tokc=\toks39
+\pgf@sys@id@count=\count313
+
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
+fg
+File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-pdftex.def
+File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-common-pdf.def
+File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+ssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfsyssoftpath@smallbuffer@items=\count314
+\pgfsyssoftpath@bigbuffer@items=\count315
+)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+sprotocol.code.tex
+File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+e.code.tex
+Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.
+code.tex
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.
+code.tex)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparse
+r.code.tex
+\pgfmath@dimen=\dimen268
+\pgfmath@count=\count316
+\pgfmath@box=\box103
+\pgfmath@toks=\toks40
+\pgfmath@stack@operand=\toks41
+\pgfmath@stack@operation=\toks42
+)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.code.tex
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.basic.code.tex)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.trigonometric.code.tex)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.random.code.tex)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.comparison.code.tex)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.base.code.tex)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.round.code.tex)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.misc.code.tex)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.integerarithmetics.code.tex)))
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat
+.code.tex
+\c@pgfmathroundto@lastzeros=\count317
+))
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.
+tex)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epoints.code.tex
+File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@picminx=\dimen269
+\pgf@picmaxx=\dimen270
+\pgf@picminy=\dimen271
+\pgf@picmaxy=\dimen272
+\pgf@pathminx=\dimen273
+\pgf@pathmaxx=\dimen274
+\pgf@pathminy=\dimen275
+\pgf@pathmaxy=\dimen276
+\pgf@xx=\dimen277
+\pgf@xy=\dimen278
+\pgf@yx=\dimen279
+\pgf@yy=\dimen280
+\pgf@zx=\dimen281
+\pgf@zy=\dimen282
+)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@path@lastx=\dimen283
+\pgf@path@lasty=\dimen284
+)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathusage.code.tex
+File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@shorten@end@additional=\dimen285
+\pgf@shorten@start@additional=\dimen286
+)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+escopes.code.tex
+File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfpic=\box104
+\pgf@hbox=\box105
+\pgf@layerbox@main=\box106
+\pgf@picture@serial@count=\count318
+)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+egraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgflinewidth=\dimen287
+)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+etransformations.code.tex
+File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@pt@x=\dimen288
+\pgf@pt@y=\dimen289
+\pgf@pt@temp=\dimen290
+)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+equick.code.tex
+File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eobjects.code.tex
+File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+earrows.code.tex
+File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowsep=\dimen291
+)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eshade.code.tex
+File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@max=\dimen292
+\pgf@sys@shading@range@num=\count319
+\pgf@shadingcount=\count320
+)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eimage.code.tex
+File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eexternal.code.tex
+File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfexternal@startupbox=\box107
+))
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+elayers.code.tex
+File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+etransparency.code.tex
+File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epatterns.code.tex
+File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+erdf.code.tex
+File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+shapes.code.tex
+File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfnodeparttextbox=\box108
+)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+plot.code.tex
+File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+mp-version-0-65.sty
+Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@nodesepstart=\dimen293
+\pgf@nodesepend=\dimen294
+)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+mp-version-1-18.sty
+Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
+))
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.st
+y
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.s
+ty
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+.code.tex))
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex))
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.
+code.tex
+Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex)
+\pgffor@iter=\dimen295
+\pgffor@skip=\dimen296
+\pgffor@stack=\toks43
+\pgffor@toks=\toks44
+))
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z\tikz.code.tex
+Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@plot@mark@count=\count321
+\pgfplotmarksize=\dimen297
+)
+\tikz@lastx=\dimen298
+\tikz@lasty=\dimen299
+\tikz@lastxsaved=\dimen300
+\tikz@lastysaved=\dimen301
+\tikz@lastmovetox=\dimen302
+\tikz@lastmovetoy=\dimen303
+\tikzleveldistance=\dimen304
+\tikzsiblingdistance=\dimen305
+\tikz@figbox=\box109
+\tikz@figbox@bg=\box110
+\tikz@tempbox=\box111
+\tikz@tempbox@bg=\box112
+\tikztreelevel=\count322
+\tikznumberofchildren=\count323
+\tikznumberofcurrentchild=\count324
+\tikz@fig@count=\count325
+
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+matrix.code.tex
+File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfmatrixcurrentrow=\count326
+\pgfmatrixcurrentcolumn=\count327
+\pgf@matrix@numberofcolumns=\count328
+)
+\tikz@expandcount=\count329
+
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarymatrix.code.tex
+File: tikzlibrarymatrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryarrows.code.tex
+File: pgflibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\arrowsize=\dimen306
+))
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarydecorations.pathmorphing.code.tex
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarydecorations.code.tex
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+decorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen307
+\pgfdecoratedremainingdistance=\dimen308
+\pgfdecoratedinputsegmentcompleteddistance=\dimen309
+\pgfdecoratedinputsegmentremainingdistance=\dimen310
+\pgf@decorate@distancetomove=\dimen311
+\pgf@decorate@repeatstate=\count330
+\pgfdecorationsegmentamplitude=\dimen312
+\pgfdecorationsegmentlength=\dimen313
+)
+\tikz@lib@dec@box=\box113
+)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorat
+ions\pgflibrarydecorations.pathmorphing.code.tex))) (_comandos.tex)
+(_entornos.tex
+\c@thm=\count331
+\c@prop=\count332
+\c@lem=\count333
+\c@cor=\count334
+\c@alg=\count335
+\c@ans=\count336
+\c@defn=\count337
+\c@exmp=\count338
+\c@axiom=\count339
+\c@rem=\count340
+\c@ilu=\count341
+) (_md_comandos.tex) (_md_entornos.tex
+\c@conj=\count342
+\c@prob=\count343
+\c@tdv=\count344
+\c@claim=\count345
+)
+\c@case=\count346
+ (_trig_comandos.tex)
+(_pe_comandos.tex)
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
+3.
+
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count347
+\l__pdf_internal_box=\box114
+) (__main__.aux
+LaTeX Info: Redefining \. on input line 22.
+LaTeX Info: Redefining \% on input line 22.
+
+
+LaTeX Warning: Label `eq:3.50' multiply defined.
+
+
+LaTeX Warning: Label `eq:7.3_' multiply defined.
+
+)
+\openout1 = `__main__.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for LY/yfrak/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for LYG/ygoth/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
+3.
+ (C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+23.
+
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+23.
+
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 23.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 23.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 23.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 23.
+
+
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 23.
+
+
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 23
+.
+
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 23.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 23.
+
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count348
+\scratchdimen=\dimen314
+\scratchbox=\box115
+\nofMPsegments=\count349
+\nofMParguments=\count350
+\everyMPshowfont=\toks45
+\MPscratchCnt=\count351
+\MPscratchDim=\dimen315
+\MPnumerator=\count352
+\makeMPintoPDFobject=\count353
+\everyMPtoPDFconversion=\toks46
+)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+LaTeX Info: Redefining \. on input line 23.
+LaTeX Info: Redefining \% on input line 23.
+Package hyperref Info: Link coloring OFF on input line 23.
+
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
+lestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count354
+)
+LaTeX Info: Redefining \ref on input line 23.
+LaTeX Info: Redefining \pageref on input line 23.
+LaTeX Info: Redefining \nameref on input line 23.
+ (__main__.out) (__main__.out)
+\@outlinefile=\write5
+\openout5 = `__main__.out'.
+
+ [1
+
+
+{C:/Users/julih/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [2]
+\'{I}ndice general
+(__main__.toc
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+)
+\tf@toc=\write6
+\openout6 = `__main__.toc'.
+
+ [3
+
+
+] [4
+
+
+]
+Cap\'{\i }tulo 1
+(md_01_logica.tex
+LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 
+5.
+
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmtt.fd
+File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) [5]
+Overfull \hbox (52.86098pt too wide) in paragraph at lines 110--111
+[]\OT1/lmr/m/n/10 Construimos la ta-bla de ver-dad de la con-jun-cion en el si
+-guien-te scritp []https://goo.gl/hEF5os[] 
+ []
+
+<./md/MD01_TDV01_AND.png, id=181, 150.5625pt x 150.5625pt>
+File: ./md/MD01_TDV01_AND.png Graphic file (type png)
+<use ./md/MD01_TDV01_AND.png>
+Package pdftex.def Info: ./md/MD01_TDV01_AND.png  used on input line 112.
+(pdftex.def)             Requested size: 142.27771pt x 142.26378pt.
+
+Overfull \hbox (50.63873pt too wide) in paragraph at lines 165--166
+[]\OT1/lmr/m/n/10 Construimos la ta-bla de ver-dad de la dis-jun-cion en el si
+-guien-te scritp []https://goo.gl/5kXzNI[] 
+ []
+
+<./md/MD01_TDV02_OR.png, id=183, 150.5625pt x 150.5625pt>
+File: ./md/MD01_TDV02_OR.png Graphic file (type png)
+<use ./md/MD01_TDV02_OR.png>
+Package pdftex.def Info: ./md/MD01_TDV02_OR.png  used on input line 167.
+(pdftex.def)             Requested size: 142.27771pt x 142.26378pt.
+[6 <./md/MD01_TDV01_AND.png>]
+Overfull \hbox (49.02722pt too wide) in paragraph at lines 212--213
+[]\OT1/lmr/m/n/10 Construimos la ta-bla de ver-dad de la dis-jun-cion en el si
+-guien-te scritp []https://goo.gl/sgCfkC[] 
+ []
+
+<./md/MD01_TDV03_NOT.png, id=197, 150.5625pt x 150.5625pt>
+File: ./md/MD01_TDV03_NOT.png Graphic file (type png)
+<use ./md/MD01_TDV03_NOT.png>
+Package pdftex.def Info: ./md/MD01_TDV03_NOT.png  used on input line 214.
+(pdftex.def)             Requested size: 142.27771pt x 142.26378pt.
+[7 <./md/MD01_TDV02_OR.png> <./md/MD01_TDV03_NOT.png>]
+<./md/MD01_TDV04.png, id=208, 150.5625pt x 150.5625pt>
+File: ./md/MD01_TDV04.png Graphic file (type png)
+<use ./md/MD01_TDV04.png>
+Package pdftex.def Info: ./md/MD01_TDV04.png  used on input line 247.
+(pdftex.def)             Requested size: 142.27771pt x 142.26378pt.
+
+Overfull \hbox (24.52965pt too wide) in paragraph at lines 255--262
+[][][]\OT1/lmr/m/sc/10 Tabla de Ver-dad \OT1/lmr/m/n/10 4 ($\OMS/lmsy/m/n/10 : 
+[]$\OT1/lmr/m/n/10 )\OT1/lmr/m/sc/10 . [][] 
+ []
+
+[8 <./md/MD01_TDV04.png>]
+Overfull \hbox (1.24886pt too wide) in paragraph at lines 316--317
+ \OT1/lmr/bx/n/10 1.9. Tau-to-log[]as y Con-tra-dic-cio-nes.[] \OT1/lmr/m/n/10
+ Al-gu-nas pro-po-si-cio-nes $\OML/lmm/m/it/10 P\OT1/lmr/m/n/10 (\OML/lmm/m/it/
+10 p; q; :::\OT1/lmr/m/n/10 )$ son
+ []
+
+<md/tabla_4-1.png, id=222, 782.17218pt x 276.28218pt>
+File: md/tabla_4-1.png Graphic file (type png)
+<use md/tabla_4-1.png>
+Package pdftex.def Info: md/tabla_4-1.png  used on input line 374.
+(pdftex.def)             Requested size: 251.9989pt x 89.01073pt.
+[9 <./md/tabla_4-1.png>] [10]
+<md/tabla_silogismo.png, id=257, 914.66719pt x 377.15906pt>
+File: md/tabla_silogismo.png Graphic file (type png)
+<use md/tabla_silogismo.png>
+Package pdftex.def Info: md/tabla_silogismo.png  used on input line 519.
+(pdftex.def)             Requested size: 251.9989pt x 103.9061pt.
+ [11 <./md/tabla_silogismo.png>] [12]
+
+LaTeX Warning: Reference `fig:tabla:4.1' on page 13 undefined on input line 803
+.
+
+[13]
+Overfull \hbox (59.66707pt too wide) in paragraph at lines 917--922
+ [] 
+ []
+
+[14]
+LaTeX Font Info:    Font shape `OT1/lmtt/bx/n' in size <10> not available
+(Font)              Font shape `OT1/lmtt/b/n' tried instead on input line 998.
+) (md_02_conjuntos.tex [15] [16]
+<./md/venn01.png, id=377, 938.00438pt x 205.5178pt>
+File: ./md/venn01.png Graphic file (type png)
+<use ./md/venn01.png>
+Package pdftex.def Info: ./md/venn01.png  used on input line 203.
+(pdftex.def)             Requested size: 312.9803pt x 68.5737pt.
+
+Overfull \hbox (1.78787pt too wide) in paragraph at lines 214--215
+ \OT1/lmr/bx/n/10 2.8. Ope-ra-cio-nes con Con-jun-tos.[] \OT1/lmr/m/n/10 En es-
+ta sec-cion in-tro-du-ci-re-mos la union,
+ []
+
+<./md/venn_union_interseccion.png, id=378, 929.72343pt x 306.39468pt>
+File: ./md/venn_union_interseccion.png Graphic file (type png)
+<use ./md/venn_union_interseccion.png>
+Package pdftex.def Info: ./md/venn_union_interseccion.png  used on input line 2
+36.
+(pdftex.def)             Requested size: 284.52756pt x 93.76581pt.
+[17 <./md/venn01.png>]
+<./md/venn_complemento.png, id=393, 950.80219pt x 211.54031pt>
+File: ./md/venn_complemento.png Graphic file (type png)
+<use ./md/venn_complemento.png>
+Package pdftex.def Info: ./md/venn_complemento.png  used on input line 340.
+(pdftex.def)             Requested size: 284.52756pt x 63.30441pt.
+ [18 <./md/venn_union_interseccion.png>]
+<./md/sistema_fundamental.png, id=410, 811.53188pt x 341.77687pt>
+File: ./md/sistema_fundamental.png Graphic file (type png)
+<use ./md/sistema_fundamental.png>
+Package pdftex.def Info: ./md/sistema_fundamental.png  used on input line 425.
+(pdftex.def)             Requested size: 284.52756pt x 119.83229pt.
+<./md/leyes_conjuntos.png, id=411, 764.10469pt x 243.15843pt>
+File: ./md/leyes_conjuntos.png Graphic file (type png)
+<use ./md/leyes_conjuntos.png>
+Package pdftex.def Info: ./md/leyes_conjuntos.png  used on input line 442.
+(pdftex.def)             Requested size: 312.9803pt x 99.59912pt.
+ [19 <./md/venn_complemento.png>] [20 <./md/sistema_fundamental.png> <./md/leye
+s_conjuntos.png>]) (md_03_funciones.tex [21] [22] [23] [24]
+Overfull \hbox (4.14153pt too wide) in paragraph at lines 400--402
+[][][]\OT1/lmr/m/sc/10 Ejemplo \OT1/lmr/m/n/10 3.11\OT1/lmr/m/sc/10 . []\OT1/lm
+r/m/n/10 De-mues-tre por in-duc-cion que $1[] + 2[] + \OML/lmm/m/it/10 ::: \OT
+1/lmr/m/n/10 + \OML/lmm/m/it/10 n[] \OT1/lmr/m/n/10 = []$ 
+ []
+
+[25]
+Overfull \hbox (17.36731pt too wide) in paragraph at lines 407--409
+[][][]\OT1/lmr/m/sc/10 Ejemplo \OT1/lmr/m/n/10 3.12\OT1/lmr/m/sc/10 . []\OT1/lm
+r/m/n/10 De-mues-tre por in-duc-cion que $[] + [] + \OML/lmm/m/it/10 ::: \OT1/
+lmr/m/n/10 + [] =
+ []
+
+
+Overfull \hbox (17.36731pt too wide) in paragraph at lines 414--416
+[][][]\OT1/lmr/m/sc/10 Ejemplo \OT1/lmr/m/n/10 3.13\OT1/lmr/m/sc/10 . []\OT1/lm
+r/m/n/10 De-mues-tre por in-duc-cion que $[] + [] + \OML/lmm/m/it/10 ::: \OT1/
+lmr/m/n/10 + [] =
+ []
+
+) (md_04_relaciones.tex [26]
+LaTeX Font Info:    Trying to load font information for U+euf on input line 149
+.
+
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\ueuf.fd
+File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
+)
+[27] [28]
+
+LaTeX Warning: Reference `lip:exmp:2.5' on page 29 undefined on input line 334.
+
+
+
+LaTeX Warning: Reference `lip:exmp:2.6' on page 29 undefined on input line 335.
+
+
+[29]
+
+LaTeX Warning: Reference `lip:exmp:2.5' on page 30 undefined on input line 355.
+
+
+
+LaTeX Warning: Reference `lip:exmp:2.6' on page 30 undefined on input line 356.
+
+
+
+LaTeX Warning: Reference `lip:exmp:2.5' on page 30 undefined on input line 389.
+
+
+
+LaTeX Warning: Reference `lip:exmp:2.6' on page 30 undefined on input line 390.
+
+
+[30] [31] [32] [33]
+<./md/MD02_IM01.png, id=640, 933.4875pt x 258.21469pt>
+File: ./md/MD02_IM01.png Graphic file (type png)
+<use ./md/MD02_IM01.png>
+Package pdftex.def Info: ./md/MD02_IM01.png  used on input line 846.
+(pdftex.def)             Requested size: 284.52756pt x 78.70216pt.
+ [34 <./md/MD02_IM01.png>]
+<./md/IMG-04_resticcion.png, id=662, 566.5968pt x 421.3341pt>
+File: ./md/IMG-04_resticcion.png Graphic file (type png)
+<use ./md/IMG-04_resticcion.png>
+Package pdftex.def Info: ./md/IMG-04_resticcion.png  used on input line 877.
+(pdftex.def)             Requested size: 227.62204pt x 169.26357pt.
+<./md/MD02_sqrt_x-2.png, id=663, 421.575pt x 418.56375pt>
+File: ./md/MD02_sqrt_x-2.png Graphic file (type png)
+<use ./md/MD02_sqrt_x-2.png>
+Package pdftex.def Info: ./md/MD02_sqrt_x-2.png  used on input line 929.
+(pdftex.def)             Requested size: 229.25528pt x 227.62204pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[35 <./md/IMG-04_resticcion.png>]
+<./md/MD02_IM02.png, id=679, 952.30782pt x 295.85532pt>
+File: ./md/MD02_IM02.png Graphic file (type png)
+<use ./md/MD02_IM02.png>
+Package pdftex.def Info: ./md/MD02_IM02.png  used on input line 976.
+(pdftex.def)             Requested size: 284.52756pt x 88.39612pt.
+ [36 <./md/MD02_sqrt_x-2.png> <./md/MD02_IM02.png>]) [37] [38
+
+
+]
+Cap\'{\i }tulo 2
+(md_05_matrices.tex [39]pdfTeX warning (ext4): destination with the same identi
+fier (name{equation.2.1.13}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.137 	\begin{equation}
+                       pdfTeX warning (ext4): destination with the same identif
+ier (name{equation.2.1.13}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.137 	\begin{equation}
+                       pdfTeX warning (ext4): destination with the same identif
+ier (name{equation.2.1.13}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.137 	\begin{equation}
+                       pdfTeX warning (ext4): destination with the same identif
+ier (name{equation.2.1.13}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.137 	\begin{equation}
+                       pdfTeX warning (ext4): destination with the same identif
+ier (name{equation.2.1.13}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.186 	\begin{equation}
+                       pdfTeX warning (ext4): destination with the same identif
+ier (name{equation.2.1.13}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.186 	\begin{equation}
+                       pdfTeX warning (ext4): destination with the same identif
+ier (name{equation.2.1.13}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.186 	\begin{equation}
+                       pdfTeX warning (ext4): destination with the same identif
+ier (name{equation.2.1.13}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.186 	\begin{equation}
+                        [40] [41]) (md_06_grafos.tex
+<./md/grafos.png, id=732, 875.52094pt x 349.305pt>
+File: ./md/grafos.png Graphic file (type png)
+<use ./md/grafos.png>
+Package pdftex.def Info: ./md/grafos.png  used on input line 29.
+(pdftex.def)             Requested size: 341.43306pt x 136.22307pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[42] [43 <./md/grafos.png>]
+<./md/letras.png, id=759, 904.1278pt x 303.38344pt>
+File: ./md/letras.png Graphic file (type png)
+<use ./md/letras.png>
+Package pdftex.def Info: ./md/letras.png  used on input line 139.
+(pdftex.def)             Requested size: 284.52756pt x 95.4737pt.
+<./md/homomorfas.png, id=760, 921.4425pt x 314.67563pt>
+File: ./md/homomorfas.png Graphic file (type png)
+<use ./md/homomorfas.png>
+Package pdftex.def Info: ./md/homomorfas.png  used on input line 156.
+(pdftex.def)             Requested size: 227.62204pt x 77.7324pt.
+ [44 <./md/letras.png> <./md/homomorfas.png>]
+<./md/grafo_8_8.png, id=772, 907.13907pt x 328.22626pt>
+File: ./md/grafo_8_8.png Graphic file (type png)
+<use ./md/grafo_8_8.png>
+Package pdftex.def Info: ./md/grafo_8_8.png  used on input line 205.
+(pdftex.def)             Requested size: 284.52756pt x 102.94608pt.
+<./md/grafo_8_8_a.png, id=774, 609.02531pt x 413.29407pt>
+File: ./md/grafo_8_8_a.png Graphic file (type png)
+<use ./md/grafo_8_8_a.png>
+Package pdftex.def Info: ./md/grafo_8_8_a.png  used on input line 230.
+(pdftex.def)             Requested size: 142.26378pt x 96.53761pt.
+File: ./md/grafo_8_8_a.png Graphic file (type png)
+<use ./md/grafo_8_8_a.png>
+Package pdftex.def Info: ./md/grafo_8_8_a.png  used on input line 239.
+(pdftex.def)             Requested size: 142.26378pt x 96.53761pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: ./md/grafo_8_8_a.png Graphic file (type png)
+<use ./md/grafo_8_8_a.png>
+Package pdftex.def Info: ./md/grafo_8_8_a.png  used on input line 248.
+(pdftex.def)             Requested size: 142.26378pt x 96.53761pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: ./md/grafo_8_8_a.png Graphic file (type png)
+<use ./md/grafo_8_8_a.png>
+Package pdftex.def Info: ./md/grafo_8_8_a.png  used on input line 257.
+(pdftex.def)             Requested size: 142.26378pt x 96.53761pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: ./md/grafo_8_8.png Graphic file (type png)
+<use ./md/grafo_8_8.png>
+Package pdftex.def Info: ./md/grafo_8_8.png  used on input line 278.
+(pdftex.def)             Requested size: 227.62204pt x 82.35686pt.
+[45 <./md/grafo_8_8.png> <./md/grafo_8_8_a.png>]
+File: ./md/grafo_8_8.png Graphic file (type png)
+<use ./md/grafo_8_8.png>
+Package pdftex.def Info: ./md/grafo_8_8.png  used on input line 291.
+(pdftex.def)             Requested size: 227.62204pt x 82.35686pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[46]
+<./md/grafo_8_9.png, id=790, 907.13907pt x 266.49562pt>
+File: ./md/grafo_8_9.png Graphic file (type png)
+<use ./md/grafo_8_9.png>
+Package pdftex.def Info: ./md/grafo_8_9.png  used on input line 313.
+(pdftex.def)             Requested size: 284.52756pt x 83.58464pt.
+<./md/fig0809.png, id=792, 796.47563pt x 245.41687pt>
+File: ./md/fig0809.png Graphic file (type png)
+<use ./md/fig0809.png>
+Package pdftex.def Info: ./md/fig0809.png  used on input line 326.
+(pdftex.def)             Requested size: 277.02058pt x 85.35826pt.
+<./md/grafo_8_10.png, id=793, 911.65594pt x 285.31593pt>
+File: ./md/grafo_8_10.png Graphic file (type png)
+<use ./md/grafo_8_10.png>
+Package pdftex.def Info: ./md/grafo_8_10.png  used on input line 338.
+(pdftex.def)             Requested size: 284.52756pt x 89.0478pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[47 <./md/grafo_8_9.png> <./md/fig0809.png>]
+<./md/grafo_8_11.png, id=802, 935.74594pt x 271.0125pt>
+File: ./md/grafo_8_11.png Graphic file (type png)
+<use ./md/grafo_8_11.png>
+Package pdftex.def Info: ./md/grafo_8_11.png  used on input line 415.
+(pdftex.def)             Requested size: 284.52756pt x 82.40436pt.
+ [48 <./md/grafo_8_10.png> <./md/grafo_8_11.png>]
+<./md/fig0827.png, id=814, 892.83563pt x 322.20375pt>
+File: ./md/fig0827.png Graphic file (type png)
+<use ./md/fig0827.png>
+Package pdftex.def Info: ./md/fig0827.png  used on input line 444.
+(pdftex.def)             Requested size: 284.52756pt x 102.67957pt.
+) (md_07_digrafos.tex
+<./md/fig0901a.png, id=815, 545.78906pt x 343.2825pt>
+File: ./md/fig0901a.png Graphic file (type png)
+<use ./md/fig0901a.png>
+Package pdftex.def Info: ./md/fig0901a.png  used on input line 43.
+(pdftex.def)             Requested size: 135.70572pt x 85.35826pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./md/fig0901b.png, id=816, 413.29407pt x 350.81062pt>
+File: ./md/fig0901b.png Graphic file (type png)
+<use ./md/fig0901b.png>
+Package pdftex.def Info: ./md/fig0901b.png  used on input line 57.
+(pdftex.def)             Requested size: 142.26378pt x 120.75679pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[49 <./md/fig0827.png>]
+<./md/fig0904a.png, id=829, 627.84563pt x 381.67593pt>
+File: ./md/fig0904a.png Graphic file (type png)
+<use ./md/fig0904a.png>
+Package pdftex.def Info: ./md/fig0904a.png  used on input line 102.
+(pdftex.def)             Requested size: 140.40652pt x 85.35826pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[50 <./md/fig0901a.png> <./md/fig0901b.png>]
+File: ./md/fig0904a.png Graphic file (type png)
+<use ./md/fig0904a.png>
+Package pdftex.def Info: ./md/fig0904a.png  used on input line 177.
+(pdftex.def)             Requested size: 140.40652pt x 85.35826pt.
+ [51 <./md/fig0904a.png>]pdfTeX warning (ext4): destination with the same ident
+ifier (name{equation.2.3.13}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.238 \begin{equation}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.2.3.13}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.238 \begin{equation}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.2.3.13}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.238 \begin{equation}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.2.3.13}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.238 \begin{equation}
+                      
+Overfull \hbox (7.8562pt too wide) in paragraph at lines 256--257
+\OT1/lmr/m/n/10 con $\OML/lmm/m/it/10 m$ \OT1/lmr/m/n/10 verti-ces $\OML/lmm/m
+/it/10 v[]; :::; v[]:$ \OT1/lmr/m/n/10 La \OT1/lmr/m/it/10 ma-triz de ac-ce-si-
+bi-li-dad \OT1/lmr/m/n/10 de $\OML/lmm/m/it/10 G$ \OT1/lmr/m/n/10 es la ma-triz
+ $\OML/lmm/m/it/10 m\OMS/lmsy/m/n/10  $\OT1/lmr/m/n/10 cuadrangular
+ []
+
+[52]) [53] (__main__.aux
+LaTeX Info: Redefining \. on input line 22.
+LaTeX Info: Redefining \% on input line 22.
+)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+
+Package rerunfilecheck Warning: File `__main__.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `__main__.out':
+(rerunfilecheck)             Before: FD4DB2343DF64149E0C20B0940182606;5767
+(rerunfilecheck)             After:  BFE4F1D94CF72CD824490793EE17F8FF;1581.
+ ) 
+Here is how much of TeX's memory you used:
+ 24878 strings out of 479163
+ 452056 string characters out of 2853998
+ 742998 words of memory out of 3000000
+ 41274 multiletter control sequences out of 15000+600000
+ 448475 words of font info for 73 fonts, out of 8000000 for 9000
+ 1302 hyphenation exceptions out of 8191
+ 89i,15n,83p,572b,535s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{equation.1.3.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{equation.1.3.2} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.21} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.20} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.19} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.18} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.17} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.16} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.15} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.14} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.13} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.12} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.11} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.10} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.9} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.8} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.7} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.6} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.5} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.4} has been referenced but does not exist
+, replaced by a fixed one
+
+{C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}
+{C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rmtt.enc}{C
+:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C
+:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C
+:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Us
+ers/julih/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rmsc.enc}<C:/User
+s/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eufm10.
+pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.
+pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.
+pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10
+.pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10
+.pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10
+.pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi5.
+pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.p
+fb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pf
+b><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb
+><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><
+C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><
+C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><
+C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy7.pfb><C
+:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtk10.pfb><C
+:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C
+:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtti10.pfb><
+C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbol
+s/msam10.pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
+msfonts/symbols/msbm10.pfb>
+Output written on __main__.pdf (53 pages, 1350519 bytes).
+PDF statistics:
+ 1046 PDF objects out of 1200 (max. 8388607)
+ 522 named destinations out of 1000 (max. 500000)
+ 361 words of extra memory for PDF output out of 10000 (max. 10000000)
+
