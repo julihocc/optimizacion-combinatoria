@@ -1,284 +1,200 @@
-\section{L\'ogica y C\'alculo Proposicional}
+\section{Lógica y Cálculo Proposicional}
 
 
-    Muchos algoritmos y demostraciones usan expresiones l\'ogicas tales como
+    Muchos algoritmos y demostraciones usan expresiones lógicas tales como
     \texttt{si p entonces q}. Entonces es necesario conocer los casos en los cuales esas expresiones son \texttt{ciertas} o \texttt{falsas}. Discutiremos esto en esta unidad. 
 
-
-
-
-
-    Tambi\'en investigamos el valor de verdad de enunciados cuantificados, que son aquellos que usan los cuantificadores l\'ogicos \texttt{para todo...} y \texttt{existe...}
+    Tambi\'en investigamos el valor de verdad de enunciados cuantificados, que son aquellos que usan los cuantificadores lógicos \texttt{para todo...} y \texttt{existe...}
+    \marginnote{    	En este curso, usaremos el \emph{sistema algebráico de computo} \texttt{SageMath}, el cuál está escrito con base en el lenguaje de programación \texttt{Python} e incorpora diversos paquetes de \texttt{OpenSource}.  
+    	Puede acceder a este sistema, a trav\'es de \href{https://cloud.sagemath.com/}{https://cloud.sagemath.com/} }
 
 
 \subsection{Proposiciones y Declaraciones Compuestas}
 
+    Una proposición es un enunciado declarativo que puede ser cierto o falso, pero no ambos. 
 
-    Una proposici\'on es un enunciado declarativo que puede ser cierto o falso, pero no ambos. 
-
-
-
-    \begin{exmp}
-        ?`Cu\'al de los siguientes enunciados es una proposici\'on?
+    \begin{problema}
+        ?`Cuál de los siguientes enunciados es una proposición?
         \begin{multicols}{2}
             \begin{enumerate}
                 \item El hielo flota en el agua.
-                \item China est\'a en Europa.
+                \item China está en Europa.
                 \item $2+2=4$
                 \item $2+2=5$
                 \item ?`A donde vas?
                 \item Haz tu tarea.
             \end{enumerate}
         \end{multicols}
-    \end{exmp}
+    \end{problema}
     
 
 
 \subsection{Proposiciones compuestas}
 
 
-    Muchas proposiciones est\'an \texttt{compuestas} de proposiciones m\'as simples, llamadas \emph{subproposiciones}, por medio de \emph{conectores l\'ogicos.}  Una proposici\'on se dice que es \emph{primitiva} si no puede descomponerse en proposiciones m\'as simples.
+    Muchas proposiciones están \texttt{compuestas} de proposiciones más simples, llamadas \emph{subproposiciones}, por medio de \emph{conectores lógicos.}  Una proposición se dice que es \emph{primitiva} si no puede descomponerse en proposiciones más simples.
 
 
 
     Por ejemplo, las siguientes proposiciones son compuestas
     \begin{itemize}
         \item ``Las rosas son rojas y las violetas son azules''
-        \item ``Juan es inteligente y estud\'ia hasta muy noche''
+        \item ``Juan es inteligente y estudia hasta muy noche''
     \end{itemize}
     
 
 
 
-    La propiedad fundamental de una proposici\'on compuesta es que su valor de verdad est\'a completamente deteminado por los valores de verdad de sus subproposiciones y la manera en la cual est\'an conectadas para formar la proposici\'on compuesta. 
+    La propiedad fundamental de una proposición compuesta es que su valor de verdad está completamente determinado por los valores de verdad de sus subproposiciones y la manera en la cual están conectadas para formar la proposición compuesta. 
 
 
-\subsection{Operaciones L\'ogicas B\'asicas}
+\subsection{Operaciones Lógicas Básicas}
 
 
-    En esta secci\'on discutiremos las tres operaciones l\'ogical b\'asicas: conjunci\'on , disjunci\'on  y la negaci\'on.
+    En esta sección discutiremos las tres operaciones lógicas básicas: conjunción , disyunción  y la negación.
 
 
-\subsection{Conjunci\'on $p \wed q$}
+\subsection{Conjunción $p \wed q$}
 
 
-    Cualesquiera dos proposiciones $p,q$ pueden ser combinadas por la palabra ``y'' para formar una proposici\'on compuesta llamada \emph{conjunci\'on} que se escribe $p\wed q.$
+    Cualesquiera dos proposiciones $p,q$ pueden ser combinadas por la palabra ``y'' para formar una proposición compuesta llamada \emph{conjunción} que se escribe $p\wed q.$
 
 
 
     \begin{defn}
         Si tanto $p$ como $q$ son ciertas, entonces $p \wed q$ es cierta; en otro caso $p\wed q$ es falsa.
-    \end{defn}
-    
-
-
+        \sidenote{
+        	\begin{tdv}[Conjunción]\hfill
+        		\label{tdv:and}
+        		\begin{center}
+        			\begin{tabular}{|l|l|l|}\hline
+        				$p$ & $q$ & $p \wed q$\\\hline
+        				1 & 1 & 1\\\hline
+        				1 & 0 & 0\\\hline
+        				0 & 1 & 0\\\hline
+        				0 & 0 & 0\\\hline
+        			\end{tabular}
+        		\end{center}        
+        	\end{tdv}
+        }  
+    \end{defn}	
 
     \begin{rem}
         Para entender mejor como se conectan los valores de verdad, generalmente se utilizan \emph{tablas de verdad.}  
         
-        Por brevedad $1$ representar\'a el valor \texttt{cierto}, mientras que $0$ representar\'a \texttt{falso}
+        Por brevedad $1$ representará el valor \texttt{cierto}, mientras que $0$ representará \texttt{falso}
     \end{rem}
     
+    	\marginnote{
+    	Construimos la tabla de verdad de la conjunción en el siguiente script \href{https://cloud.sagemath.com/projects/12787063-cafe-4f3b-a2e0-905f8b83cf3b/files/MD01_TRDV01_AND.sagews}{https://goo.gl/hEF5os}
+    }
+
+\subsection{Disyunción $p \vee q$}
 
 
-
-    \begin{tdv}[Conjunci\'on]
-        \label{tdv:and}
-        \begin{center}
-            \begin{tabular}{|l|l|l|}\hline
-                $p$ & $q$ & $p \wed q$\\\hline
-                1 & 1 & 1\\\hline
-                1 & 0 & 0\\\hline
-                0 & 1 & 0\\\hline
-                0 & 0 & 0\\\hline
-            \end{tabular}
-        \end{center}
-        
-    \end{tdv}
-    
-
-
-
-    En este curso, usaremos el \emph{sistema algebr\'aico de computo} \texttt{SageMath}, el cu\'al est\'a escrito con base en el lenguaje de programaci\'on \texttt{Python} e incorpora diversos paquetes de \texttt{OpenSource}.
-    
-    
-    Puede acceder a este sistema, a trav\'es de \href{https://cloud.sagemath.com/}{https://cloud.sagemath.com/} 
-    
-
-
-
-    Construimos la tabla de verdad de la conjunci\'on en el siguiente scritp \href{https://cloud.sagemath.com/projects/12787063-cafe-4f3b-a2e0-905f8b83cf3b/files/MD01_TRDV01_AND.sagews}{https://goo.gl/hEF5os}
-    \begin{center}
-        \includegraphics[height=5cm,keepaspectratio=true]{./md/MD01_TDV01_AND.png}
-        % MD01_TDV01_AND.png: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb=
-    \end{center}
-    
-
-
-
-    \begin{exmp}
-        ?`Cu\'al de las siguientes proposiciones es cierta?
-        
-        \begin{enumerate}
-            \item El hielo flota y $2+2=4$
-            \item El hielo flota y $2+2=5$
-            \item China est\'a en Europa y $2+2=4$
-            \item China est\'a en Europa y $2+2=5$
-        \end{enumerate}
-        
-    \end{exmp}
-    
-
-
-\subsection{Disjunci\'on $p \vee q$}
-
-
-    Cualesquiera dos proposiciones $p,q$ pueden ser combinadas por la palabra ``o'' para formar una proposici\'on compuesta llamada \emph{disjunci\'on} que se escribe $p \vee q .$
+    Cualesquiera dos proposiciones $p,q$ pueden ser combinadas por la palabra ``o'' para formar una proposición compuesta llamada \emph{disyunción} que se escribe $p \vee q .$
 
 
 
     \begin{defn}
         Si tanto $p$ como $q$ son falsas, entonces $p \vee q$ es falsa; en otro caso $p\vee q$ es verdadera.
+        \sidenote{
+        \begin{tdv}[disyunción] \hfill
+    	\label{tdv:or}
+    	\begin{center}
+    		\begin{tabular}{|l|l|l|}\hline
+    			$p$ & $q$ & $p \vee q$\\\hline
+    			1 & 1 & 1\\\hline
+    			1 & 0 & 1\\\hline
+    			0 & 1 & 1\\\hline
+    			0 & 0 & 0\\\hline
+    		\end{tabular}
+    	\end{center}
+    	
+    \end{tdv}    
+    }
     \end{defn}
-    
-
-
-
-
-    \begin{tdv}[Disjunci\'on]
-        \label{tdv:or}
-        \begin{center}
-            \begin{tabular}{|l|l|l|}\hline
-                $p$ & $q$ & $p \vee q$\\\hline
-                1 & 1 & 1\\\hline
-                1 & 0 & 1\\\hline
-                0 & 1 & 1\\\hline
-                0 & 0 & 0\\\hline
-            \end{tabular}
-        \end{center}
-        
-    \end{tdv}
-    
-
-
-
-    Construimos la tabla de verdad de la disjunci\'on en el siguiente scritp \href{https://cloud.sagemath.com/projects/12787063-cafe-4f3b-a2e0-905f8b83cf3b/files/MD01_TDV02_OR.sagews}{https://goo.gl/5kXzNI}
-    \begin{center}
-        \includegraphics[height=5cm,keepaspectratio=true]{./md/MD01_TDV02_OR.png}
-        % MD01_TDV01_AND.png: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb=
-    \end{center}
-    
-
-
-
+\marginnote{
+Construimos la tabla de verdad de la disyunción en el siguiente script \href{https://cloud.sagemath.com/projects/12787063-cafe-4f3b-a2e0-905f8b83cf3b/files/MD01_TDV02_OR.sagews}{https://goo.gl/5kXzNI} 
+}
  \begin{rem}
-  Algunas veces \texttt{``p o q''} se entiende en el sentido exclusivo: Puede ocurrir \texttt{p} o \texttt{q}, \emph{pero no ambos,} que es diferente a la definici\'on anterior. Sin embargo, existe un conector llamado de hecho \texttt{o exclusivo,} que cumple esta definici\'on y consideraremos m\'as adelante. 
+  Algunas veces \texttt{``p o q''} se entiende en el sentido exclusivo: Puede ocurrir \texttt{p} o \texttt{q}, \emph{pero no ambos,} que es diferente a la definición anterior. Sin embargo, existe un conector llamado de hecho \texttt{o exclusivo,} que cumple esta definición y consideraremos más adelante. 
  \end{rem}
 
 
 
-\subsection{Negaci\'on $\neg p$}
+\subsection{Negación $\neg p$}
 
 
- Dada cualquier proposici\'on $p,$ otra proposici\'on llamada \emph{negaci\'on} de $p$ puede ser formada escribien \emph{``No es cierto que...''} o \emph{``Es falso que...''} antes de \texttt{p}.
+ Dada cualquier proposición $p,$ otra proposición llamada \emph{negación} de $p$ puede ser formada escribien \emph{``No es cierto que...''} o \emph{``Es falso que...''} antes de \texttt{p}.
  
- De manera m\'as sencilla, decimos \texttt{no $p$} y escribimos $\neg p.$
-
-
-
+ De manera más sencilla, decimos \texttt{no $p$} y escribimos $\neg p.$
  
-\begin{defn}[Negaci\'on]
+\begin{defn}[Negación]
  Si $p$ es cierta, entonces $\neg p$ es falsa; pero si $p$ es falsa, $\neg p$ es cierta.
+ \sidenote{
+    \begin{tdv}[Negación] \hfill
+	\label{tdv:not}
+	\begin{center}
+		\begin{tabular}{|l|l|}\hline
+			$p$ & $\neg p$\\\hline
+			1 & 0 \\\hline
+			0 & 1 \\\hline
+		\end{tabular}
+	\end{center}
+	
+\end{tdv} 
+}
 \end{defn}
-
-
-
-
-    \begin{tdv}[Negaci\'on]
-        \label{tdv:not}
-        \begin{center}
-            \begin{tabular}{|l|l|}\hline
-                $p$ & $\neg p$\\\hline
-                1 & 0 \\\hline
-                0 & 1 \\\hline
-            \end{tabular}
-        \end{center}
-        
-    \end{tdv}
-    
-
-
-
-    Construimos la tabla de verdad de la disjunci\'on en el siguiente scritp \href{https://cloud.sagemath.com/projects/12787063-cafe-4f3b-a2e0-905f8b83cf3b/files/MD01_TDV03_NOT.sagews}{https://goo.gl/sgCfkC}
-    \begin{center}
-        \includegraphics[height=5cm,keepaspectratio=true]{./md/MD01_TDV03_NOT.png}
-        % MD01_TDV01_AND.png: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb=
-    \end{center}
-    
-
-
+\marginnote{
+    Construimos la tabla de verdad de la disyunción en el siguiente script \href{https://cloud.sagemath.com/projects/12787063-cafe-4f3b-a2e0-905f8b83cf3b/files/MD01_TDV03_NOT.sagews}{https://goo.gl/sgCfkC}
+}
 \subsection{Proposiciones y Tablas de Verdad}
 
-
- Sea $P(p,q,...)$ una expresi\'on construida con variables l\'ogicas $p,q,...,$ que toman valores de \texttt{verdadero ``V''} o \texttt{falso ``F''}, a trav\'es de conectores l\'ogicos como $\wed, \, \vee, \, \neg$ y otros  que discutiremos m\'as adelante.
- 
+ Sea $P(p,q,...)$ una expresión construida con variables lógicas $p,q,...,$ que toman valores de \texttt{verdadero ``V''} o \texttt{falso ``F''}, a trav\'es de conectores lógicos como $\wed, \, \vee, \, \neg$ y otros  que discutiremos más adelante.
  
  Tales expresiones $P(p,q,...)$ son llamadas \emph{proposiciones.}
 
-
-
- La propiedad principal de una proposici\'on $P(p,q,...)$ es que sus valores de verdad s\'olo dependen del valor de sus varibles. 
+ La propiedad principal de una proposición $P(p,q,...)$ es que sus valores de verdad sólo dependen del valor de sus variables. 
  
- 
- Una manera simple y concisa de mostrar esta relaci\'on es a trav\'es de una \emph{tabla de verdad.}
+ Una manera simple y concisa de mostrar esta relación es a trav\'es de una \emph{tabla de verdad.}
+
+ \begin{problema}
+  Contruir la tabla de verdad de la proposición
+  $\neg \left( p \wed \neg q \right).$
+\begin{solucion}
+	   \begin{tdv}[$\neg\left( p \wed \neg q \right)$]
+		
+		\hfill
+		\begin{center}
+			\begin{tabular}{lllll}
+				p & q & not q & p and not q & not( p and not q) \\
+				$1$ & $1$ & $0$ & $0$ & $1$ \\
+				$1$ & $0$ & $1$ & $1$ & $0$ \\
+				$0$ & $1$ & $0$ & $0$ & $1$ \\
+				$0$ & $0$ & $1$ & $0$ & $1$ \\
+			\end{tabular}
+		\end{center}
+	\end{tdv}
+\end{solucion}
+ \end{problema} \marginnote{ Construimos la tabla de verdad de la proposición anterior con el siguiente script \href{https://goo.gl/V2Axzi}{https://goo.gl/V2Axzi}}
 
 
-
- \begin{exmp}
-  Contruir la tabla de verdad de la proposici\'on
-  $$\neg \left( p \wed \neg q \right).$$
- \end{exmp}
-
-
-
-
- Construimos la tabla de verdad de la proposici\'on anterior con el siguiente script \href{https://goo.gl/V2Axzi}{https://goo.gl/V2Axzi}
-\begin{center}
-        \includegraphics[height=5cm,keepaspectratio=true]{./md/MD01_TDV04.png}
-        % MD01_TDV01_AND.png: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb=
-\end{center}
- 
-
-
-
- \begin{tdv}[$\neg\left( p \wed \neg q \right)$] 
-  \begin{tabular}{lllll}
-p & q & not q & p and not q & not( p and not q) \\
-$1$ & $1$ & $0$ & $0$ & $1$ \\
-$1$ & $0$ & $1$ & $1$ & $0$ \\
-$0$ & $1$ & $0$ & $0$ & $1$ \\
-$0$ & $0$ & $1$ & $0$ & $1$ \\
-\end{tabular}
- \end{tdv}
-
-
-
-
+\marginnote{
  \begin{rem}
-  Para evitar el uso excesivo de parentesis, algunas veces adoptamos una jerarqu\'ia para los conectores l\'ogicos. 
-  
-  
-  De manera especifica $\neg$ tiene prioridad sobre $\wed,$ que a su vez tiene prioridad sobre $\vee$.
- \end{rem}
-
-
-
- Por ejemplo, $$\neg p \wed q$$ significa $$\left( \neg p \right) \wed q$$  y no
- $$
- \neg(p \wed q).
- $$
-
-
+	Para evitar el uso excesivo de paréntesis, algunas veces adoptamos una jerarquía para los conectores lógicos. 
+	
+	
+	De manera especifica $\neg$ tiene prioridad sobre $\wed,$ que a su vez tiene prioridad sobre $\vee$.
+	
+	
+	
+	Por ejemplo, $\neg p \wed q$ significa $\left( \neg p \right) \wed q$  y no
+	$ \neg(p \wed q).$
+	
+	
+\end{rem}
+}
 
  \subsection{M\'etodo alternativo de construir una tabla de verdad}
 \begin{center}
@@ -294,7 +210,7 @@ $0$ & $0$ & $1$ & $0$ & $1$ \\
 
 
 
-\begin{exmp} Construya las tablas de verdad de las siguientes proposiciones
+\begin{problema} Construya las tablas de verdad de las siguientes proposiciones
 \begin{enumerate}
  \item $p\vee \neg p$
  \item $p\wed \neg p$
@@ -305,18 +221,13 @@ $0$ & $0$ & $1$ & $0$ & $1$ \\
 \end{enumerate}
 
 
-\end{exmp}
-
-
-
-
-\subsection{Tautolog\'ias y Contradicciones}
+\end{problema}
 
 
  Algunas proposiciones $P(p,q,...)$ son siempre ciertas, no importa los valores de verdad de las variables $p,q,...$ 
   
  
- Tales proposiciones se conocen como \emph{tautolog\'ias.}
+ Tales proposiciones se conocen como \emph{tautologías.}
 
 
 
@@ -327,51 +238,48 @@ $0$ & $0$ & $1$ & $0$ & $1$ \\
 
 
 
- \begin{exmp}
-  Construya las tablas de verdad de $p \wed \neg p$ y $p \vee \neg p.$
- \end{exmp}
 
 
 
-\subsection{Equivalencias L\'ogicas}
+\subsection{Equivalencias Lógicas}
 
 
- Diremos que dos proposiciones $P(p,q,...)$ y $Q(p,q,...)$ son \emph{l\'ogicamente equivalentes} si tienen tablas de verdad identidas. 
+ Diremos que dos proposiciones $P(p,q,...)$ y $Q(p,q,...)$ son \emph{lógicamente equivalentes} si tienen tablas de verdad identidades. 
  
  
  En tal caso, escribimos $$P(p,q,..)\equiv Q(p,q,...)$$
 
 
 
- \begin{exmp} Demostremos que 
+ \begin{problema} Demostremos que 
   $$
   \neg\left( p \wed q \right) \equiv \neg p \vee \neg q
   $$
- \end{exmp}
+ \end{problema}
 
 
 
 
- \begin{exmp}
+ \begin{problema}
   Reescriba la frase ``No es cierto que: las rosas son rojas y las violetas son azules'', usando la equivalencia anterior.
- \end{exmp}
+ \end{problema}
 
 
 
-%\subsection{\'Algebra de proposiciones}
+%\subsection{álgebra de proposiciones}
 
 
- Por su utilidad, algunas equivalencias l\'ogias con llamadas \emph{leyes para el \'algebra de proposiciones.}
+ Por su utilidad, algunas equivalencias lógicas con llamadas \emph{leyes para el álgebra de proposiciones.}
  
  
- A continuaci\'on, enunciaremos algunas, pero es necesario verificar su validez a trav\'es de tablas de verdad. 
+ A continuación, enunciaremos algunas, pero es necesario verificar su validez a trav\'es de tablas de verdad. 
 
 
 
 % TODO: \usepackage{graphicx} required
 \begin{figure}
 	\centering
-	\includegraphics[width=0.7\linewidth]{md/tabla_4-1}
+	\includegraphics[width=\linewidth]{md/tabla_4-1}
  \caption{Leyes para el álgebra de proposiciones}
 \label{fig:tabla:4.1}
 \end{figure}
@@ -381,64 +289,63 @@ $0$ & $0$ & $1$ & $0$ & $1$ \\
 \subsection{Sentencias condicionales y bicondicionales}
 
 
- Muchas sentencias, particularmente en matem\'aticas, son de la forma \texttt{``si $p$ entonces $q$''}.  Tales sentencias son llamdas \emph{condicionales} y son denotadas por 
+ Muchas sentencias, particularmente en matemáticas, son de la forma \texttt{``si $p$ entonces $q$''}.  Tales sentencias son llamadas \emph{condicionales} y son denotadas por 
  $$
  p \imply q.
  $$ 
 
 
 
- El condicional $p \imply q$ es frecuentemente le\'ido como \emph{``$p$ implica $q$''} o \emph{``$p$ s\'olo si $q$''.}
-
-
-
- Otra sentencia com\'un es de la forma \emph{``$p$ si y solo si $q$''.}  Tales sentencias son llamadas \emph{bicondicionales} y se denota por 
- $$
- p \iff q.
- $$
-
-
-
+ El condicional $p \imply q$ es frecuentemente leído como \emph{``$p$ implica $q$''} o \emph{``$p$ sólo si $q$''.}
+ \sidenote{
  \begin{tdv}[Condicional]
-\begin{center}
- \begin{tabular}{|l|l||l|} \hline
-$p$ & $q$ & $p \imply q$ \\ \hline
-$1$ & $1$ & $1$ \\ \hline
-$1$ & $0$ & $0$ \\ \hline
-$0$ & $1$ & $1$ \\ \hline
-$0$ & $0$ & $1$ \\ \hline
-\end{tabular}
-\end{center}
+	\begin{center}
+		\begin{tabular}{|l|l||l|} \hline
+			$p$ & $q$ & $p \imply q$ \\ \hline
+			$1$ & $1$ & $1$ \\ \hline
+			$1$ & $0$ & $0$ \\ \hline
+			$0$ & $1$ & $1$ \\ \hline
+			$0$ & $0$ & $1$ \\ \hline
+		\end{tabular}
+	\end{center}
+	
+\end{tdv} 
+}
 
- \end{tdv}
 
 
-
-
+ Otra sentencia común es de la forma \emph{``$p$ si y solo si $q$''.}  Tales sentencias son llamadas \emph{bicondicionales} y se denota por 
+ $
+ p \iff q.
+ $ \sidenote{ 
  \begin{tdv}[Bicondicional]
-\begin{center}
-\begin{tabular}{|l|l||l|} \hline
-$p$ & $q$ & $p \biconditional q$ \\ \hline
-$1$ & $1$ & $1$ \\ \hline
-$1$ & $0$ & $0$ \\ \hline
-$0$ & $1$ & $0$ \\ \hline
-$0$ & $0$ & $1$ \\ \hline
-\end{tabular}
-\end{center}
+	\begin{center}
+		\begin{tabular}{|l|l||l|} \hline
+			$p$ & $q$ & $p \biconditional q$ \\ \hline
+			$1$ & $1$ & $1$ \\ \hline
+			$1$ & $0$ & $0$ \\ \hline
+			$0$ & $1$ & $0$ \\ \hline
+			$0$ & $0$ & $1$ \\ \hline
+		\end{tabular}
+	\end{center}
+	
+\end{tdv} 
+}
 
- \end{tdv}
 
 
 
 
- \begin{exmp}
+
+
+ \begin{problema}
   Demuestre que $$p\imply q \equiv \neg p \vee q.$$
- \end{exmp}
+ \end{problema}
 
 
 
 
- \begin{exmp} Determine cuales de las siguientes sentencias son tautolog\'ias, construyendo las correspondientes tablas de verdad.
+ \begin{problema} Determine cuales de las siguientes sentencias son tautologías, construyendo las correspondientes tablas de verdad.
   \begin{enumerate}
    \item $\neg\left( p \vee \neg q \right) \imply \neg p$
    \item $p \imply \left( q\imply r \right)$
@@ -450,14 +357,23 @@ $0$ & $0$ & $1$ \\ \hline
    \item $\left( \left( p\imply q \right) \wed \left( q \imply r \right) \right) \imply \left( p \imply r \right)$
   \end{enumerate}
 
- \end{exmp}
+ \end{problema}
 
 
 
 \subsection{Argumentos}
 
 
- Un \emph{argumento} es una afirmaci\'on de que un conjunto dado de proposiciones $$P_{1}, P_{2},...,P_{n},$$ llamadas \emph{premisas}, tiene como consecuencia otra proposicion $Q,$ llamada \emph{conclusi\'on.}
+ Un \emph{argumento} es una afirmación de que un conjunto dado de proposiciones $$P_{1}, P_{2},...,P_{n},$$ llamadas \emph{premisas}, tiene como consecuencia otra proposición $Q,$ llamada \emph{conclusión.}\sidenote{
+Por ejemplo
+  \begin{center}
+	\begin{tabular}{l}
+		Si sube el dólar, sube la gasolina.\\
+		Si sube la gasolina, entonces hay inflación.\\\hline
+		$\therefore$ Si sube el dólar, entonces hay inflación.
+	\end{tabular}
+\end{center} 
+}
  
  En otras palabras, es una sentencia de la forma
  $$
@@ -470,74 +386,52 @@ $0$ & $0$ & $1$ \\ \hline
 
 
 
- La noci\'on de \emph{``argumento l\'ogico''} o \emph{``argumento v\'alido''} se formaliza de la manera siguiente:
+ La noción de \emph{``argumento lógico''} o \emph{``argumento válido''} se formaliza de la manera siguiente:
  
  
  \begin{defn}
   \label{lip:4.4}
-  Un argumento $P_{1}, P_{2},...,P_{n} \yields Q$ se dice que es \emph{v\'alido} si la proposici\'on 
+  Un argumento $P_{1}, P_{2},...,P_{n} \yields Q$ se dice que es \emph{válido} si la proposición 
   $$
   \left( P_{1} \wed P_{2} \wed...\wed P_{n}\right) \imply Q
-  $$ es una tautolog\'ia.
+  $$ es una tautología.
   
-   Si un argumento no es \emph{v\'alido,} diremos que es una \emph{falacia.}
+   Si un argumento no es \emph{válido,} diremos que es una \emph{falacia.}
  \end{defn}
 
 
 
 
- \begin{exmp}
+ \begin{problema}
  \label{lip:exmp:4.4}
   \begin{enumerate}
-   \item Demuestre que $p, p\imply q \yields q$ es un argumento v\'alido. 
+   \item Demuestre que $p, p\imply q \yields q$ es un argumento válido. 
    \item Demuestre que $p\imply q, q \yields p$ es una falacia.
    
-   \item Demuestre que $p\imply q, \neg q \yields \neg p$ es un argumento v\'alido.
+   \item Demuestre que $p\imply q, \neg q \yields \neg p$ es un argumento válido.
   \end{enumerate}
 
- \end{exmp}
+ \end{problema}
 
-
-
-
- \begin{exmp}
-  Un principio fundamental del razonamiento l\'ogico nos dice que:
-  \begin{center}
-   Si $p$ implica $q$ y $q$ implica $r,$ entonces $p$ implica $r.$ 
-  \end{center}
-
-
-En otras palabras, el siguiente argumento es v\'alido
-$$
-p\imply,q, q\imply r \yields p \imply r.
-$$ 
- \end{exmp}
-
-% TODO: \usepackage{graphicx} required
-\begin{figure}
-	\centering
-	\includegraphics[width=0.7\linewidth]{md/tabla_silogismo}
-	\caption{}
-	%\label{fig:tablasilogismo}
-	\label{fig:tabla_silogismo}
-\end{figure}
-
-
-\begin{exmp}
-  \begin{center}
-\begin{tabular}{l}
-Si sube el d\'olar, sube la gasolina.\\
-Si sube la gasolina, entonces hay inflaci\'on.\\\hline
-$\therefore$ Si sube el d\'olar, entonces hay inflaci\'on.
- \end{tabular}
- \end{center}
-\end{exmp}
-
+	% TODO: \usepackage{graphicx} required
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.7\linewidth]{md/tabla_silogismo}
+		\caption{
+			  Un principio fundamental del razonamiento lógico nos dice que:
+				Si $p$ implica $q$ y $q$ implica $r,$ entonces $p$ implica $r.$ 
+			En otras palabras, el siguiente argumento es válido
+			$$
+			p\imply,q, q\imply r \yields p \imply r.
+			$$ }
+		%\label{fig:tablasilogismo}
+		\label{fig:tabla_silogismo}
+	\end{figure}
 
 \subsection{Funciones proposicionales y Cuantificadores}
 
 
- Una \emph{funci\'on proposicional} (o \emph{sentencia abierta} o \emph{condici\'on}) definida en un conjunto $A$ es una expresi\'on $p(x)$ que tiene la propiedad de que $p(a)$ es cierta o falsa para cada $a \in A.$
+ Una \emph{función proposicional} (o \emph{sentencia abierta} o \emph{condición}) definida en un conjunto $A$ es una expresión $p(x)$ que tiene la propiedad de que $p(a)$ es cierta o falsa para cada $a \in A.$
 
 
 
@@ -551,23 +445,23 @@ $\therefore$ Si sube el d\'olar, entonces hay inflaci\'on.
 
 
 
- \begin{exmp}
+ \begin{problema}
   \label{lip:exmp:4.7}
-  Encuentre el conjunto de verdad para cada funci\'on en el conjunto $\N$ de los enteros positivos:
+  Encuentre el conjunto de verdad para cada función en el conjunto $\N$ de los enteros positivos:
   \begin{enumerate}
    \item $p(x): x+2>7$ 
    \item $p(x): x+5<3$ 
    \item $p(x): x+5>1$ 
   \end{enumerate}
 
- \end{exmp}
+ \end{problema}
 
 
 
 \subsection{Cuantificador universal}
 
 
- Sea $p(x)$ una funci\'on proposicional definido en un conjunto $A.$ La expresi\'on
+ Sea $p(x)$ una función proposicional definido en un conjunto $A.$ La expresión
  \begin{equation}
  \label{lip:4.1}
    \forall x \in A: p(x)
@@ -576,21 +470,21 @@ $\therefore$ Si sube el d\'olar, entonces hay inflaci\'on.
  
  se lee como  \texttt{``para todo $x\in A,$ $p(x)$ es verdadero.''}  
  
- El s\'imbolo $\forall$ (\texttt{``para todo''}) se llama cuantificador universal.
+ El símbolo $\forall$ (\texttt{``para todo''}) se llama cuantificador universal.
 
 
 
 
- Mientras que $p(x)$ es una sentencia abierta (su valor de verdad depende de cada $x\in A$), la afirmaci\'on 
+ Mientras que $p(x)$ es una sentencia abierta (su valor de verdad depende de cada $x\in A$), la afirmación 
  $$\forall x\in A: p(x)$$ es verdadera si y solo si $p(x)$ se cumple para todo $x\in A.$  
 
 
 
- Por otro lado, si existe alg\'un $x\in A$ tal que $p(x)$ es falso, entonces $$\forall x\in A: p(x)$$ es falso.
+ Por otro lado, si existe algún $x\in A$ tal que $p(x)$ es falso, entonces $$\forall x\in A: p(x)$$ es falso.
 
 
 
- \begin{exmp}
+ \begin{problema}
   \label{lip:exmp:4.8}
   Verifique el valor de verdad de las siguientes afirmaciones:
   \begin{enumerate}
@@ -598,27 +492,27 @@ $\therefore$ Si sube el d\'olar, entonces hay inflaci\'on.
    \item $\forall n \in \N: n+2>8.$
   \end{enumerate}
 
- \end{exmp}
+ \end{problema}
 
 
 
 \subsection{Cuantificador existencial}
 
 
- Sea $p(x)$ una funci\'on proposicional definido en un conjunto $A.$ La expresi\'on
+ Sea $p(x)$ una función proposicional definido en un conjunto $A.$ La expresión
  \begin{equation}
  \label{lip:4.3}
    \exists x \in A: p(x)
  \end{equation} 
  se lee como  \texttt{``existe $x\in A,$ tal que $p(x)$ es verdadero.''}  
  
- El s\'imbolo $\exists$ (\texttt{``existe...''}) se llama cuantificador existencial.
+ El símbolo $\exists$ (\texttt{``existe...''}) se llama cuantificador existencial.
 
 
 
 
- Mientras que $p(x)$ es una sentencia abierta (su valor de verdad depende de cada $x\in A$), la afirmaci\'on 
- $$\exists x\in A: p(x)$$ es verdadera si y solo si $p(x)$ se cumple alg\'un $x\in A.$  
+ Mientras que $p(x)$ es una sentencia abierta (su valor de verdad depende de cada $x\in A$), la afirmación 
+ $$\exists x\in A: p(x)$$ es verdadera si y solo si $p(x)$ se cumple algún $x\in A.$  
 
 
 
@@ -634,24 +528,24 @@ $\therefore$ Si sube el d\'olar, entonces hay inflaci\'on.
 
 
 
-\subsection{Negaci\'on de Sentencias Cuantificadas}
+\subsection{Negación de Sentencias Cuantificadas}
 
 
 
- Considere la afirmaci\'on:
+ Considere la afirmación:
  \begin{center}
-  \emph{Todos los estudiantes de ingenier\'ia saben programar.}
+  \emph{Todos los estudiantes de ingeniería saben programar.}
  \end{center}
-?`C\'omo podemos negar esta afirmaci\'on?
+?`Cómo podemos negar esta afirmación?
 
 
 \begin{center}
- \emph{Al menos un estudiante de ingenier\'ia no sabe programar.}
+ \emph{Al menos un estudiante de ingeniería no sabe programar.}
 \end{center} 
 
 
 
- De manera simb\'olica, si $M$ de ntoa el conjunto de estudiantes de ingenier\'ia, la negaci\'on anterior se puede escribir como
+ De manera simbólica, si $M$ de ntoa el conjunto de estudiantes de ingeniería, la negación anterior se puede escribir como
 \begin{align*}
   \neg\left( \forall x\in M: \texttt{x sabe programar} \right)\\ \equiv \exists x\in M: \texttt{x no sabe programar.}
 \end{align*}
@@ -668,18 +562,18 @@ $\therefore$ Si sube el d\'olar, entonces hay inflaci\'on.
 
  De manera similar
  \begin{center}
-  \emph{No hay estudiante de ingenier\'ia que sepa programar}
+  \emph{No hay estudiante de ingeniería que sepa programar}
  \end{center}
  se puede reescribir como
  \begin{center}
-  \emph{Cada uno de los estudiantes de ingenier\'ia no saben programar.}
+  \emph{Cada uno de los estudiantes de ingeniería no saben programar.}
  \end{center}
 
 
 
 
 
- De manera simb\'olica, podemos reescribir
+ De manera simbólica, podemos reescribir
   \begin{align*}
   \neg\left( \exists x\in M: p(x) \right)\\ \equiv \forall x\in M: \neg p(x).
 \end{align*}
@@ -699,9 +593,9 @@ $\therefore$ Si sube el d\'olar, entonces hay inflaci\'on.
 
 
 
- \begin{exmp}
+ \begin{ejemplo}
   \label{lip:exmp:4.10.a}
-  La negaci\'on de la siguiente afirmaci\'on
+  La negación de la siguiente afirmación
   \begin{center}
    \emph{Para todo entero positivo $n,$ tenemos que $n+2>8$}
   \end{center}
@@ -710,38 +604,38 @@ es
  \emph{Existe un entero positivo $n$ tal que $n+2 \leq 8.$}
 \end{center}
 
- \end{exmp}
+ \end{ejemplo}
 
 
 
 
- \begin{exmp}
+ \begin{ejemplo}
   \label{lip:exmp:4.10.b}
-  La negaci\'on de la siguiente afirmaci\'on
+  La negación de la siguiente afirmación
   \begin{center}
-   \emph{Existe una persona viva con 150 a\~nos o m\'as.}
+   \emph{Existe una persona viva con 150 a\~nos o más.}
   \end{center}
  es 
  \begin{center}
   \emph{Toda persona viva tiene menos de 150 a\~nos.}
  \end{center}
 
- \end{exmp}
+ \end{ejemplo}
 
 
 
 
- \begin{rem}
-  Para negar una afirmaci\'on del tipo $$\forall x \in A: p(x)$$ s\'olo necesitamos encontrar un elemento $x_{0}\in A$ tal que $p(x)$ sea \emph{falso.}
+\marginnote{ \begin{rem}
+  Para negar una afirmación del tipo $$\forall x \in A: p(x)$$ sólo necesitamos encontrar un elemento $x_{0}\in A$ tal que $p(x)$ sea \emph{falso.}
   
   
-  A un elemento $x_{0}$ as\'i se le conoce como \emph{contraejemeplo.}
- \end{rem}
+  A un elemento $x_{0}$ así se le conoce como \emph{contraejemeplo.}
+ \end{rem}}
 
 
 
 
- \begin{exmp}
+ \begin{ejemplo}
  \label{lip:4.11}
   \begin{enumerate}[(a)]
    \item 
@@ -752,17 +646,17 @@ es
   Sin embargo, $\forall x \in \N: : x^{2}\leq x$ es siempre cierto.
   \end{enumerate}
 
- \end{exmp}
+ \end{ejemplo}
 
 
 
-\subsection{Ejemplos Resueltos}
+\subsection{Problemario}
 
-\subsection{Proposiones y Tablas de Verdad}
+%\subsection{Proposiones y Tablas de Verdad}
 
 
- \begin{exmp}
-  Sea $p:\texttt{``Hace fr\'io''}$ y $q:\texttt{``Est\'a lloviendo''.}$ Proponga un enunciado verbal simple que describa cada una de las siguientes proposiciones:
+ \begin{problema}
+  Sea $p:\texttt{``Hace frío''}$ y $q:\texttt{``Está lloviendo''.}$ Proponga un enunciado verbal simple que describa cada una de las siguientes proposiciones:
   \begin{enumerate}
    \item $\neg p;$
    \item $p \wed q;$
@@ -770,165 +664,165 @@ es
    \item $q \vee \neg p.$
   \end{enumerate}
 
- \end{exmp}
+ \end{problema}
 
 
 
 
- \begin{exmp}
+ \begin{problema}
   Encuentre la tabla de verdad de $\neg p \wed q.$
- \end{exmp}
+ \end{problema}
 
 
 
 
- \begin{exmp}
-  Demuestre que la propisici\'on 
+ \begin{problema}
+  Demuestre que la propisición 
   $$
   p \vee \neg \left( p\wed q \right)
-  $$ es una tautolog\'ia.
- \end{exmp}
+  $$ es una tautología.
+ \end{problema}
 
 
 
 
- \begin{exmp}
-  Muestre que las proposiciones $\neg\left( p \wed q \right)$ y $\neg p \vee \neg q$ son l\'ogicamente equivalentes.
- \end{exmp}
+ \begin{problema}
+  Muestre que las proposiciones $\neg\left( p \wed q \right)$ y $\neg p \vee \neg q$ son lógicamente equivalentes.
+ \end{problema}
 
 
 
 
- \begin{exmp}
+ \begin{problema}
   Use las leyes en la tabla \ref{fig:tabla:4.1} para mostrar que 
   $$
   \neg \left( p \wed q \right) \vee \left( \neg p \wed  q \right) \equiv \neg p
   $$
- \end{exmp}
+ \end{problema}
 
 
 
-\subsection{Sentencias condicionales}
+%\subsection{Sentencias condicionales}
 
 
- \begin{exmp}
+ \begin{problema}
   \label{lip:sol:4.6}
   Reescriba los siguientes enunciados sin usar el condicional:
   \begin{enumerate}
-   \item Si hace fr\'io, el usa sombrero. 
+   \item Si hace frío, el usa sombrero. 
    \item Si la productividad se incrementa, entonces el salario aumenta.
   \end{enumerate}
 
- \end{exmp}
+ \end{problema}
 
 
 
 
- \begin{exmp}
+ \begin{problema}
   \label{lip:sol:4.7}
-  Considere la proposici\'on condicional $p \imply q.$ La proposiones 
+  Considere la proposición condicional $p \imply q.$ La proposiciones 
   \begin{center}
   ${\color{red}q \imply p,} {\color{blue}\, \neg p \imply \neg q,} \, {\color{green}\neg q \imply \neg p}$
   \end{center}
 son llamadas {\color{red} conversa,} {\color{blue}inversa} y {\color{green} contrapositiva}, respectivamente.
 
 
-?`Cu\'ales de estas proposiciones son l\'ogicamente equivalente s a $p\imply q$?
- \end{exmp}
+?`Cuáles de estas proposiciones son lógicamente equivalente s a $p\imply q$?
+ \end{problema}
 
 
 
 
- \begin{exmp}
+ \begin{problema}
   Determine la contrapositiva de cada enunciado:
   \begin{enumerate}
    \item Si Erik es poeta, entonces es pobre. 
-   \item Solo si Marcos estudia, pasar\'a el examen. 
+   \item Solo si Marcos estudia, pasará el examen. 
   \end{enumerate}
 
- \end{exmp}
+ \end{problema}
 
 
 
 
- \begin{exmp}
-  Escriba la negaci\'on de cada enunciado, tan simple como sea posible:
+ \begin{problema}
+  Escriba la negación de cada enunciado, tan simple como sea posible:
   \begin{enumerate}
-   \item Si ella trabaja, ganar\'a dinero. 
-   \item El nada si y solo si el agua est\'a tibia. 
+   \item Si ella trabaja, ganará dinero. 
+   \item El nada si y solo si el agua está tibia. 
    \item Si neva, entonce no manejar\'e.
   \end{enumerate}
 
- \end{exmp}
+ \end{problema}
 
 
 
-\subsection{Argumentos}
+%\subsection{Argumentos}
 
 
- \begin{exmp}
+ \begin{problema}
   Muestre que el siguiente argumento es una falacia:
  $$
  p\imply q, \neg p \yields \neg q.
  $$
- \end{exmp}
+ \end{problema}
 
 
 
 
- \begin{exmp}
-  Muestre que el siguiente argumento es v\'alido:
+ \begin{problema}
+  Muestre que el siguiente argumento es válido:
  $$
  p\imply q, \neg q \yields \neg p.
  $$
- \end{exmp}
+ \end{problema}
 
 
 
 
-\begin{exmp}
-  Muestre que el siguiente argumentos siempre es v\'alido:
+\begin{problema}
+  Muestre que el siguiente argumento siempre es válido:
  $$
  p \imply \neg q, r \imply q, r \yields \neg p.
  $$
-\end{exmp}
+\end{problema}
 
 
 
 
- \begin{exmp}
+ \begin{problema}
   Determine la validez del siguiente argumento:
   \begin{center}
 \begin{tabular}{l}
-Si $7$ es menor que $4$, entonces $7$ no es n\'umero primo\\
+Si $7$ es menor que $4$, entonces $7$ no es número primo\\
 $7$ no es menor que $4$\\\hline
-$7$ no es n\'umero primo.
+$7$ no es número primo.
   \end{tabular}
   \end{center}
 
- \end{exmp}
+ \end{problema}
 
 
 
 
- \begin{exmp}
+ \begin{problema}
   Determine la validez del siguiente argumento:
   \begin{center}
 \begin{tabular}{l}
-Si dos lados de un tri\'angulo son iguales, entonces los respectivos \'angulos opuestos son iguales\\
-Dos lados de un tri\'angulo no son iguales\\\hline
-Los respectivos \'angulos opuestos no son iguales.
+Si dos lados de un triángulo son iguales, entonces los respectivos ángulos opuestos son iguales\\
+Dos lados de un triángulo no son iguales\\\hline
+Los respectivos ángulos opuestos no son iguales.
   \end{tabular}
   \end{center}
 
- \end{exmp}
+ \end{problema}
 
 
 
-\subsection{Cuantificadores y Funciones Proposicionales}
+%\subsection{Cuantificadores y Funciones Proposicionales}
 
 
- \begin{exmp}
+ \begin{problema}
   Sea $A=\set{1,2,3,4,5}.$ Determine el valor de verdad de cada uno de los siguientes enunciados:
   \begin{enumerate}
    \item $\exists x \in A: x+3=10;$ 
@@ -937,12 +831,12 @@ Los respectivos \'angulos opuestos no son iguales.
    \item $\forall x \in A: x+3 \leq 7.$
   \end{enumerate}
 
- \end{exmp}
+ \end{problema}
 
 
 
 
-  \begin{exmp}
+  \begin{problema}
     Determine el valor de verdad de cada uno de las siguientes afirmaciones donde $U=\set{1,2,3}$ es el conjunto \emph{``universo''} (de referencia):
  \begin{enumerate}
   \item $\exists x \forall y: x^{2}< y+1;$ 
@@ -950,50 +844,50 @@ Los respectivos \'angulos opuestos no son iguales.
   \item $\forall x \forall y: x^{2}+y^{3}<12.$
  \end{enumerate}
 
-  \end{exmp}
+  \end{problema}
 
 
 
 
- \begin{exmp}
-  Encuentre la negaci\'on de cada una de las siguientes afirmaciones:
+ \begin{problema}
+  Encuentre la negación de cada una de las siguientes afirmaciones:
   \begin{enumerate}
    \item $\exists x \forall y: p(x,y);$ 
    \item $\forall x \forall y: p(x,y);$ 
    \item $\exists x \exists y \forall z: p(x,y,z).$
   \end{enumerate}
 
- \end{exmp}
+ \end{problema}
 
 
 
 
- \begin{exmp}
-  Sea $$p(x): x+2>5.$$ Indique cuando $p(x)$ es una funci\'on proposicional o no en cada uno de los siguientes conjuntos: 
+ \begin{problema}
+  Sea $$p(x): x+2>5.$$ Indique cuando $p(x)$ es una función proposicional o no en cada uno de los siguientes conjuntos: 
   \begin{enumerate}
    \item $\N$ 
    \item $\Z^{-}=\set{-1,-2,-3,...}$ 
    \item $\mathbb{C}$
   \end{enumerate}
 
- \end{exmp}
+ \end{problema}
 
 
 
 
-	\begin{exmp}
+	\begin{problema}
 	Niegue cada uno de las siguientes afirmaciones:
 	\begin{enumerate}
 		\item Todos los estudiantes viven en los dormitorios.
 		\item A todos los estudiantes de ingeniería le gusta el futbol.
 		\item Algunos estudiantes tienen 25 años o más.
 	\end{enumerate}
-	\end{exmp}
+	\end{problema}
 
 
 
- \subsection{Bibliograf\'ia}
- Las notas de esta secci\'on est\'an basadas en el cap\'itulo 4 \texttt{``Logic and Propositional Calculus''} del libro
+\subsection{Bibliografía}
+ Las notas de esta sección están basadas en el capítulo 4 \texttt{``Logic and Propositional Calculus''} del libro
  \begin{center}
   \texttt{Lipschutz, S. and Lipson, M.;\textbf{ Schaum's Outline of Discrete Mathematics;} McGraw-Hill, 3th Edition.}
  \end{center}

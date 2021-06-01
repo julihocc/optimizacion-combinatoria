@@ -1,7 +1,7 @@
 \section{Digrafos}
 
 
-Los \emph{grafos dirigidos} o \emph{digrafos} son grafos en los que las aristas tienen una direcci\'on.
+Los \emph{grafos dirigidos} o \emph{digrafos} son grafos en los que las aristas tienen una dirección.
 
 
 \subsection{Grafos dirigidos}
@@ -16,7 +16,7 @@ Un grafo dirigido $G=G(V,E)$ consiste de:
 
 
 
-Supongamos que $e=(u,v)$ es un arco en el digrafo $G.$ Entonces, la siguiente terminolog\'ia es usada:
+Supongamos que $e=(u,v)$ es un arco en el digrafo $G.$ Entonces, la siguiente terminología es usada:
 \begin{itemize}
 	\item $e$ comienza en $v$ y termina en $v;$
 	\item $u$ es el origen o punto inicial de $e,$ mientras que $v$ es el destino o punto final de $e.$
@@ -29,14 +29,14 @@ Si $u=v,$ $e$ es llamado un \emph{bucle.}
 
 
 
-Si las aristas o los v\'ertices de un digrafo est\'an etiquetas con alg\'un tipo de dato, diremos que es un \emph{digrafo etiquetado.}
+Si las aristas o los v\'ertices de un digrafo están etiquetas con algún tipo de dato, diremos que es un \emph{digrafo etiquetado.}
 
 
-De manera similar a un grafo, un digrafo ser\'a finito si el conjunto de v\'ertices y el de aristas es finito.
+De manera similar a un grafo, un digrafo será finito si el conjunto de v\'ertices y el de aristas es finito.
 
 
 
-\begin{exmp}
+\begin{problema}
 	Consideremos el siguiente digrafo.
 	\begin{figure}[h]
 		\centering
@@ -46,12 +46,12 @@ De manera similar a un grafo, un digrafo ser\'a finito si el conjunto de v\'erti
 		\label{fig:0901a}
 	\end{figure}
 	Las aristas $e_{2}$ y $e_{3}$ son llamados \emph{paralelos,} ya que ambos comienzan en $B$ y terminan en $A.$ La arista $e_{7}$ es un \emph{bucle.}
-\end{exmp}
+\end{problema}
 
 
 
 
-\begin{exmp}
+\begin{problema}
 	\begin{figure}[h]
 		\centering
 		\includegraphics[width=5cm,keepaspectratio=true]{./md/fig0901b.png}
@@ -60,16 +60,16 @@ De manera similar a un grafo, un digrafo ser\'a finito si el conjunto de v\'erti
 		\label{fig:0901b}
 	\end{figure}
 	
-\end{exmp}
+\end{problema}
 
 
 
 \subsection{Matriz de adyacencia}
 
 
-Ahora, s\'olo consideraremos \emph{digrafos simples} $G(V,E)$, es decir, sin aristas paralelas. Entonces $E$ es simplemente una relaci\'on en $V.$ 
+Ahora, sólo consideraremos \emph{digrafos simples} $G(V,E)$, es decir, sin aristas paralelas. Entonces $E$ es simplemente una relación en $V.$ 
 
-De manera inversa, si $R$ es una relaci\'on en $V,$ entonces $G(V,R)$ es un digrafo simple.
+De manera inversa, si $R$ es una relación en $V,$ entonces $G(V,R)$ es un digrafo simple.
 
 En unidades anteriores, ya hemos construido digrafos asociados a relaciones de orden parcial, llamados diagramas de Hasse. 
 
@@ -77,7 +77,7 @@ En unidades anteriores, ya hemos construido digrafos asociados a relaciones de o
 
 Supongamos que $G$ es un digrafo simple con $m$ v\'ertices, y supongamos que los v\'ertices de $G$ han sido ordenados y son llamados $v_{1}, v_{2},...,v_{m}.$ 
 
-Entonces la \emph{matrix de adyacencia} $A=\left( a_{i,j} \right)$ de $G$ es la una matriz de dimensi\'on $m\times m$ definida de la siguiente manera
+Entonces la \emph{matrix de adyacencia} $A=\left( a_{i,j} \right)$ de $G$ es la una matriz de dimensión $m\times m$ definida de la siguiente manera
 $$a_{i,j}=
 \begin{cases}
 	1 & \exists e \in E: e=(v_{i}, v_{j})\\
@@ -89,13 +89,13 @@ $$
 
 \begin{rem}
 	Las matrices de adyacencia de un mismo grafo dependen del orden en que se enumeren los v\'ertices. 
-	Sin embargo, dos matrices de adyacencia de un mismo grafo est\'an relacionadas por operaciones elementales: cambiar el orden de columnas y renglones. 
+	Sin embargo, dos matrices de adyacencia de un mismo grafo están relacionadas por operaciones elementales: cambiar el orden de columnas y renglones. 
 \end{rem}
 
 
 
 
-\begin{exmp}
+\begin{problema}
 	Sea $G$ el siguiente digrafo
 	\begin{figure}[h]
 		\centering
@@ -105,12 +105,12 @@ $$
 		\label{fig:0904a}
 	\end{figure}
 	
-\end{exmp}
+\end{problema}
 
 
 
 
-La matriz identidad $I_{m}=\left( I_{i,j} \right)$ de dimensi\'on $m\times m$ se define como
+La matriz identidad $I_{m}=\left( I_{i,j} \right)$ de dimensión $m\times m$ se define como
 $$I_{i,j}
 \begin{cases}
 	1 & i=j \\
@@ -121,7 +121,7 @@ es decir, es matriz cuadrangular con $1's$ en la \emph{diagonal principal}, y ce
 
 
 
-\begin{exmp}
+\begin{problema}
 	$$I_{2}=
 	\begin{pmatrix}
 		1 & 0 \\
@@ -136,12 +136,12 @@ es decir, es matriz cuadrangular con $1's$ en la \emph{diagonal principal}, y ce
 		0 & 0 & 1
 	\end{pmatrix}
 	$$
-\end{exmp}
+\end{problema}
 
 
 
 
-La propiedad principal de una matriz identidad $I_{m}$ es que es nuestra respecto a la multiplicaci\'on de matrices, es decir, para cualquier otra matriz $A\in M_{n}:$
+La propiedad principal de una matriz identidad $I_{m}$ es que es nuestra respecto a la multiplicación de matrices, es decir, para cualquier otra matriz $A\in M_{n}:$
 $$
 AI_{n}=I_{n}A=A.
 $$
@@ -161,11 +161,11 @@ Es decir, $$A^{0}=I, A^{1}=A, A^{2}=AA,...$$
 
 
 
-Definamos $a_{k}(i,j)$ como la entrada en la posici\'on $i,j$ de $A^{k}.$
+Definamos $a_{k}(i,j)$ como la entrada en la posición $i,j$ de $A^{k}.$
 
 
 \begin{prop}
-	Sea $A$ la matriz de adyacencia de un grafo $G.$ Entonces $a_{k}(i,j)$ es igual al n\'umero de caminos de longitud $k$ que van de $v_{i}$ a $v_{j}.$
+	Sea $A$ la matriz de adyacencia de un grafo $G.$ Entonces $a_{k}(i,j)$ es igual al número de caminos de longitud $k$ que van de $v_{i}$ a $v_{j}.$
 \end{prop}
 
 
@@ -229,7 +229,7 @@ Observe que $a_{2}(4,1)=1,$ de manera que existe un solo camino de longitud 2 de
 \begin{rem}
 	Si definimos 
 	$$B_{r}= \sum_{i=1}^{r}A^{i},$$
-	entonces la entrada $i,j$ de esta matriz nos indicar\'a el n\'umero de caminos de longitud a lo m\'as $r$ de $v_{i}$ a $v_{j}.$
+	entonces la entrada $i,j$ de esta matriz nos indicará el número de caminos de longitud a lo más $r$ de $v_{i}$ a $v_{j}.$
 \end{rem}
 
 
@@ -295,7 +295,7 @@ $$
 
 
 
-\begin{exmp}
+\begin{problema}
 	\label{lip:exmp:0908}
 	Para encontrar la matriz de accesibilidad asociada a la matriz de adyacencia $A,$ dada por \eqref{exmp:adj}, basta sustitur las entradas no nulas en la matriz $B_{4},$ dada por \eqref{B4}, por $1's:$
 	$$
@@ -307,6 +307,6 @@ $$
 		1 & 0 & 1 & 1
 	\end{array}\right)
 	$$
-\end{exmp}
+\end{problema}
 
 

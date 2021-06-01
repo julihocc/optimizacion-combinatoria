@@ -1,0 +1,82 @@
+\contentsline {chapter}{\numberline {1}Optimizacion y combinatoria}{1}{chapter.1}%
+\babel@toc {spanish}{}
+\contentsline {chapter}{\numberline {2}Matemáticas Discretas}{7}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Lógica y Cálculo Proposicional}{7}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Proposiciones y Declaraciones Compuestas}{7}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Proposiciones compuestas}{8}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Operaciones Lógicas Básicas}{8}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Conjunción $p \wedge q$}{8}{subsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.1.5}disyunción $p \vee q$}{9}{subsection.2.1.5}%
+\contentsline {subsection}{\numberline {2.1.6}Negación $\neg p$}{9}{subsection.2.1.6}%
+\contentsline {subsection}{\numberline {2.1.7}Proposiciones y Tablas de Verdad}{9}{subsection.2.1.7}%
+\contentsline {subsection}{\numberline {2.1.8}M\'etodo alternativo de construir una tabla de verdad}{10}{subsection.2.1.8}%
+\contentsline {subsection}{\numberline {2.1.9}Equivalencias Lógicas}{11}{subsection.2.1.9}%
+\contentsline {subsection}{\numberline {2.1.10}Sentencias condicionales y bicondicionales}{11}{subsection.2.1.10}%
+\contentsline {subsection}{\numberline {2.1.11}Argumentos}{13}{subsection.2.1.11}%
+\contentsline {subsection}{\numberline {2.1.12}Funciones proposicionales y Cuantificadores}{13}{subsection.2.1.12}%
+\contentsline {subsection}{\numberline {2.1.13}Cuantificador universal}{14}{subsection.2.1.13}%
+\contentsline {subsection}{\numberline {2.1.14}Cuantificador existencial}{15}{subsection.2.1.14}%
+\contentsline {subsection}{\numberline {2.1.15}Negación de Sentencias Cuantificadas}{15}{subsection.2.1.15}%
+\contentsline {subsection}{\numberline {2.1.16}Ejemplos Resueltos}{17}{subsection.2.1.16}%
+\contentsline {subsection}{\numberline {2.1.17}Proposiones y Tablas de Verdad}{17}{subsection.2.1.17}%
+\contentsline {subsection}{\numberline {2.1.18}Sentencias condicionales}{17}{subsection.2.1.18}%
+\contentsline {subsection}{\numberline {2.1.19}Argumentos}{18}{subsection.2.1.19}%
+\contentsline {subsection}{\numberline {2.1.20}Cuantificadores y Funciones Proposicionales}{18}{subsection.2.1.20}%
+\contentsline {subsection}{\numberline {2.1.21}Bibliografía}{19}{subsection.2.1.21}%
+\contentsline {section}{\numberline {2.2}Teoría de Conjuntos}{20}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Conjuntos y Elementos. Subconjuntos}{20}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Especificación de Conjuntos}{20}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Subconjuntos}{20}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Símbolos especiales}{21}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.5}Conjunto Universal y Conjunto Vacío}{22}{subsection.2.2.5}%
+\contentsline {subsection}{\numberline {2.2.6}Conjuntos disjuntos}{22}{subsection.2.2.6}%
+\contentsline {subsection}{\numberline {2.2.7}Diagramas de Venn}{22}{subsection.2.2.7}%
+\contentsline {subsection}{\numberline {2.2.8}Operaciones con Conjuntos}{22}{subsection.2.2.8}%
+\contentsline {subsection}{\numberline {2.2.9}Unión e Intersección}{23}{subsection.2.2.9}%
+\contentsline {subsection}{\numberline {2.2.10}Complementos, Diferencias y Diferencias Sim\'etricas}{24}{subsection.2.2.10}%
+\contentsline {subsection}{\numberline {2.2.11}Conjuntos fundamentales}{25}{subsection.2.2.11}%
+\contentsline {subsection}{\numberline {2.2.12}Álgebra de conjuntos, dualidad}{25}{subsection.2.2.12}%
+\contentsline {subsection}{\numberline {2.2.13}Inducción Matemática}{26}{subsection.2.2.13}%
+\contentsline {section}{\numberline {2.3}Inducción Matemática}{28}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Introducción}{28}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Notación ``Sigma''}{28}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Ejemplos Resueltos}{30}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Funciones definidas de manera recursiva}{30}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.5}La función factorial}{30}{subsection.2.3.5}%
+\contentsline {subsection}{\numberline {2.3.6}Suceción de Fibonacci}{31}{subsection.2.3.6}%
+\contentsline {subsection}{\numberline {2.3.7}La función de Ackermann}{32}{subsection.2.3.7}%
+\contentsline {subsection}{\numberline {2.3.8}Ejemplos Resueltos}{33}{subsection.2.3.8}%
+\contentsline {subsection}{\numberline {2.3.9}Ejemplos}{33}{subsection.2.3.9}%
+\contentsline {section}{\numberline {2.4}Relaciones}{34}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Producto de conjuntos}{34}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Relaciones}{35}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Ejemplos}{36}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}Composición de Relaciones}{37}{subsection.2.4.4}%
+\contentsline {subsection}{\numberline {2.4.5}Tipos de relaciones}{37}{subsection.2.4.5}%
+\contentsline {subsection}{\numberline {2.4.6}Relaciones reflexivas}{37}{subsection.2.4.6}%
+\contentsline {subsection}{\numberline {2.4.7}Relaciones sim\'etricas y antisim\'etricas}{38}{subsection.2.4.7}%
+\contentsline {subsection}{\numberline {2.4.8}Relación transitiva}{39}{subsection.2.4.8}%
+\contentsline {subsection}{\numberline {2.4.9}Relaciones de Equivalencia}{39}{subsection.2.4.9}%
+\contentsline {subsection}{\numberline {2.4.10}Particiones y clases de equivalencia}{40}{subsection.2.4.10}%
+\contentsline {subsection}{\numberline {2.4.11}Relaciones de orden parcial}{41}{subsection.2.4.11}%
+\contentsline {subsection}{\numberline {2.4.12}Funciones como relaciones}{42}{subsection.2.4.12}%
+\contentsline {subsection}{\numberline {2.4.13}Funciones, gráficas y relaciones}{42}{subsection.2.4.13}%
+\contentsline {subsection}{\numberline {2.4.14}Composición de Funciones}{44}{subsection.2.4.14}%
+\contentsline {subsection}{\numberline {2.4.15}Funciones inyectivas, suprayectivas e inversas}{44}{subsection.2.4.15}%
+\contentsline {subsection}{\numberline {2.4.16}Como encontrar funciones inversas}{45}{subsection.2.4.16}%
+\contentsline {subsection}{\numberline {2.4.17}Caracterización geom\'etrica}{46}{subsection.2.4.17}%
+\contentsline {subsection}{\numberline {2.4.18}Permutaciones}{47}{subsection.2.4.18}%
+\contentsline {chapter}{\numberline {3}Teoría de gráficos}{49}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Matrices}{49}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Operaciones elementales}{50}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Multiplicación}{51}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}Teoría general de grafos}{53}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Definición de grafo}{54}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Subgrafos y grafos homeomorfos e isomorfos}{55}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Caminos y conexidad}{56}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Grafos transitables y eulerianos}{59}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Matriz de adyacencia}{61}{subsection.3.2.5}%
+\contentsline {section}{\numberline {3.3}Digrafos}{62}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Grafos dirigidos}{62}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Matriz de adyacencia}{63}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Matriz de accesibilidad}{65}{subsection.3.3.3}%

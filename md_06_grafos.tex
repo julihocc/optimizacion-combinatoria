@@ -1,13 +1,13 @@
 
-\section{Teor\'ia general de grafos}
+\section{Teoría general de grafos}
 
 
-	En matem\'aticas, la \emph{teor\'ia de grafos} estudia estructuras matem\'aticas usadas para modelar relaciones por pares entre objetos. 
+	En matemáticas, la \emph{teoría de grafos} estudia estructuras matemáticas usadas para modelar relaciones por pares entre objetos. 
 
 
-\subsection{Definici\'on de grafo}
+\subsection{Definición de grafo}
 
-{Concepto de gr\'afo}
+{Concepto de gráfo}
 	Un \emph{grafo} $G$ consiste de:
 	\begin{enumerate}[(a)]
 		\item Un conjunto $V$ cuyos elementos son llamados \emph{v\'ertices,} puntos o nodos de $G.$
@@ -19,7 +19,7 @@
 
 
 	\begin{rem}
-		Debido a una ambig\"uedad en la traducci\'on del ingl\'es al espa\~nol, en ocasiones, a un grafo tambi\'en se le conoce como \emph{gr\'afica,} que se puede confundir con el concepto de teor\'ia de conjuntos. En este material, a veces utilizaremos \textit{gr\'afica,} pero debe entenderse como un grafo. 
+		Debido a una ambig\"uedad en la traducción del ingl\'es al espa\~nol, en ocasiones, a un grafo tambi\'en se le conoce como \emph{gráfica,} que se puede confundir con el concepto de teoría de conjuntos. En este material, a veces utilizaremos \textit{gráfica,} pero debe entenderse como un grafo. 
 	\end{rem}
 
 
@@ -40,7 +40,7 @@
 
 
 
-	Tales diagramas son llamados \emph{multigrafos;}  la definici\'on formal de grafo no admite aristas multiples ni bucles. 
+	Tales diagramas son llamados \emph{multigrafos;}  la definición formal de grafo no admite aristas multiples ni bucles. 
 
 
 
@@ -51,25 +51,25 @@
 
 
 {Grado de un v\'ertice}
-	El \emph{grado} de un v\'ertice $v$ es un grafo $G,$ denotado por $\deg(v),$ es igual al n\'umero de aristas in $G$ que contienen a $v,$ es decir, que \emph{inciden} en $v.$
+	El \emph{grado} de un v\'ertice $v$ es un grafo $G,$ denotado por $\deg(v),$ es igual al número de aristas in $G$ que contienen a $v,$ es decir, que \emph{inciden} en $v.$
 
 
 
 	Dado que cada arista incide en dos v\'ertices diferentes, tenemos el siguiente resultado simple pero importante:
 	\begin{thm}
-		La suma de los grados de los v\'ertices en un grafo $G$ es el doble del n\'umero de aristas. 
+		La suma de los grados de los v\'ertices en un grafo $G$ es el doble del número de aristas. 
 	\end{thm}
 	
 
 
 
-	\begin{exmp}
+	\begin{problema}
 		En el grafo de la figura \ref{fig:md0501}(a), tenemos que 
 		$$\deg(A)=2, \; \deg(B)=3,\; \deg(C)=3, \; \deg(D)=2.$$
 		
 		
-		La suma de los grados es igual a 10, que es dos veces el n\'umero de aristas. 
-	\end{exmp}
+		La suma de los grados es igual a 10, que es dos veces el número de aristas. 
+	\end{problema}
 	
 
 
@@ -84,21 +84,21 @@
 
 
 	\begin{rem}
-		Diremos que un vertice de grado cero est\'a \emph{aislado.}
+		Diremos que un vertice de grado cero está \emph{aislado.}
 	\end{rem}
 
 
-{Gr\'afos finitos y triviales}
-	Diremos que un grafo  es \emph{finito} si tiene un n\'umero finito de v\'ertices y un n\'umero finito de aristas. 
+{Gráfos finitos y triviales}
+	Diremos que un grafo  es \emph{finito} si tiene un número finito de v\'ertices y un número finito de aristas. 
 	
-	Observe que un n\'umero finito de v\'ertices implica un n\'umero finito de aristas; pero no lo contrario no es necesariamente cierto. 
+	Observe que un número finito de v\'ertices implica un número finito de aristas; pero no lo contrario no es necesariamente cierto. 
 	
-	Diremos que un grafo con un \'unico v\'ertice, sin aristas,  es \emph{trivial.}\
+	Diremos que un grafo con un único v\'ertice, sin aristas,  es \emph{trivial.}\
 
 
 
 	\begin{rem}
-		A menos que se indique de otra manera, s\'olo trataremos con grafos finitos. 
+		A menos que se indique de otra manera, sólo trataremos con grafos finitos. 
 	\end{rem}
 	
 
@@ -110,7 +110,7 @@
 
 
 {Subgrafos}
-	Consideremos un grafo $G(V,E).$ Diremos que otro grafo $H(V',E')$ es un \emph{subgrafo} de $G$ si los v\'ertices y aristas de $H$ est\'an contenidos en los v\'ertices y aristas de $G,$ es decir, 
+	Consideremos un grafo $G(V,E).$ Diremos que otro grafo $H(V',E')$ es un \emph{subgrafo} de $G$ si los v\'ertices y aristas de $H$ están contenidos en los v\'ertices y aristas de $G,$ es decir, 
 	$$
 	V'\subset V, \; E' \subset E.
 	$$
@@ -127,10 +127,10 @@
 
 
 {Grafos isomorfos}
-	Dos grafos $G(V,E)$ y $G^{*}(V^{*},E^{*})$ son llamados \emph{isomorfos} si existe una funci\'on biyectiva $f: V \to V^{*}$ tal que: $\set{u,v}$ es una arista de $G$ si y solo si $\set{f(u),f(v)}$ es una arista de $G^{*}.$
+	Dos grafos $G(V,E)$ y $G^{*}(V^{*},E^{*})$ son llamados \emph{isomorfos} si existe una función biyectiva $f: V \to V^{*}$ tal que: $\set{u,v}$ es una arista de $G$ si y solo si $\set{f(u),f(v)}$ es una arista de $G^{*}.$
 	 
 	
-	La idea es que estos grafos son equivalentes, a\'un cuando sus representaciones pueden lucir muy diferentes.
+	La idea es que estos grafos son equivalentes, aún cuando sus representaciones pueden lucir muy diferentes.
 
 
 
@@ -147,7 +147,7 @@
 {Grafos homeomorfos}
 	Dado un grafo $G,$ podemos obtener un nuevo grafo dividiendo una arista de $G$ con v\'ertices adicionales. 
 	
-	Dos grafos $G$ y $G^{*}$ son llamados \emph{homeomorfos} si pueden obtenerse de gr\'aficas isomorfas a trav\'es de este m\'etodo. 
+	Dos grafos $G$ y $G^{*}$ son llamados \emph{homeomorfos} si pueden obtenerse de gráficas isomorfas a trav\'es de este m\'etodo. 
 
 
 
@@ -165,7 +165,7 @@
 \subsection{Caminos y conexidad}
 
 
-	Un \emph{camino} en un (multi)grafo $G$ consiste en una sucesi\'on alternante de v\'ertices y arista de la forma
+	Un \emph{camino} en un (multi)grafo $G$ consiste en una sucesión alternante de v\'ertices y arista de la forma
 	$$
 	v_{0}, e_{1}, v_{1}, ..., e_{n-1}, v_{n-1}, e_{n}, v_{n}
 	$$
@@ -174,7 +174,7 @@
 
 
 	\begin{rem}
-		Observe que en grafo, podemos simplificar la notaci\'on para un camino, indicando s\'olo los v\'ertices que recorre:
+		Observe que en grafo, podemos simplificar la notación para un camino, indicando sólo los v\'ertices que recorre:
 		$$v_{0}, v_{1},..., v_{n}.$$ 
 	\end{rem}
 
@@ -188,7 +188,7 @@
 
 
 
-	La \emph{longitud} de un camino es igual a n\'umero de aristas en la sucesi\'on que lo define.
+	La \emph{longitud} de un camino es igual a número de aristas en la sucesión que lo define.
 	 
 
 
@@ -210,7 +210,7 @@
 
 
 
-	\begin{exmp}
+	\begin{problema}
 		\label{lip:exmp:8.1}
 		Consideremos el grafo \ref{fig:md0504}(a). Considere las siguientes sucesiones
 		\begin{align*}
@@ -220,7 +220,7 @@
 			\del&=\left( P_{4}, P_{1}, P_{5}, P_{3}, P_{6} \right).
 		\end{align*}
 		
-	\end{exmp}
+	\end{problema}
 	
 
 
@@ -257,11 +257,11 @@
 		\includegraphics[width=5cm,keepaspectratio=true]{./md/grafo_8_8_a.png}
 		% grafo_8_8_a.png: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb=
 	\end{figure}
-	$\del$ es un camino simple de $P_{4}$ a $P_{6},$ pero no es el camino m\'as corto, es decir, con el meno n\'umero de aristas. ?`Cu\'al es el camino m\'as corto?
+	$\del$ es un camino simple de $P_{4}$ a $P_{6},$ pero no es el camino más corto, es decir, con el meno número de aristas. ?`Cuál es el camino más corto?
 
 
 
-	Eliminando aristas innecesarias, no es dif\'icil ver que cualquier camino de $u$ a $v$ puede ser reemplazado por un camino simple.
+	Eliminando aristas innecesarias, no es difícil ver que cualquier camino de $u$ a $v$ puede ser reemplazado por un camino simple.
 	 
 	
 	Formalmente:
@@ -272,7 +272,7 @@
 
 
 {Conexidad y componentes conexas}
-	Un grafo $G$ es conexo si existe un camino entre cualesquiera dos v\'ertices.  Por ejemplo, el grafo \ref{fig:md0504}(a) es conexo, pero no as\'i el grafo \ref{fig:md0504}(b).
+	Un grafo $G$ es conexo si existe un camino entre cualesquiera dos v\'ertices.  Por ejemplo, el grafo \ref{fig:md0504}(a) es conexo, pero no así el grafo \ref{fig:md0504}(b).
 	\begin{figure}[h!]
 		\centering
 		\includegraphics[width=8cm,keepaspectratio=true]{./md/grafo_8_8.png}
@@ -282,7 +282,7 @@
 
 
 
-	Consideremos un grafo $G.$ Un subgrafo conexo $H$ de $G$ es llamado \emph{componente conexa} de $G$ si $H$ no est\'a contenido de manera propia en cualquier otro grafo conexo de $G.$ 
+	Consideremos un grafo $G.$ Un subgrafo conexo $H$ de $G$ es llamado \emph{componente conexa} de $G$ si $H$ no está contenido de manera propia en cualquier otro grafo conexo de $G.$ 
 	
 	Por ejemplo, el grafo \ref{fig:md0504}(b) tiene tres componentes conexas.
 	
@@ -296,15 +296,15 @@
 
 
 	\begin{rem}
-		Formalmente, permitiendo que un v\'ertice $u$ est\'e conectado consigo mismo, la relaci\'on \begin{center}
-			\texttt{$u$ est\'a conectado con $v$}                                                                                                                                                                                            \end{center}
-		es una relaci\'on de equivalencia en el conjunto de v\'ertices del grafo $G,$  y las clases de equivalencia de esta relaci\'on son las componentes conexas de $G.$
+		Formalmente, permitiendo que un v\'ertice $u$ est\'e conectado consigo mismo, la relación \begin{center}
+			\texttt{$u$ está conectado con $v$}                                                                                                                                                                                            \end{center}
+		es una relación de equivalencia en el conjunto de v\'ertices del grafo $G,$  y las clases de equivalencia de esta relación son las componentes conexas de $G.$
 	\end{rem}
 	
 
 
 {Distancia y diametro}
-	Consideremos un grafo conexo $G.$ La distancia entre  dos v\'ertices $u$ y $v$ en $G,$ denotada por $d(u,v),$ es la longitud del camino m\'as corto entre $u$ y $v.$ E\~n diametro de $G,$ escrito $diam(G),$ es la distancia m\'axima entre cualesquiera dos puntos en $G.$ 
+	Consideremos un grafo conexo $G.$ La distancia entre  dos v\'ertices $u$ y $v$ en $G,$ denotada por $d(u,v),$ es la longitud del camino más corto entre $u$ y $v.$ E\~n diametro de $G,$ escrito $diam(G),$ es la distancia máxima entre cualesquiera dos puntos en $G.$ 
 
 
 
@@ -337,15 +337,15 @@
 		\centering
 		\includegraphics[width=10cm,keepaspectratio=true]{./md/grafo_8_10.png}
 		% grafo_8_10.png: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb=
-		\caption{Puentes de K\"onigsberg y su representaci\'on}
+		\caption{Puentes de K\"onigsberg y su representación}
 		\label{fig:md0506}
 	\end{figure}
 
 
 
-	Un multigrafo es llamado \emph{transitable} si existe un \emph{paseo} (un camino d\'onde todos las aristas son diferentes), que incluye \emph{todos los v\'ertices y todas las aristas.}
+	Un multigrafo es llamado \emph{transitable} si existe un \emph{paseo} (un camino dónde todos las aristas son diferentes), que incluye \emph{todos los v\'ertices y todas las aristas.}
 	
-	Tal paseo ser\'a llamado  \emph{paseo transitable}. 
+	Tal paseo será llamado  \emph{paseo transitable}. 
 	
 	
 	\begin{rem}
@@ -375,7 +375,7 @@
 
 
 {Grafos hamiltonianos}
-	En la definici\'on de grafos Eulerianos se enfatiz\'o pasar por todas las aristas. 
+	En la definición de grafos Eulerianos se enfatizó pasar por todas las aristas. 
 	
 	
 	Ahora, nos enfocaremos en visitar todos los v\'ertices. 
@@ -389,7 +389,7 @@
 	
 	
 	\begin{rem}
-		En la definici\'on de circuito Hamiltoniano, cuando decimos que el camino \emph{visita} cada v\'ertice exactamente una vez significa que, aunque el v\'ertice inicial tiene que ser el mismo que el final, todos los dem\'as v\'ertices intermedios deben ser distintos.
+		En la definición de circuito Hamiltoniano, cuando decimos que el camino \emph{visita} cada v\'ertice exactamente una vez significa que, aunque el v\'ertice inicial tiene que ser el mismo que el final, todos los demás v\'ertices intermedios deben ser distintos.
 	\end{rem}
 	
 
@@ -424,12 +424,12 @@
 \subsection{Matriz de adyacencia}
 
 
-	Supongamos que $G$ es un gr\'afo con $m$ v\'ertices y que estos han sido ordenados:
+	Supongamos que $G$ es un gráfo con $m$ v\'ertices y que estos han sido ordenados:
 	$$
 	v_{1}, v_{2},...,v_{m}.
 	$$
 	
-	Entonces, la \emph{matriz de adyacencia} $A=\left( a_{i,j} \right)$ del grafo $G$ es la matriz de dimensi\'on $m\times m$ definida por:
+	Entonces, la \emph{matriz de adyacencia} $A=\left( a_{i,j} \right)$ del grafo $G$ es la matriz de dimensión $m\times m$ definida por:
 	$$a_{i,j}=
 	\begin{cases}
 		1 & v_{i}\texttt{ es adyacente a }v_{j}\\

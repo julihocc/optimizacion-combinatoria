@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.5.25)  31 MAY 2021 16:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.5.25)  31 MAY 2021 16:44
 entering extended mode
 **./__main__.tex
 (__main__.tex
@@ -1078,252 +1078,48 @@ LaTeX Info: Redefining \% on input line 1.
 
 ]
 Cap\'{\i }tulo 1
-(md_01_logica.tex
-LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 
-5.
-
-(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmtt.fd
-File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [5]
-Overfull \hbox (52.86098pt too wide) in paragraph at lines 110--111
-[]\OT1/lmr/m/n/10 Construimos la ta-bla de ver-dad de la con-jun-cion en el si
--guien-te scritp []https://goo.gl/hEF5os[] 
- []
-
-<./md/MD01_TDV01_AND.png, id=181, 150.5625pt x 150.5625pt>
-File: ./md/MD01_TDV01_AND.png Graphic file (type png)
-<use ./md/MD01_TDV01_AND.png>
-Package pdftex.def Info: ./md/MD01_TDV01_AND.png  used on input line 112.
-(pdftex.def)             Requested size: 142.27771pt x 142.26378pt.
-
-Overfull \hbox (50.63873pt too wide) in paragraph at lines 165--166
-[]\OT1/lmr/m/n/10 Construimos la ta-bla de ver-dad de la dis-jun-cion en el si
--guien-te scritp []https://goo.gl/5kXzNI[] 
- []
-
-<./md/MD01_TDV02_OR.png, id=183, 150.5625pt x 150.5625pt>
-File: ./md/MD01_TDV02_OR.png Graphic file (type png)
-<use ./md/MD01_TDV02_OR.png>
-Package pdftex.def Info: ./md/MD01_TDV02_OR.png  used on input line 167.
-(pdftex.def)             Requested size: 142.27771pt x 142.26378pt.
-[6 <./md/MD01_TDV01_AND.png>]
-Overfull \hbox (49.02722pt too wide) in paragraph at lines 212--213
-[]\OT1/lmr/m/n/10 Construimos la ta-bla de ver-dad de la dis-jun-cion en el si
--guien-te scritp []https://goo.gl/sgCfkC[] 
- []
-
-<./md/MD01_TDV03_NOT.png, id=197, 150.5625pt x 150.5625pt>
-File: ./md/MD01_TDV03_NOT.png Graphic file (type png)
-<use ./md/MD01_TDV03_NOT.png>
-Package pdftex.def Info: ./md/MD01_TDV03_NOT.png  used on input line 214.
-(pdftex.def)             Requested size: 142.27771pt x 142.26378pt.
-[7 <./md/MD01_TDV02_OR.png> <./md/MD01_TDV03_NOT.png>]
-<./md/MD01_TDV04.png, id=208, 150.5625pt x 150.5625pt>
-File: ./md/MD01_TDV04.png Graphic file (type png)
-<use ./md/MD01_TDV04.png>
-Package pdftex.def Info: ./md/MD01_TDV04.png  used on input line 247.
-(pdftex.def)             Requested size: 142.27771pt x 142.26378pt.
-
-Overfull \hbox (24.52965pt too wide) in paragraph at lines 255--262
-[][][]\OT1/lmr/m/sc/10 Tabla de Ver-dad \OT1/lmr/m/n/10 4 ($\OMS/lmsy/m/n/10 : 
-[]$\OT1/lmr/m/n/10 )\OT1/lmr/m/sc/10 . [][] 
- []
-
-[8 <./md/MD01_TDV04.png>]
-Overfull \hbox (1.24886pt too wide) in paragraph at lines 316--317
- \OT1/lmr/bx/n/10 1.9. Tau-to-log[]as y Con-tra-dic-cio-nes.[] \OT1/lmr/m/n/10
- Al-gu-nas pro-po-si-cio-nes $\OML/lmm/m/it/10 P\OT1/lmr/m/n/10 (\OML/lmm/m/it/
-10 p; q; :::\OT1/lmr/m/n/10 )$ son
- []
-
-<md/tabla_4-1.png, id=222, 782.17218pt x 276.28218pt>
-File: md/tabla_4-1.png Graphic file (type png)
-<use md/tabla_4-1.png>
-Package pdftex.def Info: md/tabla_4-1.png  used on input line 374.
-(pdftex.def)             Requested size: 251.9989pt x 89.01073pt.
-[9 <./md/tabla_4-1.png>] [10]
-<md/tabla_silogismo.png, id=257, 914.66719pt x 377.15906pt>
-File: md/tabla_silogismo.png Graphic file (type png)
-<use md/tabla_silogismo.png>
-Package pdftex.def Info: md/tabla_silogismo.png  used on input line 519.
-(pdftex.def)             Requested size: 251.9989pt x 103.9061pt.
- [11 <./md/tabla_silogismo.png>] [12]
-
-LaTeX Warning: Reference `fig:tabla:4.1' on page 13 undefined on input line 803
-.
-
-[13]
-Overfull \hbox (59.66707pt too wide) in paragraph at lines 917--922
- [] 
- []
-
-[14]
-LaTeX Font Info:    Font shape `OT1/lmtt/bx/n' in size <10> not available
-(Font)              Font shape `OT1/lmtt/b/n' tried instead on input line 998.
-) (md_02_conjuntos.tex [15] [16]
-<./md/venn01.png, id=377, 938.00438pt x 205.5178pt>
-File: ./md/venn01.png Graphic file (type png)
-<use ./md/venn01.png>
-Package pdftex.def Info: ./md/venn01.png  used on input line 203.
-(pdftex.def)             Requested size: 312.9803pt x 68.5737pt.
-
-Overfull \hbox (1.78787pt too wide) in paragraph at lines 214--215
- \OT1/lmr/bx/n/10 2.8. Ope-ra-cio-nes con Con-jun-tos.[] \OT1/lmr/m/n/10 En es-
-ta sec-cion in-tro-du-ci-re-mos la union,
- []
-
-<./md/venn_union_interseccion.png, id=378, 929.72343pt x 306.39468pt>
-File: ./md/venn_union_interseccion.png Graphic file (type png)
-<use ./md/venn_union_interseccion.png>
-Package pdftex.def Info: ./md/venn_union_interseccion.png  used on input line 2
-36.
-(pdftex.def)             Requested size: 284.52756pt x 93.76581pt.
-[17 <./md/venn01.png>]
-<./md/venn_complemento.png, id=393, 950.80219pt x 211.54031pt>
-File: ./md/venn_complemento.png Graphic file (type png)
-<use ./md/venn_complemento.png>
-Package pdftex.def Info: ./md/venn_complemento.png  used on input line 340.
-(pdftex.def)             Requested size: 284.52756pt x 63.30441pt.
- [18 <./md/venn_union_interseccion.png>]
-<./md/sistema_fundamental.png, id=410, 811.53188pt x 341.77687pt>
-File: ./md/sistema_fundamental.png Graphic file (type png)
-<use ./md/sistema_fundamental.png>
-Package pdftex.def Info: ./md/sistema_fundamental.png  used on input line 425.
-(pdftex.def)             Requested size: 284.52756pt x 119.83229pt.
-<./md/leyes_conjuntos.png, id=411, 764.10469pt x 243.15843pt>
-File: ./md/leyes_conjuntos.png Graphic file (type png)
-<use ./md/leyes_conjuntos.png>
-Package pdftex.def Info: ./md/leyes_conjuntos.png  used on input line 442.
-(pdftex.def)             Requested size: 312.9803pt x 99.59912pt.
- [19 <./md/venn_complemento.png>] [20 <./md/sistema_fundamental.png> <./md/leye
-s_conjuntos.png>]) (md_03_funciones.tex [21] [22] [23] [24]
-Overfull \hbox (4.14153pt too wide) in paragraph at lines 400--402
-[][][]\OT1/lmr/m/sc/10 Ejemplo \OT1/lmr/m/n/10 3.11\OT1/lmr/m/sc/10 . []\OT1/lm
-r/m/n/10 De-mues-tre por in-duc-cion que $1[] + 2[] + \OML/lmm/m/it/10 ::: \OT
-1/lmr/m/n/10 + \OML/lmm/m/it/10 n[] \OT1/lmr/m/n/10 = []$ 
- []
-
-[25]
-Overfull \hbox (17.36731pt too wide) in paragraph at lines 407--409
-[][][]\OT1/lmr/m/sc/10 Ejemplo \OT1/lmr/m/n/10 3.12\OT1/lmr/m/sc/10 . []\OT1/lm
-r/m/n/10 De-mues-tre por in-duc-cion que $[] + [] + \OML/lmm/m/it/10 ::: \OT1/
-lmr/m/n/10 + [] =
- []
-
-
-Overfull \hbox (17.36731pt too wide) in paragraph at lines 414--416
-[][][]\OT1/lmr/m/sc/10 Ejemplo \OT1/lmr/m/n/10 3.13\OT1/lmr/m/sc/10 . []\OT1/lm
-r/m/n/10 De-mues-tre por in-duc-cion que $[] + [] + \OML/lmm/m/it/10 ::: \OT1/
-lmr/m/n/10 + [] =
- []
-
-) (md_04_relaciones.tex [26]
-LaTeX Font Info:    Trying to load font information for U+euf on input line 149
-.
-
-(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\ueuf.fd
-File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
-)
-[27] [28]
-
-LaTeX Warning: Reference `lip:exmp:2.5' on page 29 undefined on input line 334.
-
-
-
-LaTeX Warning: Reference `lip:exmp:2.6' on page 29 undefined on input line 335.
-
-
-[29]
-
-LaTeX Warning: Reference `lip:exmp:2.5' on page 30 undefined on input line 355.
-
-
-
-LaTeX Warning: Reference `lip:exmp:2.6' on page 30 undefined on input line 356.
-
-
-
-LaTeX Warning: Reference `lip:exmp:2.5' on page 30 undefined on input line 389.
-
-
-
-LaTeX Warning: Reference `lip:exmp:2.6' on page 30 undefined on input line 390.
-
-
-[30] [31] [32] [33]
-<./md/MD02_IM01.png, id=640, 933.4875pt x 258.21469pt>
-File: ./md/MD02_IM01.png Graphic file (type png)
-<use ./md/MD02_IM01.png>
-Package pdftex.def Info: ./md/MD02_IM01.png  used on input line 846.
-(pdftex.def)             Requested size: 284.52756pt x 78.70216pt.
- [34 <./md/MD02_IM01.png>]
-<./md/IMG-04_resticcion.png, id=662, 566.5968pt x 421.3341pt>
-File: ./md/IMG-04_resticcion.png Graphic file (type png)
-<use ./md/IMG-04_resticcion.png>
-Package pdftex.def Info: ./md/IMG-04_resticcion.png  used on input line 877.
-(pdftex.def)             Requested size: 227.62204pt x 169.26357pt.
-<./md/MD02_sqrt_x-2.png, id=663, 421.575pt x 418.56375pt>
-File: ./md/MD02_sqrt_x-2.png Graphic file (type png)
-<use ./md/MD02_sqrt_x-2.png>
-Package pdftex.def Info: ./md/MD02_sqrt_x-2.png  used on input line 929.
-(pdftex.def)             Requested size: 229.25528pt x 227.62204pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[35 <./md/IMG-04_resticcion.png>]
-<./md/MD02_IM02.png, id=679, 952.30782pt x 295.85532pt>
-File: ./md/MD02_IM02.png Graphic file (type png)
-<use ./md/MD02_IM02.png>
-Package pdftex.def Info: ./md/MD02_IM02.png  used on input line 976.
-(pdftex.def)             Requested size: 284.52756pt x 88.39612pt.
- [36 <./md/MD02_sqrt_x-2.png> <./md/MD02_IM02.png>]) [37] [38
-
-
-]
-Cap\'{\i }tulo 2
-(md_05_matrices.tex [39]pdfTeX warning (ext4): destination with the same identi
-fier (name{equation.2.1.13}) has been already used, duplicate ignored
+(md_05_matrices.tex [5]pdfTeX warning (ext4): destination with the same identif
+ier (name{equation.1.1.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.137 	\begin{equation}
                        pdfTeX warning (ext4): destination with the same identif
-ier (name{equation.2.1.13}) has been already used, duplicate ignored
+ier (name{equation.1.1.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.137 	\begin{equation}
                        pdfTeX warning (ext4): destination with the same identif
-ier (name{equation.2.1.13}) has been already used, duplicate ignored
+ier (name{equation.1.1.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.137 	\begin{equation}
                        pdfTeX warning (ext4): destination with the same identif
-ier (name{equation.2.1.13}) has been already used, duplicate ignored
+ier (name{equation.1.1.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.137 	\begin{equation}
                        pdfTeX warning (ext4): destination with the same identif
-ier (name{equation.2.1.13}) has been already used, duplicate ignored
+ier (name{equation.1.1.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.186 	\begin{equation}
                        pdfTeX warning (ext4): destination with the same identif
-ier (name{equation.2.1.13}) has been already used, duplicate ignored
+ier (name{equation.1.1.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.186 	\begin{equation}
                        pdfTeX warning (ext4): destination with the same identif
-ier (name{equation.2.1.13}) has been already used, duplicate ignored
+ier (name{equation.1.1.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.186 	\begin{equation}
                        pdfTeX warning (ext4): destination with the same identif
-ier (name{equation.2.1.13}) has been already used, duplicate ignored
+ier (name{equation.1.1.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.186 	\begin{equation}
-                        [40] [41]) (md_06_grafos.tex
-<./md/grafos.png, id=732, 875.52094pt x 349.305pt>
+                        [6] [7]) (md_06_grafos.tex
+<./md/grafos.png, id=199, 875.52094pt x 349.305pt>
 File: ./md/grafos.png Graphic file (type png)
 <use ./md/grafos.png>
 Package pdftex.def Info: ./md/grafos.png  used on input line 29.
@@ -1332,24 +1128,24 @@ Package pdftex.def Info: ./md/grafos.png  used on input line 29.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[42] [43 <./md/grafos.png>]
-<./md/letras.png, id=759, 904.1278pt x 303.38344pt>
+[8] [9 <./md/grafos.png>]
+<./md/letras.png, id=225, 904.1278pt x 303.38344pt>
 File: ./md/letras.png Graphic file (type png)
 <use ./md/letras.png>
 Package pdftex.def Info: ./md/letras.png  used on input line 139.
 (pdftex.def)             Requested size: 284.52756pt x 95.4737pt.
-<./md/homomorfas.png, id=760, 921.4425pt x 314.67563pt>
+<./md/homomorfas.png, id=226, 921.4425pt x 314.67563pt>
 File: ./md/homomorfas.png Graphic file (type png)
 <use ./md/homomorfas.png>
 Package pdftex.def Info: ./md/homomorfas.png  used on input line 156.
 (pdftex.def)             Requested size: 227.62204pt x 77.7324pt.
- [44 <./md/letras.png> <./md/homomorfas.png>]
-<./md/grafo_8_8.png, id=772, 907.13907pt x 328.22626pt>
+ [10 <./md/letras.png> <./md/homomorfas.png>]
+<./md/grafo_8_8.png, id=238, 907.13907pt x 328.22626pt>
 File: ./md/grafo_8_8.png Graphic file (type png)
 <use ./md/grafo_8_8.png>
 Package pdftex.def Info: ./md/grafo_8_8.png  used on input line 205.
 (pdftex.def)             Requested size: 284.52756pt x 102.94608pt.
-<./md/grafo_8_8_a.png, id=774, 609.02531pt x 413.29407pt>
+<./md/grafo_8_8_a.png, id=240, 609.02531pt x 413.29407pt>
 File: ./md/grafo_8_8_a.png Graphic file (type png)
 <use ./md/grafo_8_8_a.png>
 Package pdftex.def Info: ./md/grafo_8_8_a.png  used on input line 230.
@@ -1380,7 +1176,7 @@ File: ./md/grafo_8_8.png Graphic file (type png)
 <use ./md/grafo_8_8.png>
 Package pdftex.def Info: ./md/grafo_8_8.png  used on input line 278.
 (pdftex.def)             Requested size: 227.62204pt x 82.35686pt.
-[45 <./md/grafo_8_8.png> <./md/grafo_8_8_a.png>]
+[11 <./md/grafo_8_8.png> <./md/grafo_8_8_a.png>]
 File: ./md/grafo_8_8.png Graphic file (type png)
 <use ./md/grafo_8_8.png>
 Package pdftex.def Info: ./md/grafo_8_8.png  used on input line 291.
@@ -1389,18 +1185,22 @@ Package pdftex.def Info: ./md/grafo_8_8.png  used on input line 291.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[46]
-<./md/grafo_8_9.png, id=790, 907.13907pt x 266.49562pt>
+LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 
+300.
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmtt.fd
+File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) [12]
+<./md/grafo_8_9.png, id=257, 907.13907pt x 266.49562pt>
 File: ./md/grafo_8_9.png Graphic file (type png)
 <use ./md/grafo_8_9.png>
 Package pdftex.def Info: ./md/grafo_8_9.png  used on input line 313.
 (pdftex.def)             Requested size: 284.52756pt x 83.58464pt.
-<./md/fig0809.png, id=792, 796.47563pt x 245.41687pt>
+<./md/fig0809.png, id=259, 796.47563pt x 245.41687pt>
 File: ./md/fig0809.png Graphic file (type png)
 <use ./md/fig0809.png>
 Package pdftex.def Info: ./md/fig0809.png  used on input line 326.
 (pdftex.def)             Requested size: 277.02058pt x 85.35826pt.
-<./md/grafo_8_10.png, id=793, 911.65594pt x 285.31593pt>
+<./md/grafo_8_10.png, id=260, 911.65594pt x 285.31593pt>
 File: ./md/grafo_8_10.png Graphic file (type png)
 <use ./md/grafo_8_10.png>
 Package pdftex.def Info: ./md/grafo_8_10.png  used on input line 338.
@@ -1409,20 +1209,20 @@ Package pdftex.def Info: ./md/grafo_8_10.png  used on input line 338.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[47 <./md/grafo_8_9.png> <./md/fig0809.png>]
-<./md/grafo_8_11.png, id=802, 935.74594pt x 271.0125pt>
+[13 <./md/grafo_8_9.png> <./md/fig0809.png>]
+<./md/grafo_8_11.png, id=270, 935.74594pt x 271.0125pt>
 File: ./md/grafo_8_11.png Graphic file (type png)
 <use ./md/grafo_8_11.png>
 Package pdftex.def Info: ./md/grafo_8_11.png  used on input line 415.
 (pdftex.def)             Requested size: 284.52756pt x 82.40436pt.
- [48 <./md/grafo_8_10.png> <./md/grafo_8_11.png>]
-<./md/fig0827.png, id=814, 892.83563pt x 322.20375pt>
+ [14 <./md/grafo_8_10.png> <./md/grafo_8_11.png>]
+<./md/fig0827.png, id=282, 892.83563pt x 322.20375pt>
 File: ./md/fig0827.png Graphic file (type png)
 <use ./md/fig0827.png>
 Package pdftex.def Info: ./md/fig0827.png  used on input line 444.
 (pdftex.def)             Requested size: 284.52756pt x 102.67957pt.
 ) (md_07_digrafos.tex
-<./md/fig0901a.png, id=815, 545.78906pt x 343.2825pt>
+<./md/fig0901a.png, id=283, 545.78906pt x 343.2825pt>
 File: ./md/fig0901a.png Graphic file (type png)
 <use ./md/fig0901a.png>
 Package pdftex.def Info: ./md/fig0901a.png  used on input line 43.
@@ -1431,7 +1231,7 @@ Package pdftex.def Info: ./md/fig0901a.png  used on input line 43.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./md/fig0901b.png, id=816, 413.29407pt x 350.81062pt>
+<./md/fig0901b.png, id=284, 413.29407pt x 350.81062pt>
 File: ./md/fig0901b.png Graphic file (type png)
 <use ./md/fig0901b.png>
 Package pdftex.def Info: ./md/fig0901b.png  used on input line 57.
@@ -1439,8 +1239,8 @@ Package pdftex.def Info: ./md/fig0901b.png  used on input line 57.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[49 <./md/fig0827.png>]
-<./md/fig0904a.png, id=829, 627.84563pt x 381.67593pt>
+[15 <./md/fig0827.png>]
+<./md/fig0904a.png, id=296, 627.84563pt x 381.67593pt>
 File: ./md/fig0904a.png Graphic file (type png)
 <use ./md/fig0904a.png>
 Package pdftex.def Info: ./md/fig0904a.png  used on input line 102.
@@ -1449,28 +1249,28 @@ Package pdftex.def Info: ./md/fig0904a.png  used on input line 102.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[50 <./md/fig0901a.png> <./md/fig0901b.png>]
+[16 <./md/fig0901a.png> <./md/fig0901b.png>]
 File: ./md/fig0904a.png Graphic file (type png)
 <use ./md/fig0904a.png>
 Package pdftex.def Info: ./md/fig0904a.png  used on input line 177.
 (pdftex.def)             Requested size: 140.40652pt x 85.35826pt.
- [51 <./md/fig0904a.png>]pdfTeX warning (ext4): destination with the same ident
-ifier (name{equation.2.3.13}) has been already used, duplicate ignored
+ [17 <./md/fig0904a.png>]pdfTeX warning (ext4): destination with the same ident
+ifier (name{equation.1.3.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.238 \begin{equation}
                       pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.2.3.13}) has been already used, duplicate ignored
+er (name{equation.1.3.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.238 \begin{equation}
                       pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.2.3.13}) has been already used, duplicate ignored
+er (name{equation.1.3.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.238 \begin{equation}
                       pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.2.3.13}) has been already used, duplicate ignored
+er (name{equation.1.3.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.238 \begin{equation}
@@ -1482,13 +1282,220 @@ bi-li-dad \OT1/lmr/m/n/10 de $\OML/lmm/m/it/10 G$ \OT1/lmr/m/n/10 es la ma-triz
  $\OML/lmm/m/it/10 m\OMS/lmsy/m/n/10  $\OT1/lmr/m/n/10 cuadrangular
  []
 
-[52]) [53] (__main__.aux
+[18]) [19] [20
+
+
+]
+Cap\'{\i }tulo 2
+(pe-01 Fundamentos de Probabilidad.tex
+<./pe/pands0101.png, id=342, 557.83406pt x 392.21532pt>
+File: ./pe/pands0101.png Graphic file (type png)
+<use ./pe/pands0101.png>
+Package pdftex.def Info: ./pe/pands0101.png  used on input line 80.
+(pdftex.def)             Requested size: 142.26378pt x 100.02255pt.
+ [21]
+<./pe/pands0102.png, id=356, 364.36125pt x 296.60812pt>
+File: ./pe/pands0102.png Graphic file (type png)
+<use ./pe/pands0102.png>
+Package pdftex.def Info: ./pe/pands0102.png  used on input line 112.
+(pdftex.def)             Requested size: 104.8559pt x 85.35826pt.
+ [22 <./pe/pands0101.png> <./pe/pands0102.png>] [23] [24]
+<./pe/pands0103.png, id=415, 688.07062pt x 376.40625pt>
+File: ./pe/pands0103.png Graphic file (type png)
+<use ./pe/pands0103.png>
+Package pdftex.def Info: ./pe/pands0103.png  used on input line 507.
+(pdftex.def)             Requested size: 142.26378pt x 77.82428pt.
+ [25 <./pe/pands0103.png>] [26] [27])
+(pe-02 Variables Aletorias.tex [28]
+\'{I}ndice general
+(__main__.toc)
+\tf@toc=\write7
+\openout7 = `__main__.toc'.
+
+ [29
+
+
+] [30]
+<./pe/pands0201.png, id=499, 592.46344pt x 473.51906pt>
+File: ./pe/pands0201.png Graphic file (type png)
+<use ./pe/pands0201.png>
+Package pdftex.def Info: ./pe/pands0201.png  used on input line 110.
+(pdftex.def)             Requested size: 249.19455pt x 199.16928pt.
+<./pe/pands0206.png, id=501, 749.80125pt x 295.85532pt>
+File: ./pe/pands0206.png Graphic file (type png)
+<use ./pe/pands0206.png>
+Package pdftex.def Info: ./pe/pands0206.png  used on input line 149.
+(pdftex.def)             Requested size: 284.52756pt x 112.26817pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./pe/pands0207.png, id=503, 784.43062pt x 309.40594pt>
+File: ./pe/pands0207.png Graphic file (type png)
+<use ./pe/pands0207.png>
+Package pdftex.def Info: ./pe/pands0207.png  used on input line 169.
+(pdftex.def)             Requested size: 284.52756pt x 112.22641pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[31 <./pe/pands0201.png>] [32 <./pe/pands0206.png> <./pe/pands0207.png>]
+<./pe/pands0202.png, id=533, 777.65532pt x 408.02437pt>
+File: ./pe/pands0202.png Graphic file (type png)
+<use ./pe/pands0202.png>
+Package pdftex.def Info: ./pe/pands0202.png  used on input line 327.
+(pdftex.def)             Requested size: 271.13922pt x 142.26378pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./pe/pands0203.png, id=534, 715.92468pt x 371.13657pt>
+File: ./pe/pands0203.png Graphic file (type png)
+<use ./pe/pands0203.png>
+Package pdftex.def Info: ./pe/pands0203.png  used on input line 337.
+(pdftex.def)             Requested size: 274.42473pt x 142.26378pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[33]
+<./pe/tab0203.png, id=556, 794.97pt x 354.57469pt>
+File: ./pe/tab0203.png Graphic file (type png)
+<use ./pe/tab0203.png>
+Package pdftex.def Info: ./pe/tab0203.png  used on input line 378.
+(pdftex.def)             Requested size: 318.96492pt x 142.26378pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[34 <./pe/pands0202.png> <./pe/pands0203.png>]
+<./pe/pands0204.png, id=566, 770.12718pt x 366.61969pt>
+File: ./pe/pands0204.png Graphic file (type png)
+<use ./pe/pands0204.png>
+Package pdftex.def Info: ./pe/pands0204.png  used on input line 443.
+(pdftex.def)             Requested size: 179.29948pt x 85.35826pt.
+ [35 <./pe/tab0203.png> <./pe/pands0204.png>] [36]
+<./pe/tab0206.png, id=594, 800.9925pt x 411.78844pt>
+File: ./pe/tab0206.png Graphic file (type png)
+<use ./pe/tab0206.png>
+Package pdftex.def Info: ./pe/tab0206.png  used on input line 567.
+(pdftex.def)             Requested size: 284.52756pt x 146.27702pt.
+ [37 <./pe/tab0206.png>]
+<./pe/pands0209.png, id=617, 572.89032pt x 405.01312pt>
+File: ./pe/pands0209.png Graphic file (type png)
+<use ./pe/pands0209.png>
+Package pdftex.def Info: ./pe/pands0209.png  used on input line 623.
+(pdftex.def)             Requested size: 284.52756pt x 201.15263pt.
+<./pe/pands0210.png, id=619, 371.88937pt x 357.58594pt>
+File: ./pe/pands0210.png Graphic file (type png)
+<use ./pe/pands0210.png>
+Package pdftex.def Info: ./pe/pands0210.png  used on input line 638.
+(pdftex.def)             Requested size: 236.72592pt x 227.62204pt.
+ [38 <./pe/pands0209.png> <./pe/pands0210.png>] [39]
+<./pe/pands0217.png, id=649, 371.13657pt x 368.1253pt>
+File: ./pe/pands0217.png Graphic file (type png)
+<use ./pe/pands0217.png>
+Package pdftex.def Info: ./pe/pands0217.png  used on input line 768.
+(pdftex.def)             Requested size: 200.8015pt x 199.16928pt.
+) (pe-03 Esperanza Matemática.tex [40 <./pe/pands0217.png>]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 7
+4.
+
+(C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) [41]
+Overfull \hbox (32.14853pt too wide) in paragraph at lines 143--144
+[][][]\OT1/lmr/m/sc/10 Ejemplo \OT1/lmr/m/n/10 12.4\OT1/lmr/m/sc/10 . []\OT1/lm
+r/m/n/10 Si $\OML/lmm/m/it/10 X$ \OT1/lmr/m/n/10 es la va-ria-ble alea-to-ria d
+el ejem-plo []12.3[], en-cuen-tre $\OML/lmm/m/it/10 E [] :$ 
+ []
+
+[42]
+<./pe/pands0301.png, id=687, 658.71094pt x 360.59718pt>
+File: ./pe/pands0301.png Graphic file (type png)
+<use ./pe/pands0301.png>
+Package pdftex.def Info: ./pe/pands0301.png  used on input line 288.
+(pdftex.def)             Requested size: 259.87135pt x 142.26378pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[43] [44 <./pe/pands0301.png>] [45]) (pe-04 Distribuciones.tex [46] [47]
+<./pe/distBin01.png, id=777, 376.40625pt x 256.96pt>
+File: ./pe/distBin01.png Graphic file (type png)
+<use ./pe/distBin01.png>
+Package pdftex.def Info: ./pe/distBin01.png  used on input line 116.
+(pdftex.def)             Requested size: 291.75777pt x 199.16928pt.
+
+[48 <./pe/distBin01.png>] [49]
+<./pe/norm1.png, id=799, 350.30875pt x 251.94125pt>
+File: ./pe/norm1.png Graphic file (type png)
+<use ./pe/norm1.png>
+Package pdftex.def Info: ./pe/norm1.png  used on input line 214.
+(pdftex.def)             Requested size: 197.8072pt x 142.26378pt.
+<./pe/norm2.png, id=800, 350.30875pt x 251.94125pt>
+File: ./pe/norm2.png Graphic file (type png)
+<use ./pe/norm2.png>
+Package pdftex.def Info: ./pe/norm2.png  used on input line 226.
+(pdftex.def)             Requested size: 197.8072pt x 142.26378pt.
+<./pe/norm3.png, id=801, 350.30875pt x 251.94125pt>
+File: ./pe/norm3.png Graphic file (type png)
+<use ./pe/norm3.png>
+Package pdftex.def Info: ./pe/norm3.png  used on input line 238.
+(pdftex.def)             Requested size: 197.8072pt x 142.26378pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./pe/norm4.png, id=802, 361.35pt x 251.94125pt>
+File: ./pe/norm4.png Graphic file (type png)
+<use ./pe/norm4.png>
+Package pdftex.def Info: ./pe/norm4.png  used on input line 250.
+(pdftex.def)             Requested size: 204.04182pt x 142.26378pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[50 <./pe/norm1.png> <./pe/norm2.png>]
+<./pe/normCDF.png, id=809, 373.395pt x 256.96pt>
+File: ./pe/normCDF.png Graphic file (type png)
+<use ./pe/normCDF.png>
+Package pdftex.def Info: ./pe/normCDF.png  used on input line 285.
+(pdftex.def)             Requested size: 206.7296pt x 142.26378pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [51 <./pe/norm3.png> <./pe/norm4.png>]
+<./pe/relBinNorm.png, id=816, 398.48875pt x 256.96pt>
+File: ./pe/relBinNorm.png Graphic file (type png)
+<use ./pe/relBinNorm.png>
+Package pdftex.def Info: ./pe/relBinNorm.png  used on input line 330.
+(pdftex.def)             Requested size: 220.62271pt x 142.26378pt.
+
+Underfull \vbox (badness 1215) has occurred while \output is active []
+
+ [52 <./pe/normCDF.png>] [53 <./pe/relBinNorm.png>]
+<./pe/distPoisson0.png, id=832, 385.44pt x 256.96pt>
+File: ./pe/distPoisson0.png Graphic file (type png)
+<use ./pe/distPoisson0.png>
+Package pdftex.def Info: ./pe/distPoisson0.png  used on input line 410.
+(pdftex.def)             Requested size: 298.75996pt x 199.16928pt.
+<./pe/distPoisson1.png, id=833, 373.395pt x 256.96pt>
+File: ./pe/distPoisson1.png Graphic file (type png)
+<use ./pe/distPoisson1.png>
+Package pdftex.def Info: ./pe/distPoisson1.png  used on input line 420.
+(pdftex.def)             Requested size: 289.4237pt x 199.16928pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[54 <./pe/distPoisson0.png>] [55 <./pe/distPoisson1.png>]
+<./pe/binVsPoi.png, id=847, 501.875pt x 348.30125pt>
+File: ./pe/binVsPoi.png Graphic file (type png)
+<use ./pe/binVsPoi.png>
+Package pdftex.def Info: ./pe/binVsPoi.png  used on input line 466.
+(pdftex.def)             Requested size: 286.98302pt x 199.16928pt.
+ [56 <./pe/binVsPoi.png>] [57] [58] [59] (__main__.aux
 LaTeX Info: Redefining \. on input line 22.
 LaTeX Info: Redefining \% on input line 22.
 )
-
-LaTeX Warning: There were undefined references.
-
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -1498,106 +1505,47 @@ Package rerunfilecheck Warning: File `__main__.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `__main__.out':
-(rerunfilecheck)             Before: FD4DB2343DF64149E0C20B0940182606;5767
-(rerunfilecheck)             After:  BFE4F1D94CF72CD824490793EE17F8FF;1581.
- ) 
+(rerunfilecheck)             Before: 0ADEA397815B6E594284CDACD912226F;5767
+(rerunfilecheck)             After:  FD4DB2343DF64149E0C20B0940182606;5767.
+ ) ) 
 Here is how much of TeX's memory you used:
- 24878 strings out of 479163
- 452056 string characters out of 2853998
+ 24871 strings out of 479163
+ 453218 string characters out of 2853998
  742998 words of memory out of 3000000
- 41274 multiletter control sequences out of 15000+600000
- 448475 words of font info for 73 fonts, out of 8000000 for 9000
+ 41296 multiletter control sequences out of 15000+600000
+ 441636 words of font info for 67 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 89i,15n,83p,572b,535s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{equation.1.3.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.1.3.2} has been referenced but does not ex
+ 89i,16n,83p,465b,548s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{exmp.2.7.1} has been referenced but does not ex
 ist, replaced by a fixed one
 
-pdfTeX warning (dest): name{section.2.21} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.2.20} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.2.19} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.2.18} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.2.17} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.2.16} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.2.15} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.2.14} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.2.13} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.2.12} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.2.11} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.2.10} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.2.9} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.2.8} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.2.7} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.2.6} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.2.5} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.2.4} has been referenced but does not exist
-, replaced by a fixed one
-
-{C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}
-{C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rmtt.enc}{C
-:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C
-:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C
-:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Us
-ers/julih/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rmsc.enc}<C:/User
-s/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eufm10.
-pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.
-pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.
-pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10
-.pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10
-.pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10
-.pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi5.
-pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.p
-fb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pf
-b><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb
-><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><
-C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><
-C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><
-C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy7.pfb><C
-:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtk10.pfb><C
-:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C
-:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtti10.pfb><
-C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbol
-s/msam10.pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
-msfonts/symbols/msbm10.pfb>
-Output written on __main__.pdf (53 pages, 1350519 bytes).
+{C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/
+Users/julih/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Use
+rs/julih/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Use
+rs/julih/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Use
+rs/julih/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rmtt.enc}{C:/Users
+/julih/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rmsc.enc}{C:/Users/j
+ulih/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}<C:/Users/j
+ulih/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/j
+ulih/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/j
+ulih/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/
+julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/
+julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/
+julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi5.pfb><C:/Users/j
+ulih/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Users/ju
+lih/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/jul
+ih/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/juli
+h/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr5.pfb><C:/Users/julih/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/julih/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/julih/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/julih/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy5.pfb><C:/Users/julih/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy7.pfb><C:/Users/julih/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/julih/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on __main__.pdf (59 pages, 899473 bytes).
 PDF statistics:
- 1046 PDF objects out of 1200 (max. 8388607)
- 522 named destinations out of 1000 (max. 500000)
- 361 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1057 PDF objects out of 1200 (max. 8388607)
+ 487 named destinations out of 1000 (max. 500000)
+ 411 words of extra memory for PDF output out of 10000 (max. 10000000)
 
