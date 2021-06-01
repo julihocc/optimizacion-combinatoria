@@ -59,7 +59,7 @@
 \contentsline {subsection}{Como encontrar funciones inversas}{38}{subsection*.54}%
 \contentsline {subsection}{Caracterización geom\'etrica}{40}{subsection*.55}%
 \contentsline {subsection}{Permutaciones}{41}{subsection*.56}%
-\contentsline {chapter}{\numberline {2}Teoría de gráficos}{43}{chapter.2}%
+\contentsline {chapter}{\numberline {2}Teoría de gráficas}{43}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Matrices}{43}{section.2.1}%
 \contentsline {subsection}{Operaciones elementales}{44}{subsection*.57}%
 \contentsline {subsection}{Multiplicación}{45}{subsection*.58}%

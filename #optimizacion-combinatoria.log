@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.5.25)  31 MAY 2021 22:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.5.25)  31 MAY 2021 23:11
 entering extended mode
 **./#optimizacion-combinatoria.tex
 (#optimizacion-combinatoria.tex
@@ -1823,7 +1823,7 @@ LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `#optimizacion-combinatoria.out' has not chan
 ged.
-(rerunfilecheck)             Checksum: B0950CA1DE2521D863D641B8D7CA548F;1424.
+(rerunfilecheck)             Checksum: 9B3406A36A9ADA878C6DC709D05CE16C;1424.
  ) 
 Here is how much of TeX's memory you used:
  27520 strings out of 479163
@@ -1869,7 +1869,7 @@ Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/m
 sam10.pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
 onts/symbols/msbm10.pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/typ
 e1/urw/palatino/uplr8a.pfb>
-Output written on #optimizacion-combinatoria.pdf (59 pages, 1484659 bytes).
+Output written on #optimizacion-combinatoria.pdf (59 pages, 1484660 bytes).
 PDF statistics:
  983 PDF objects out of 1000 (max. 8388607)
  470 named destinations out of 1000 (max. 500000)
