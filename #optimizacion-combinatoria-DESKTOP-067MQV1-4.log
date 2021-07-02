@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.5.25)  30 JUN 2021 19:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.5.25)  30 JUN 2021 19:25
 entering extended mode
 **./#optimizacion-combinatoria.tex
 (#optimizacion-combinatoria.tex
@@ -1510,14 +1510,14 @@ File: ufplmbb.fd 2003/10/30 Fontinst v1.914 font definitions for U/fplmbb.
 LaTeX Warning: Marginpar on page 12 moved.
 
 [12]
-Overfull \hbox (109.66707pt too wide) in paragraph at lines 791--796
+Overfull \hbox (109.66707pt too wide) in paragraph at lines 800--805
  [] 
  []
 
-[13]
+[13] [14]
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 872.
- [14]) (md_02_conjuntos.tex [15] [16]
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 881.
+) (md_02_conjuntos.tex [15] [16]
 <./md/venn01.png, id=293, 938.00438pt x 205.5178pt>
 File: ./md/venn01.png Graphic file (type png)
 <use ./md/venn01.png>
@@ -1862,7 +1862,7 @@ Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/m
 sam10.pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
 onts/symbols/msbm10.pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/typ
 e1/urw/palatino/uplr8a.pfb>
-Output written on #optimizacion-combinatoria.pdf (59 pages, 1485335 bytes).
+Output written on #optimizacion-combinatoria.pdf (59 pages, 1485434 bytes).
 PDF statistics:
  984 PDF objects out of 1000 (max. 8388607)
  471 named destinations out of 1000 (max. 500000)

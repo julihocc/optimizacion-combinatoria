@@ -22,43 +22,43 @@
 \contentsline {subsection}{Conjuntos y Elementos. Subconjuntos}{15}{subsection*.19}%
 \contentsline {subsection}{Especificación de Conjuntos}{15}{subsection*.20}%
 \contentsline {subsection}{Subconjuntos}{16}{subsection*.21}%
-\contentsline {subsection}{Símbolos especiales}{17}{subsection*.22}%
+\contentsline {subsection}{Símbolos especiales}{16}{subsection*.22}%
 \contentsline {subsection}{Conjunto Universal y Conjunto Vacío}{17}{subsection*.23}%
 \contentsline {subsection}{Conjuntos disjuntos}{17}{subsection*.24}%
 \contentsline {subsection}{Diagramas de Venn}{17}{subsection*.25}%
-\contentsline {subsection}{Operaciones con Conjuntos}{18}{subsection*.26}%
+\contentsline {subsection}{Operaciones con Conjuntos}{17}{subsection*.26}%
 \contentsline {subsection}{Unión e Intersección}{18}{subsection*.27}%
 \contentsline {subsection}{Complementos, Diferencias y Diferencias Sim\'etricas}{19}{subsection*.28}%
 \contentsline {subsection}{Conjuntos fundamentales}{20}{subsection*.29}%
-\contentsline {subsection}{Álgebra de conjuntos, dualidad}{21}{subsection*.30}%
-\contentsline {section}{\numberline {1.3}Inducción Matemática}{22}{section.1.3}%
-\contentsline {subsection}{Introducción}{22}{subsection*.31}%
-\contentsline {subsection}{Notación ``Sigma''}{23}{subsection*.32}%
+\contentsline {subsection}{Álgebra de conjuntos, dualidad}{20}{subsection*.30}%
+\contentsline {section}{\numberline {1.3}Inducción Matemática}{21}{section.1.3}%
+\contentsline {subsection}{Introducción}{21}{subsection*.31}%
+\contentsline {subsection}{Notación ``Sigma''}{22}{subsection*.32}%
 \contentsline {subsection}{Ejemplos Resueltos}{24}{subsection*.33}%
 \contentsline {subsection}{Funciones definidas de manera recursiva}{24}{subsection*.34}%
 \contentsline {subsection}{La función factorial}{24}{subsection*.35}%
 \contentsline {subsection}{Suceción de Fibonacci}{25}{subsection*.36}%
 \contentsline {subsection}{La función de Ackermann}{26}{subsection*.37}%
 \contentsline {subsection}{Ejemplos Resueltos}{27}{subsection*.38}%
-\contentsline {section}{\numberline {1.4}Relaciones}{28}{section.1.4}%
+\contentsline {section}{\numberline {1.4}Relaciones}{27}{section.1.4}%
 \contentsline {subsection}{Producto de conjuntos}{28}{subsection*.39}%
 \contentsline {subsection}{Relaciones}{29}{subsection*.40}%
-\contentsline {subsection}{Ejemplos}{30}{subsection*.41}%
-\contentsline {subsection}{Composición de Relaciones}{31}{subsection*.42}%
+\contentsline {subsection}{Ejemplos}{29}{subsection*.41}%
+\contentsline {subsection}{Composición de Relaciones}{30}{subsection*.42}%
 \contentsline {subsection}{Tipos de relaciones}{31}{subsection*.43}%
 \contentsline {subsection}{Relaciones reflexivas}{31}{subsection*.44}%
 \contentsline {subsection}{Relaciones sim\'etricas y antisim\'etricas}{32}{subsection*.45}%
-\contentsline {subsection}{Relación transitiva}{33}{subsection*.46}%
+\contentsline {subsection}{Relación transitiva}{32}{subsection*.46}%
 \contentsline {subsection}{Relaciones de Equivalencia}{33}{subsection*.47}%
-\contentsline {subsection}{Particiones y clases de equivalencia}{34}{subsection*.48}%
+\contentsline {subsection}{Particiones y clases de equivalencia}{33}{subsection*.48}%
 \contentsline {subsection}{Relaciones de orden parcial}{35}{subsection*.49}%
 \contentsline {subsection}{Funciones como relaciones}{36}{subsection*.50}%
 \contentsline {subsection}{Funciones, gráficas y relaciones}{36}{subsection*.51}%
 \contentsline {subsection}{Composición de Funciones}{37}{subsection*.52}%
 \contentsline {subsection}{Funciones inyectivas, suprayectivas e inversas}{38}{subsection*.53}%
 \contentsline {subsection}{Como encontrar funciones inversas}{38}{subsection*.54}%
-\contentsline {subsection}{Caracterización geom\'etrica}{40}{subsection*.55}%
-\contentsline {subsection}{Permutaciones}{41}{subsection*.56}%
+\contentsline {subsection}{Caracterización geom\'etrica}{39}{subsection*.55}%
+\contentsline {subsection}{Permutaciones}{40}{subsection*.56}%
 \contentsline {chapter}{\numberline {2}Teoría de gráficas}{43}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Matrices}{43}{section.2.1}%
 \contentsline {subsection}{Operaciones elementales}{44}{subsection*.57}%

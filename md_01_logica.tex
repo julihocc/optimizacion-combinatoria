@@ -444,10 +444,15 @@ Por ejemplo
  $$
 
 
+\begin{defn}
+	El conjunto de los números naturales está dado por
+	\[ \N = \set{0,1,2,3...} .\]	
+	
+\end{defn}
 
  \begin{problema}
   \label{lip:exmp:4.7}
-  Encuentre el conjunto de verdad para cada función en el conjunto $\N$ de los enteros positivos:
+  Encuentre el conjunto de verdad para cada función en $\N$:
   \begin{enumerate}
    \item $p(x): x+2>7$ 
    \item $p(x): x+5<3$ 
@@ -512,11 +517,11 @@ Por ejemplo
 
 
  Mientras que $p(x)$ es una sentencia abierta (su valor de verdad depende de cada $x\in A$), la afirmación 
- $$\exists x\in A: p(x)$$ es verdadera si y solo si $p(x)$ se cumple algún $x\in A.$  
+ $$\exists x\in A: p(x)$$ es verdadera si y solo si $p(x)$ se cumple para algún elemento $x\in A.$  
 
 
 
- Por otro lado, si para todo $x\in A,$ $p(x)$ es falso, entonces $$\exists x\in A: p(x)$$ es falso.
+ Por otro lado,  $$\exists x\in A: p(x)$$ es falso si y solo si para todo $ x\in A $, se tiene que $ p(x) $ es falso.
 
 
 
@@ -544,41 +549,16 @@ Por ejemplo
 \end{center} 
 
 
-
- De manera simbólica, si $M$ de ntoa el conjunto de estudiantes de ingeniería, la negación anterior se puede escribir como
-\begin{align*}
-  \neg\left( \forall x\in M: \texttt{x sabe programar} \right)\\ \equiv \exists x\in M: \texttt{x no sabe programar.}
-\end{align*}
-
-
-
-
- Si en el ejercicio anterior definimos $$p(x):\texttt{x sabe programar},$$ entonces podemos reescribir la equivalencia anterior como
- \begin{align*}
-  \neg\left( \forall x\in M: p(x) \right)\\ \equiv \exists x\in M: \neg p(x).
-\end{align*}
-
-
-
- De manera similar
+ De manera similar, la negación de la afirmación
  \begin{center}
-  \emph{No hay estudiante de ingeniería que sepa programar}
+  \emph{Existe algún estudiante de ingeniería que sepa programar}
  \end{center}
- se puede reescribir como
+ es equivalente a afirmar que 
  \begin{center}
   \emph{Cada uno de los estudiantes de ingeniería no saben programar.}
  \end{center}
 
-
-
-
-
- De manera simbólica, podemos reescribir
-  \begin{align*}
-  \neg\left( \exists x\in M: p(x) \right)\\ \equiv \forall x\in M: \neg p(x).
-\end{align*}
-
-
+Estos son ejemplos de la siguiente proposición
 
  \begin{thm}[DeMorgan]
   \begin{align}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.5.25)  30 JUN 2021 19:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.5.25)  30 JUN 2021 19:23
 entering extended mode
 **./#optimizacion-combinatoria.tex
 (#optimizacion-combinatoria.tex
@@ -1509,16 +1509,16 @@ File: ufplmbb.fd 2003/10/30 Fontinst v1.914 font definitions for U/fplmbb.
 
 LaTeX Warning: Marginpar on page 12 moved.
 
-[12]
-Overfull \hbox (109.66707pt too wide) in paragraph at lines 791--796
+[12] [13]
+Overfull \hbox (109.66707pt too wide) in paragraph at lines 816--821
  [] 
  []
 
-[13]
+[14]
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 872.
- [14]) (md_02_conjuntos.tex [15] [16]
-<./md/venn01.png, id=293, 938.00438pt x 205.5178pt>
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 897.
+) (md_02_conjuntos.tex [15] [16] [17]
+<./md/venn01.png, id=301, 938.00438pt x 205.5178pt>
 File: ./md/venn01.png Graphic file (type png)
 <use ./md/venn01.png>
 Package pdftex.def Info: ./md/venn01.png  used on input line 203.
@@ -1528,26 +1528,25 @@ Overfull \hbox (0.9803pt too wide) in paragraph at lines 203--207
  [][] 
  []
 
-[17 <./md/venn01.png>]
-<./md/venn_union_interseccion.png, id=304, 929.72343pt x 306.39468pt>
+<./md/venn_union_interseccion.png, id=302, 929.72343pt x 306.39468pt>
 File: ./md/venn_union_interseccion.png Graphic file (type png)
 <use ./md/venn_union_interseccion.png>
 Package pdftex.def Info: ./md/venn_union_interseccion.png  used on input line 2
 36.
 (pdftex.def)             Requested size: 284.52756pt x 93.76581pt.
- [18 <./md/venn_union_interseccion.png>]
-<./md/venn_complemento.png, id=322, 950.80219pt x 211.54031pt>
+[18 <./md/venn01.png> <./md/venn_union_interseccion.png>]
+<./md/venn_complemento.png, id=313, 950.80219pt x 211.54031pt>
 File: ./md/venn_complemento.png Graphic file (type png)
 <use ./md/venn_complemento.png>
 Package pdftex.def Info: ./md/venn_complemento.png  used on input line 340.
 (pdftex.def)             Requested size: 284.52756pt x 63.30441pt.
- [19 <./md/venn_complemento.png>]
-<./md/sistema_fundamental.png, id=333, 811.53188pt x 341.77687pt>
+ [19] [20 <./md/venn_complemento.png>]
+<./md/sistema_fundamental.png, id=343, 811.53188pt x 341.77687pt>
 File: ./md/sistema_fundamental.png Graphic file (type png)
 <use ./md/sistema_fundamental.png>
 Package pdftex.def Info: ./md/sistema_fundamental.png  used on input line 425.
 (pdftex.def)             Requested size: 284.52756pt x 119.83229pt.
-<./md/leyes_conjuntos.png, id=334, 764.10469pt x 243.15843pt>
+<./md/leyes_conjuntos.png, id=344, 764.10469pt x 243.15843pt>
 File: ./md/leyes_conjuntos.png Graphic file (type png)
 <use ./md/leyes_conjuntos.png>
 Package pdftex.def Info: ./md/leyes_conjuntos.png  used on input line 442.
@@ -1557,8 +1556,8 @@ Overfull \hbox (0.9803pt too wide) in paragraph at lines 442--445
  [][] 
  []
 
-[20]) (md_03_funciones.tex [21 <./md/sistema_fundamental.png> <./md/leyes_conju
-ntos.png>] [22] [23] [24]
+[21 <./md/sistema_fundamental.png> <./md/leyes_conjuntos.png>])
+(md_03_funciones.tex [22] [23] [24]
 Overfull \hbox (13.40414pt too wide) in paragraph at lines 264--265
 []\T1/lmr/m/n/10 La ce-le-bre su-ce-sión de Fi-bo-nac-ci (usual-men-te de-no-ta
 -da por $\OML/lmm/m/it/10 F[]\OT1/lmr/m/n/10 , \OML/lmm/m/it/10 F[]\OT1/lmr/m/n
@@ -1571,13 +1570,13 @@ Overfull \hbox (20.0292pt too wide) in paragraph at lines 321--322
 /wiki/Fibonacci_sequence[][] 
  []
 
-
+[26]
 Overfull \hbox (24.58398pt too wide) in paragraph at lines 365--366
 \T1/lmr/m/n/10 Para más im-ple-men-ta-cio-nes, vi-si-te [][]ro-set-ta-co-de.org
 /wiki/Ackermann_function[][] 
  []
 
-[26]
+
 Overfull \hbox (47.03949pt too wide) in paragraph at lines 409--411
 [][]\T1/lmr/bx/n/10 Problema 53. []\T1/lmr/m/n/10 De-mues-tre por in-duc-ción q
 ue $\OT1/lmr/m/n/10 1[] \OT1/zplm/m/n/10 + \OT1/lmr/m/n/10 2[] \OT1/zplm/m/n/10
@@ -1597,7 +1596,7 @@ Overfull \hbox (57.87225pt too wide) in paragraph at lines 423--425
 ue $[] \OT1/zplm/m/n/10 + [] + \OT1/lmr/m/n/10 ... \OT1/zplm/m/n/10 + [] =
  []
 
-) (md_04_relaciones.tex [27] [28] [29]
+[27]) (md_04_relaciones.tex [28] [29]
 Overfull \hbox (17.7353pt too wide) in paragraph at lines 214--215
 [][]\T1/lmr/bx/n/10 Problema 61. []\T1/lmr/m/n/10 Sea $\OML/lmm/m/it/10 A \OT1/
 zplm/m/n/10 = [] \OT1/lmr/m/n/10 , \OML/lmm/m/it/10 B \OT1/zplm/m/n/10 = []$ \T
@@ -1612,22 +1611,25 @@ OT1/lmr/m/n/10 .$
  []
 
 [34] [35] [36] [37]
-<./md/MD02_IM01.png, id=576, 933.4875pt x 258.21469pt>
+<./md/MD02_IM01.png, id=568, 933.4875pt x 258.21469pt>
 File: ./md/MD02_IM01.png Graphic file (type png)
 <use ./md/MD02_IM01.png>
 Package pdftex.def Info: ./md/MD02_IM01.png  used on input line 846.
 (pdftex.def)             Requested size: 284.52756pt x 78.70216pt.
-<./md/IMG-04_resticcion.png, id=577, 566.5968pt x 421.3341pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./md/IMG-04_resticcion.png, id=569, 566.5968pt x 421.3341pt>
 File: ./md/IMG-04_resticcion.png Graphic file (type png)
 <use ./md/IMG-04_resticcion.png>
 Package pdftex.def Info: ./md/IMG-04_resticcion.png  used on input line 877.
 (pdftex.def)             Requested size: 227.62204pt x 169.26357pt.
 
-
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[38 <./md/MD02_IM01.png>]
-<./md/MD02_sqrt_x-2.png, id=592, 421.575pt x 418.56375pt>
+[38]
+<./md/MD02_sqrt_x-2.png, id=590, 421.575pt x 418.56375pt>
 File: ./md/MD02_sqrt_x-2.png Graphic file (type png)
 <use ./md/MD02_sqrt_x-2.png>
 Package pdftex.def Info: ./md/MD02_sqrt_x-2.png  used on input line 929.
@@ -1636,13 +1638,17 @@ Package pdftex.def Info: ./md/MD02_sqrt_x-2.png  used on input line 929.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[39 <./md/IMG-04_resticcion.png>]
-<./md/MD02_IM02.png, id=607, 952.30782pt x 295.85532pt>
+[39 <./md/MD02_IM01.png> <./md/IMG-04_resticcion.png>]
+<./md/MD02_IM02.png, id=604, 952.30782pt x 295.85532pt>
 File: ./md/MD02_IM02.png Graphic file (type png)
 <use ./md/MD02_IM02.png>
 Package pdftex.def Info: ./md/MD02_IM02.png  used on input line 976.
 (pdftex.def)             Requested size: 284.52756pt x 88.39612pt.
- [40 <./md/MD02_sqrt_x-2.png> <./md/MD02_IM02.png>]) [41] [42
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[40 <./md/MD02_sqrt_x-2.png>]) [41 <./md/MD02_IM02.png>] [42
 
 ]
 Cap\'{\i }tulo 2.
@@ -1821,11 +1827,11 @@ ged.
 Here is how much of TeX's memory you used:
  27521 strings out of 479163
  498139 string characters out of 2853998
- 815036 words of memory out of 3000000
+ 818036 words of memory out of 3000000
  43941 multiletter control sequences out of 15000+600000
  555209 words of font info for 159 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,15n,94p,590b,530s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 94i,15n,94p,590b,526s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.en
 c}{C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C
 :/Users/julih/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C
@@ -1862,7 +1868,7 @@ Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/m
 sam10.pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
 onts/symbols/msbm10.pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/typ
 e1/urw/palatino/uplr8a.pfb>
-Output written on #optimizacion-combinatoria.pdf (59 pages, 1485335 bytes).
+Output written on #optimizacion-combinatoria.pdf (59 pages, 1486643 bytes).
 PDF statistics:
  984 PDF objects out of 1000 (max. 8388607)
  471 named destinations out of 1000 (max. 500000)
