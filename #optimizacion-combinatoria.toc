@@ -40,25 +40,25 @@
 \contentsline {subsection}{Suceción de Fibonacci}{25}{subsection*.36}%
 \contentsline {subsection}{La función de Ackermann}{26}{subsection*.37}%
 \contentsline {subsection}{Ejemplos Resueltos}{27}{subsection*.38}%
-\contentsline {section}{\numberline {1.4}Relaciones}{27}{section.1.4}%
+\contentsline {section}{\numberline {1.4}Relaciones}{28}{section.1.4}%
 \contentsline {subsection}{Producto de conjuntos}{28}{subsection*.39}%
 \contentsline {subsection}{Relaciones}{29}{subsection*.40}%
 \contentsline {subsection}{Ejemplos}{29}{subsection*.41}%
-\contentsline {subsection}{Composición de Relaciones}{30}{subsection*.42}%
+\contentsline {subsection}{Composición de Relaciones}{31}{subsection*.42}%
 \contentsline {subsection}{Tipos de relaciones}{31}{subsection*.43}%
 \contentsline {subsection}{Relaciones reflexivas}{31}{subsection*.44}%
 \contentsline {subsection}{Relaciones sim\'etricas y antisim\'etricas}{32}{subsection*.45}%
-\contentsline {subsection}{Relación transitiva}{32}{subsection*.46}%
+\contentsline {subsection}{Relación transitiva}{33}{subsection*.46}%
 \contentsline {subsection}{Relaciones de Equivalencia}{33}{subsection*.47}%
-\contentsline {subsection}{Particiones y clases de equivalencia}{33}{subsection*.48}%
+\contentsline {subsection}{Particiones y clases de equivalencia}{34}{subsection*.48}%
 \contentsline {subsection}{Relaciones de orden parcial}{35}{subsection*.49}%
 \contentsline {subsection}{Funciones como relaciones}{36}{subsection*.50}%
 \contentsline {subsection}{Funciones, gráficas y relaciones}{36}{subsection*.51}%
 \contentsline {subsection}{Composición de Funciones}{37}{subsection*.52}%
 \contentsline {subsection}{Funciones inyectivas, suprayectivas e inversas}{38}{subsection*.53}%
 \contentsline {subsection}{Como encontrar funciones inversas}{38}{subsection*.54}%
-\contentsline {subsection}{Caracterización geom\'etrica}{39}{subsection*.55}%
-\contentsline {subsection}{Permutaciones}{40}{subsection*.56}%
+\contentsline {subsection}{Caracterización geom\'etrica}{40}{subsection*.55}%
+\contentsline {subsection}{Permutaciones}{41}{subsection*.56}%
 \contentsline {chapter}{\numberline {2}Teoría de gráficas}{43}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Matrices}{43}{section.2.1}%
 \contentsline {subsection}{Operaciones elementales}{44}{subsection*.57}%
