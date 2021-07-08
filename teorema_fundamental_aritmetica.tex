@@ -1,0 +1,127 @@
+\section{Teorema Fundamental de la Aritmética}
+
+%%%%%%%%%%%%%%%%%%%%%
+{}
+Un número primo $p$ es aquel que tiene exactamente cuatro divisores
+\begin{align*}
+\pm 1, \pm p.
+\end{align*}
+
+
+%%%%%%%%%%%%%%%%%%%%%
+{}
+\begin{problema}
+Encuentre los números primos (positivos) entre 2 y 100.
+\end{problema}
+
+
+%%%%%%%%%%%%%%%%%%%%%
+{}
+Los números enteros siempre se pueden escribir como una multiplicación de números primos:
+\begin{itemize}
+\item $36=2^{2}3^{2}$
+\item $1400=2^{3}5^{2}7$
+\item $187=11\times 7$
+\end{itemize}
+
+
+%%%%%%%%%%%%%%%%%%%%%
+{Teorema Fundamental de la Aritmética}
+\begin{thm}
+	Todo número entero $a$ mayor que $1$ se puede expresar en la forma
+	\begin{align}
+		\label{factorizacion_prima}
+		\tag{FP}
+		a=p_{1}^{n_{1}}p_{2}^{n_{2}}\cdots p_{L}^{n_{L}}
+	\end{align}
+	donde $p_{i}, i=1,...,L$ son números primos distintos y $n_{i}, i=1,...,L$ son exponentes enteros positivos. 
+\end{thm}
+
+\begin{rem}
+	La expresión \ref{factorizacion_prima} se conoce como \emph{factorización prima} del entero $a$ y es única excepto por el orden.
+\end{rem}
+
+%%%%%%%%%%%%%%%%%%%%%
+{}
+Encuentre la factorización prima de 
+\begin{itemize}
+\item $14700 = 2^{2}\cdot 3 \cdot 5^{2} \cdot 7^{2}$
+\item $1575 = 3^{2}\cdot 5^{2} \cdot 7$
+\end{itemize}
+
+
+%%%%%%%%%%%%%%%%%%%%%
+{}
+\begin{prop}
+	Si $a=p_{1}^{n_{1}}p_{2}^{n_{2}}\cdots p_{L}^{n_{L}}$ y $b=p_{1}^{m_{1}}p_{2}^{m_{2}}\cdots p_{L}^{m_{L}}$ son respectivas factorizaciones primas de los enteros $a,b$, entonces
+	\begin{align*}
+		\mcd(a,b) &= p_{1}^{r_{1}}p_{2}^{r_{2}}\cdots p_{L}^{r_{L}}\\
+		\mcm(a,b) &= p_{1}^{R_{1}}p_{2}^{R_{2}}\cdots p_{L}^{R_{L}}
+\end{align*}
+donde $r_{i}=\min(n_{i},m_{i})$ y $R_{i}=\max(n_{i},m_{i}).$
+\end{prop}
+
+
+%%%%%%%%%%%%%%%%%%%%%
+{}
+Encuentre
+\begin{itemize}
+	\item $\mcd(14700,1575) = 3 \cdot 5^{2} \cdot 7=525$ 
+	\item $\mcm(14700,1575) = 2^{2} \cdot 3^{2} \cdot 5^{2} \cdot 7^{2}= 44100$
+\end{itemize}
+
+
+%%%%%%%%%%%%%%%%%%%%%
+{}
+	\begin{prop}
+		Si $p_{1}^{n_{1}}p_{2}^{n_{2}}\cdots p_{L}^{n_{L}}$ es la factorización prima de $a$, entonces $a$ tiene \begin{align*}
+			\left( n_{1}+1 \right)\left( n_{2}+1 \right)\cdots\left( n_{L}+1 \right)
+		\end{align*} divisores positivos.
+		
+	\end{prop}
+	
+
+%%%%%%%%%%%%%%%%%%%%%% 
+
+
+	\begin{alg}[Como encontrar todos los divisores de un número entero]
+		\begin{enumerate}
+			\item Factorice el número entero
+			$n=p_{1}^{R_{1}}\cdots p_{m}^{R_{m}}$
+			\item Enliste cada posible $m-$tupla
+			$\left( r_{1},...,r^{m} \right)$
+			con $0\leq r_{1}\leq R_{1},...,0\leq r_{m}\leq R_{m}$
+			\item Enliste cada posible número entero de la forma $$\pm p_{1}^{r_{1}}\cdots p_{m}^{r_{m}},$$ para cada elemento $\left( r_{1},...,r_{m} \right)$ de la lista anterior.
+		\end{enumerate}
+	\end{alg}
+	
+
+
+%%%%%%%%%%%%%%%%%%%%%
+
+{Cálculo de divisores}
+	\begin{problema}
+		Encuentre todos los divisores positivos de $24$.
+	\end{problema}
+	
+	Los divisores son 1, 2, 3, 4, 6, 8, 12, y 24.
+	
+
+%%%%%%%%%%%%%%%%%%%%%
+{}
+	\begin{problema}
+		Encuentre todos los divisores positivos de $72$.
+	\end{problema}
+	
+	Los divisores son 1, 2, 3, 4, 6, 8, 9, 12, 18, 24, 36, y 72
+	
+
+%%%%%%%%%%%%%%%%%%%%%
+{}
+	\begin{problema}
+		Encuentre todos los divisores positivos de $600$.
+	\end{problema}
+	
+	Los divisores son 1, 2, 3, 4, 5, 6, 8, 10, 12, 15, 20, 24, 25, 30, 40, 50, 60, 75, 100, 120, 150, 200, 300, y 600.
+
+

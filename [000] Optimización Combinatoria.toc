@@ -1,5 +1,5 @@
 \babel@toc {spanish}{}
-\contentsline {chapter}{\numberline {1}Matemáticas Discretas}{5}{chapter.1}%
+\contentsline {chapter}{\numberline {1}Teoría de conjuntos}{5}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Lógica y Cálculo Proposicional}{5}{section.1.1}%
 \contentsline {subsection}{Proposiciones y Declaraciones Compuestas}{5}{subsection*.2}%
 \contentsline {subsection}{Proposiciones compuestas}{5}{subsection*.3}%
@@ -7,7 +7,7 @@
 \contentsline {subsection}{Conjunción $p \wedge q$}{6}{subsection*.5}%
 \contentsline {subsection}{Disyunción $p \vee q$}{6}{subsection*.6}%
 \contentsline {subsection}{Negación $\neg p$}{6}{subsection*.7}%
-\contentsline {subsection}{Proposiciones y Tablas de Verdad}{6}{subsection*.8}%
+\contentsline {subsection}{Proposiciones y Tablas de Verdad}{7}{subsection*.8}%
 \contentsline {subsection}{M\'etodo alternativo de construir una tabla de verdad}{7}{subsection*.9}%
 \contentsline {subsection}{Equivalencias Lógicas}{8}{subsection*.10}%
 \contentsline {subsection}{Sentencias condicionales y bicondicionales}{8}{subsection*.11}%
@@ -59,19 +59,31 @@
 \contentsline {subsection}{Como encontrar funciones inversas}{38}{subsection*.54}%
 \contentsline {subsection}{Caracterización geom\'etrica}{40}{subsection*.55}%
 \contentsline {subsection}{Permutaciones}{41}{subsection*.56}%
-\contentsline {chapter}{\numberline {2}Teoría de gráficas}{43}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Matrices}{43}{section.2.1}%
-\contentsline {subsection}{Operaciones elementales}{44}{subsection*.57}%
-\contentsline {subsection}{Multiplicación}{45}{subsection*.58}%
-\contentsline {section}{\numberline {2.2}Teoría general de grafos}{47}{section.2.2}%
-\contentsline {subsection}{Definición de grafo}{47}{subsection*.59}%
-\contentsline {subsection}{Subgrafos y grafos homeomorfos e isomorfos}{49}{subsection*.60}%
-\contentsline {subsection}{Caminos y conexidad}{50}{subsection*.61}%
-\contentsline {subsection}{Grafos transitables y eulerianos}{53}{subsection*.62}%
-\contentsline {subsection}{Matriz de adyacencia}{54}{subsection*.63}%
-\contentsline {section}{\numberline {2.3}Digrafos}{54}{section.2.3}%
-\contentsline {subsection}{Grafos dirigidos}{55}{subsection*.64}%
-\contentsline {subsection}{Matriz de adyacencia}{55}{subsection*.65}%
-\contentsline {subsection}{Matriz de accesibilidad}{58}{subsection*.66}%
-\contentsline {chapter}{\numberline {3}Bibliograf\'{\i }a}{59}{chapter.3}%
+\contentsline {chapter}{\numberline {2}Fundamentos de Aritmética}{43}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Los números enteros}{43}{section.2.1}%
+\contentsline {subsection}{Máximo Común Divisor}{43}{subsection*.57}%
+\contentsline {subsection}{M\'inimo Común Múltiplo}{45}{subsection*.58}%
+\contentsline {section}{\numberline {2.2}Los números racionales}{45}{section.2.2}%
+\contentsline {subsection}{Simplificaci\'on}{46}{subsection*.59}%
+\contentsline {subsection}{Conversi\'on y comparaci\'on}{47}{subsection*.60}%
+\contentsline {subsection}{Operaciones}{47}{subsection*.61}%
+\contentsline {section}{\numberline {2.3}Razones y proporciones}{49}{section.2.3}%
+\contentsline {subsection}{Razones inversas}{50}{subsection*.62}%
+\contentsline {subsection}{Ejemplos}{50}{subsection*.63}%
+\contentsline {section}{\numberline {2.4}Teorema Fundamental de la Aritmética}{51}{section.2.4}%
+\contentsline {chapter}{\numberline {3}Teoría de gráficas}{53}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Matrices}{53}{section.3.1}%
+\contentsline {subsection}{Operaciones elementales}{54}{subsection*.64}%
+\contentsline {subsection}{Multiplicación}{55}{subsection*.65}%
+\contentsline {section}{\numberline {3.2}Teoría general de grafos}{57}{section.3.2}%
+\contentsline {subsection}{Definición de grafo}{57}{subsection*.66}%
+\contentsline {subsection}{Subgrafos y grafos homeomorfos e isomorfos}{59}{subsection*.67}%
+\contentsline {subsection}{Caminos y conexidad}{60}{subsection*.68}%
+\contentsline {subsection}{Grafos transitables y eulerianos}{63}{subsection*.69}%
+\contentsline {subsection}{Matriz de adyacencia}{64}{subsection*.70}%
+\contentsline {section}{\numberline {3.3}Digrafos}{64}{section.3.3}%
+\contentsline {subsection}{Grafos dirigidos}{65}{subsection*.71}%
+\contentsline {subsection}{Matriz de adyacencia}{65}{subsection*.72}%
+\contentsline {subsection}{Matriz de accesibilidad}{68}{subsection*.73}%
+\contentsline {chapter}{\numberline {4}Bibliograf\'{\i }a}{71}{chapter.4}%
 \contentsfinish 

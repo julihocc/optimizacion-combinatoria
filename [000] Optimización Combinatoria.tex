@@ -1,0 +1,67 @@
+\documentclass[
+%xcolor={dvipsnames},
+%hyperref={colorlinks},
+%hyperref,
+%twoside,
+%12pt,
+%letterpaper, 
+%justified
+%]{book}
+%]{amsbook}
+]{tufte-book}
+%]{elegantbook}
+%,graybox,envcountchap,sectrefs]{svmono}
+\input{_paquetes}
+\input{_tufte}
+\input{_comandos}
+\input{_entornos}
+\input{_comandos_md}
+\input{_entornos_md}
+\input{_comandos_trig}
+\input{_comandos_pe}
+\input{_color-listings}
+\title{Matemáticas Computacionales}
+\author{Juliho Castillo Colmenares}
+\publisher{www.asimovian.academy}
+
+\usepackage{appendix}
+\usepackage{chngcntr}
+\usepackage{etoolbox}
+\usepackage{lipsum}
+
+\usepackage{units}
+
+\begin{document}
+	\maketitle
+\begin{tabular}{|p{.9\textwidth}|}
+	\hline
+	This work is licensed under the Creative Commons Reconocimiento 4.0 Internacional License. To view a copy of this license, visit
+	http://creativecommons.org/licenses/by/4.0/.
+	\begin{center}
+		\includegraphics[scale=1]{./licencia/by.png}
+	\end{center}\\
+	\hline
+\end{tabular}
+\tableofcontents
+
+\chapter{Teoría de conjuntos}
+\input{md_01_logica}
+\input{md_02_conjuntos}
+\input{md_03_funciones}
+\input{md_04_relaciones}
+
+\chapter{Fundamentos de Aritmética}
+
+\input{numeros_enteros}
+\input{numeros_racionales}
+\input{razones_proporciones}
+\input{teorema_fundamental_aritmetica}
+
+\chapter{Teoría de gráficas}
+\input{md_05_matrices}
+\input{md_06_grafos}
+\input{md_07_digrafos}
+
+\bibliography{_biblio}{}
+\bibliographystyle{apa}
+\end{document}
