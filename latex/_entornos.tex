@@ -1,0 +1,56 @@
+% add numbers to chapters, sections, subsections
+\setcounter{tocdepth}{1}
+\setcounter{secnumdepth}{1}
+
+\theoremstyle{theorem}
+\newtheorem{teorema}{Teorema}[chapter]
+\newtheorem{lema}{Lema}[chapter]
+\newtheorem{proposicion}{Proposición}[chapter]
+\newtheorem*{corolario}{Corolario}%[chapter]
+%\newtheorem*{algoritmo}{Algoritmo}%[chapter]
+
+\theoremstyle{definition}
+\newtheorem{problema}{Problema}[chapter]
+\newtheorem*{definicion}{Definición}%[chapter]
+\newtheorem*{axioma}{Axioma}%[chapter]
+\newtheorem*{propiedad}{Propiedad}%[chapter]
+%\newtheorem{ejemplo}{Ejemplo}[chapter]
+
+\theoremstyle{remark}
+\newtheorem*{observacion}{Observación}%[chapter]
+\newtheorem*{sugerencia}{Sugerencia}
+
+\newenvironment{solucion}{
+	\medskip
+	%\begin{framed}
+		\bgroup\color{Maroon}
+		{\textbf{Solución.}}
+	}{
+		\egroup
+	%\end{framed}
+	\medskip
+	}
+
+\newenvironment{ejemplo}{
+	\medskip
+	%\begin{framed}
+	\bgroup\color{Brown}
+	{\textbf{Ejemplo.}}
+}{
+	\egroup
+	%\end{framed}
+	\medskip
+}
+
+\newenvironment{algoritmo}[1]{
+	\medskip
+	%\begin{framed}
+	\bgroup
+	\color{Sepia}
+	{\textbf{Algoritmo. (#1)}}
+	\ttfamily
+}{
+	\egroup
+	%\end{framed}
+	\medskip
+}

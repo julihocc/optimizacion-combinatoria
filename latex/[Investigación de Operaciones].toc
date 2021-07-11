@@ -1,5 +1,5 @@
 \babel@toc {spanish}{}
-\contentsline {chapter}{\numberline {1}Teoría de gráficas}{5}{chapter.1}%
+\contentsline {chapter}{\numberline {1}Teoría de Gráficas}{5}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Matrices}{5}{section.1.1}%
 \contentsline {subsection}{Operaciones elementales}{6}{subsection*.2}%
 \contentsline {subsection}{Multiplicación}{7}{subsection*.3}%
@@ -13,5 +13,6 @@
 \contentsline {subsection}{Grafos dirigidos}{17}{subsection*.9}%
 \contentsline {subsection}{Matriz de adyacencia}{17}{subsection*.10}%
 \contentsline {subsection}{Matriz de accesibilidad}{20}{subsection*.11}%
-\contentsline {chapter}{\numberline {2}Bibliograf\'{\i }a}{23}{chapter.2}%
+\contentsline {chapter}{\numberline {2}Programación lineal}{23}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Introducción a la programación lineal}{23}{section.2.1}%
 \contentsfinish 

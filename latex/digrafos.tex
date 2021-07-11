@@ -29,7 +29,7 @@ Si $u=v,$ $e$ es llamado un \emph{bucle.}
 
 
 
-Si las aristas o los v\'ertices de un digrafo están etiquetas con algún tipo de dato, diremos que es un \emph{digrafo etiquetado.}
+Si las aristas o los v\'ertices de un digrafo están etiquetas con algún tipo de dato, Diremos que es un \emph{digrafo etiquetado.}
 
 
 De manera similar a un grafo, un digrafo será finito si el conjunto de v\'ertices y el de aristas es finito.
@@ -87,10 +87,10 @@ $$
 
 
 
-\begin{rem}
+\begin{observacion}
 	Las matrices de adyacencia de un mismo grafo dependen del orden en que se enumeren los v\'ertices. 
 	Sin embargo, dos matrices de adyacencia de un mismo grafo están relacionadas por operaciones elementales: cambiar el orden de columnas y renglones. 
-\end{rem}
+\end{observacion}
 
 
 
@@ -164,9 +164,9 @@ Es decir, $$A^{0}=I, A^{1}=A, A^{2}=AA,...$$
 Definamos $a_{k}(i,j)$ como la entrada en la posición $i,j$ de $A^{k}.$
 
 
-\begin{prop}
+\begin{proposicion}
 	Sea $A$ la matriz de adyacencia de un grafo $G.$ Entonces $a_{k}(i,j)$ es igual al número de caminos de longitud $k$ que van de $v_{i}$ a $v_{j}.$
-\end{prop}
+\end{proposicion}
 
 
 
@@ -226,11 +226,11 @@ Observe que $a_{2}(4,1)=1,$ de manera que existe un solo camino de longitud 2 de
 
 
 
-\begin{rem}
+\begin{observacion}
 	Si definimos 
 	$$B_{r}= \sum_{i=1}^{r}A^{i},$$
 	entonces la entrada $i,j$ de esta matriz nos indicará el número de caminos de longitud a lo más $r$ de $v_{i}$ a $v_{j}.$
-\end{rem}
+\end{observacion}
 
 
 
@@ -263,26 +263,26 @@ $$
 
 
 
-\begin{prop}
+\begin{proposicion}
 	Sea $A$ la matriz de adyacencia de un grafo $G$ con $m$ v\'ertices. Entonces la matriz de accesibilidad y 
 	\begin{equation}
 		\label{Bm}
 		B_{m}=\sum_{i=1}^{m}A^{i}
 	\end{equation}
 	tienen exactamente las mismas entradas no nulas. 
-\end{prop}
+\end{proposicion}
 
 
 
 
-\begin{defn}
+\begin{definicion}
 	Un digrafo es \emph{fuertemente conexo} si para cualquier par de v\'ertices $u,v$ existe al menos un camino de $u$ a $v$ y otro de $v$ a $u.$
-\end{defn}
+\end{definicion}
 
 
 
 
-\begin{prop}
+\begin{proposicion}
 	Sea $A\in M_{m}$ la matriz de adyacencia de un grafo $G.$ Entonces, las siguientes proposiciones son equivalentes:
 	\begin{enumerate}
 		\item $G$ es fuertemente conexo;
@@ -290,7 +290,7 @@ $$
 		\item la matriz $B_{m},$ dada por \eqref{Bm}, no tiene entradas nulas.
 	\end{enumerate}
 	
-\end{prop}
+\end{proposicion}
 
 
 

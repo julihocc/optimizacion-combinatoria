@@ -54,13 +54,13 @@ $$
 
 Diremos que la matriz \eqref{A} tiene dimensión $m\times n.$ 
 
-Si existe un conjunto de números $F,$ tal que todos los elementos $a_{i,j}$ de la matriz pertenecen a dicho conjunto, diremos que la matriz tiene coeficientes en $F.$ 
+Si existe un conjunto de números $F,$ tal que todos los elementos $a_{i,j}$ de la matriz pertenecen a dicho conjunto, Diremos que la matriz tiene coeficientes en $F.$ 
 
 
 
-\begin{rem}
+\begin{observacion}
 	Para que las operaciones entre matrices est\'en bien definidas, es necesario que la suma, resta y multiplicación entre entre elementos de $F$ tambi\'en este bien definida. Por esto generalmente $F$ se elige como $\R$ o $\Z.$ 
-\end{rem}
+\end{observacion}
 
 
 
@@ -68,13 +68,13 @@ La colección de todas las matrices de dimensión $m\times n$ con coeficientes e
 
 
 
-\begin{defn}
+\begin{definicion}
 	Las matrices de dimensión $m\times 1$ se conocen como \emph{vectores columna,} mientras que las de dimensión $1\times n$ se conocen como \emph{vectores renglón.}
 	
 	
 	La colección $M_{m,1}(F)$ de todos los vectores columna con coeficientes  comunmente se denota por $F^{m}.$  Mientras que la colección $M_{1,n}(F)$ de todos los vectores columna con coeficientes  comunmente se denota por $F^{n\ast}.$
 	
-\end{defn}
+\end{definicion}
 
 
 \subsection{Operaciones elementales}
@@ -130,7 +130,7 @@ Por esta razón, desarrollaremos el concepto de multiplicación, a fin de poder 
 
 \subsection{Multiplicación}
 
-\begin{defn}
+\begin{definicion}
 	Sean $R=[R_{j}]$ un vector renglón y $C=[C_{i}]$ un vector columna, ambos de longitud $n.$
 	
 	El \emph{producto renglón-columna} se define como
@@ -148,7 +148,7 @@ Por esta razón, desarrollaremos el concepto de multiplicación, a fin de poder 
 		\sum_{i=1}^{n} R_{j}C_{i}.
 	\end{equation}
 	
-\end{defn}
+\end{definicion}
 
 
 
@@ -181,7 +181,7 @@ Por esta razón, desarrollaremos el concepto de multiplicación, a fin de poder 
 
 
 
-\begin{defn}
+\begin{definicion}
 	Sea $A=[a_{i,j}]\in M_{m\times n}$ y $B=[b_{j,k}]\in M_{n\times l}.$ Definimos su producto como
 	\begin{equation}
 		\label{AB}
@@ -192,12 +192,12 @@ Por esta razón, desarrollaremos el concepto de multiplicación, a fin de poder 
 		\end{pmatrix}
 	\end{equation}
 	donde $R_{i}$ es el $i-$\'esimo renglón de $A$ y $C_{k}$ es la $k-$\'esima columna de $B.$
-\end{defn}
+\end{definicion}
 
 
 
 
-\begin{rem}
+\begin{observacion}
 	\begin{itemize}
 		\item Para que esta multiplicación tenga sentido, los renglones de $A$ y las columnas de $B$ deberán tener la misma longitud $n.$
 		
@@ -205,7 +205,7 @@ Por esta razón, desarrollaremos el concepto de multiplicación, a fin de poder 
 		\item A menos que $m=l,$ el producto $BA$ podría no estar definido. 
 		\item Aun cuando $BA$ estuviera bien definido, el producto de matrices no es \emph{conmutativo,} es decir, generalmente tendremos que $$AB \neq BA.$$
 	\end{itemize}
-\end{rem}
+\end{observacion}
 
 
 
