@@ -1,0 +1,105 @@
+\section{Ejemplos de programación lineal}
+
+%\lstinputlisting[language=Octave]{BitXorMatrix.m}
+%\lstinputlisting[language=python]{../codigo/programacion-lineal/planeacion_produccion.py}
+
+\subsection{Problema de proyectos de
+	inversión}\label{problema-de-proyectos-de-inversiuxf3n}
+
+Imaginemos que ocupamos el puesto de coordinador de proyectos dentro de
+una empresa. El gerente general de dicha empresa ha destinado 100,000
+pesos para invertir en los proyectos que generen beneficios económicos a
+esta. Existen tres proyectos en los que se puede invertir. ¿En cuál(es)
+proyecto(s) debería invertir la empresa para obtener los máximos
+beneficios económicos?
+
+Se tiene la siguiente información sobre los proyectos:
+
+\begin{longtable}[]{@{}ccl@{}}
+\toprule
+Nombre & Costo de Inversión & Benefició económico \\
+\midrule
+\endhead
+Proyecto A & \$50,000 & \$80,000 \\
+Proyecto B & \$70,000 & \$90,000 \\
+Proyecto C & \$25,000 & \$30,000 \\
+\bottomrule
+\end{longtable}
+
+\lstinputlisting[caption= Proyectos de inversión]{../codigo/introduccion/proyectos-inversion/proyectos_inversion.py}
+
+\subsection{Fabricación de ropa}\label{fabricaciuxf3n-de-ropa}
+
+Una costurera fabrica y vende faldas y pantalones de mezclilla, para lo
+cual cada semana compra un rollo de 50 metros de mezclilla. Para hacer
+un pantalón requiere 2 metros de tela, mientras que para una falda, 1.5
+metros.
+
+Por lo general, ella trabaja ocho horas diarias, de lunes a viernes.
+Para hacer un pantalón requiere tres horas, mientras que hacer una falda
+le toma una. Un pantalón le genera 80 pesos de ganancia, mientras que al
+vender una falda gana 50 pesos.
+
+Construir un modelo matemático que permita maximizar la ganancia semanal
+de la costurera, considerando que todo producto que fabrique puede
+venderlo.
+
+\lstinputlisting[caption= Proyectos de inversión]{../codigo/introduccion/costura/costura.py}
+
+    \hypertarget{problemas-de-mezcla-de-productos}{%
+	\subsection{Problemas de mezcla de
+		productos}\label{problemas-de-mezcla-de-productos}}
+
+Una compañía fabrica tres productos: crema corporal, crema facial y
+crema para bebés. Los tres productos comparten ingredientes en su
+elaboración: mezcla base, aceite de almendras, vitamina E y manteca de
+karité. En la siguiente tabla se presenta información acerca de los
+porcentajes de composición de cada uno de los tres productos:
+
+\begin{longtable}[]{@{}lllll@{}}
+\toprule
+. & Mezcla base & Aceite de Almendras & Vitamina E & Manteca de
+karité \\
+\midrule
+\endhead
+Crema Corporal & 90\% & 4\% & 1\% & 5\% \\
+Crema facial & 85\% & 8\% & 2.5\% & 4.5\% \\
+Crema para bebé & 80\% & 10\% & - & 10\% \\
+\bottomrule
+\end{longtable}
+
+Cada día, la compañía cuenta con 500 litros de la mezcla base, 50 litros
+de aceite de almendras, 5 litros de vitamina E y 30 litros de manteca de
+karité. Adicionalmente, se tiene la siguiente información sobre costos y
+precios de venta.
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule
+Ingrediente & Costo por litro \\
+\midrule
+\endhead
+Mezcla base & \$20 \\
+Aceite de almedras & \$500 \\
+Vitamina E & \$1500 \\
+Manteca de karité & \$200 \\
+\bottomrule
+\end{longtable}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule
+Producto & Precio de venta (\$/L) \\
+\midrule
+\endhead
+Crema corporal & \$80 \\
+Crema facial & \$120 \\
+Crema para bebé & \$100 \\
+\bottomrule
+\end{longtable}
+
+La demanda diaria de la crema corporal es de 200 litros; de la crema
+facial, 150 litros; y de la crema para bebé, de 250 litros. Por
+políticas de la empresa, se deben fabricar al menos 50 litros de crema
+facial. ¿Cuánto de cada producto deberá producir la compañía para
+maximizar su utilidad?
+
+\lstinputlisting[caption= Proyectos de inversión]{../codigo/introduccion/mezcla-productos/mezcla_productos.py}

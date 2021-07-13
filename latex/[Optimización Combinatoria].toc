@@ -1,18 +1,23 @@
 \babel@toc {spanish}{}
-\contentsline {chapter}{\numberline {1}Programación lineal}{5}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Introducción a la programación lineal}{5}{section.1.1}%
-\contentsline {chapter}{\numberline {2}Teoría de Gráficas}{7}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Matrices}{7}{section.2.1}%
-\contentsline {subsection}{Operaciones elementales}{8}{subsection*.2}%
-\contentsline {subsection}{Multiplicación}{9}{subsection*.3}%
-\contentsline {section}{\numberline {2.2}Teoría general de grafos}{11}{section.2.2}%
-\contentsline {subsection}{Definición de grafo}{11}{subsection*.4}%
-\contentsline {subsection}{Subgrafos y grafos homeomorfos e isomorfos}{13}{subsection*.5}%
-\contentsline {subsection}{Caminos y conexidad}{14}{subsection*.6}%
-\contentsline {subsection}{Grafos transitables y eulerianos}{17}{subsection*.7}%
-\contentsline {subsection}{Matriz de adyacencia}{18}{subsection*.8}%
-\contentsline {section}{\numberline {2.3}Digrafos}{18}{section.2.3}%
-\contentsline {subsection}{Grafos dirigidos}{19}{subsection*.9}%
-\contentsline {subsection}{Matriz de adyacencia}{19}{subsection*.10}%
-\contentsline {subsection}{Matriz de accesibilidad}{22}{subsection*.11}%
+\contentsline {chapter}{\numberline {1}Optimización de modelos}{5}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Ejemplos de programación lineal}{5}{section.1.1}%
+\contentsline {subsection}{Problema de proyectos de inversión}{5}{subsection*.2}%
+\contentsline {subsection}{Fabricación de ropa}{6}{subsection*.3}%
+\contentsline {subsection}{Problemas de mezcla de productos}{8}{subsection*.4}%
+\contentsline {chapter}{\numberline {2}Programación lineal}{13}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Introducción a la programación lineal}{13}{section.2.1}%
+\contentsline {chapter}{\numberline {3}Teoría de Gráficas}{15}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Matrices}{15}{section.3.1}%
+\contentsline {subsection}{Operaciones elementales}{16}{subsection*.5}%
+\contentsline {subsection}{Multiplicación}{17}{subsection*.6}%
+\contentsline {section}{\numberline {3.2}Teoría general de grafos}{19}{section.3.2}%
+\contentsline {subsection}{Definición de grafo}{19}{subsection*.7}%
+\contentsline {subsection}{Subgrafos y grafos homeomorfos e isomorfos}{21}{subsection*.8}%
+\contentsline {subsection}{Caminos y conexidad}{22}{subsection*.9}%
+\contentsline {subsection}{Grafos transitables y eulerianos}{25}{subsection*.10}%
+\contentsline {subsection}{Matriz de adyacencia}{26}{subsection*.11}%
+\contentsline {section}{\numberline {3.3}Digrafos}{27}{section.3.3}%
+\contentsline {subsection}{Grafos dirigidos}{27}{subsection*.12}%
+\contentsline {subsection}{Matriz de adyacencia}{27}{subsection*.13}%
+\contentsline {subsection}{Matriz de accesibilidad}{30}{subsection*.14}%
 \contentsfinish 
